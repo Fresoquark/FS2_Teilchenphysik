@@ -1,10 +1,11 @@
 # Fdb version 3
-["biber build/main"] 1595262331 "build/main.bcf" "build/main.bbl" "build/main" 1595262368
-  "build/main.bcf" 1595262343 101149 b0d60c4d138dfef30c878972124854a5 "lualatex"
+["biber build/main"] 1595262331 "build/main.bcf" "build/main.bbl" "build/main" 1595263289
+  "build/main.bcf" 1595263289 101149 b0d60c4d138dfef30c878972124854a5 "lualatex"
   (generated)
-  "build/main.blg"
   "build/main.bbl"
-["lualatex"] 1595262339 "main.tex" "build/main.pdf" "main" 1595262368
+  "build/main.blg"
+["lualatex"] 1595263285 "main.tex" "build/main.pdf" "main" 1595263289
+  "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1255129361 111536 ae9d1b331000d544f47e5223081b7b54 ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf" 1255129361 110496 b9c8767d4cc3bf3f4b21f676bf89aa78 ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf" 1255129361 110400 d844cffffa1af59f9d2bb1bfdb6f1a2c ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf" 1255129361 107448 a9e5b7aaaf5f74194deee407f2fd1552 ""
@@ -318,19 +319,19 @@
   "/home/nbreer/.local/texlive/2020/texmf-var/luatex-cache/generic-dev/names/luaotfload-names.luc" 1594970721 1273657 091e2941a3b87ec0243f0b0c042fc8d4 ""
   "/home/nbreer/.local/texlive/2020/texmf-var/tex/generic/config/language.dat.lua" 1594939795 17556 b8b072a7d51a633e2d3e153c37c233e1 ""
   "/home/nbreer/.local/texlive/2020/texmf-var/web2c/luahbtex/lualatex.fmt" 1594939820 2676083 dde2cb981ae1f5f693542a37e92a2d18 ""
-  "build/main.aux" 1595262343 1320 a3d757123a92759940a914c1584b7824 "lualatex"
+  "build/main.aux" 1595263289 1780 21566aa18d8ea9ad379518ec088ffcb4 "lualatex"
   "build/main.bbl" 1595262335 0 d41d8cd98f00b204e9800998ecf8427e "biber build/main"
-  "build/main.run.xml" 1595262343 2289 a5e61b1ec3fc5e3b375d9e9b10bfe73d "lualatex"
-  "build/main.toc" 1595262343 130 cd714fc4d9a561e658afe7950bacce71 "lualatex"
+  "build/main.run.xml" 1595263289 2289 a5e61b1ec3fc5e3b375d9e9b10bfe73d "lualatex"
+  "build/main.toc" 1595263289 196 088f9bdf98438b9606baf086e925d8e1 "lualatex"
   "content/discussion.tex" 1595262002 0 d41d8cd98f00b204e9800998ecf8427e ""
   "content/durchfuehrung.tex" 1595262028 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "content/einleitung.tex" 1595262011 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "content/einleitung.tex" 1595263270 764 cf3fd820121a9913d5b944c11a3100f3 ""
   "header.tex" 1595262366 4286 2da9911b9cd18cad28f3bcccf9494d86 ""
   "main.tex" 1595262175 310 465cd3251ba0ec7815a448d70b45fc82 ""
   (generated)
-  "build/main.pdf"
-  "build/main.bcf"
-  "build/main.run.xml"
   "build/main.toc"
+  "build/main.run.xml"
+  "build/main.pdf"
   "build/main.log"
   "build/main.aux"
+  "build/main.bcf"
