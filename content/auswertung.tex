@@ -1,0 +1,53 @@
+\section{Auswertung}
+\label{sec:auswertung}
+\subsection{invariante Masse der B-Mesonen in simulierten Daten}
+
+Zu beginn haben wir die \texttt{\.root}-Dateien der simulierten Daten eingelesen und uns die mit den features vertraut gemacht.
+Das Ziel im ersten Teil ist, die invariante Masse der B-Mesonen zu bestimmen. Da dies nicht direkt funktioniert muss dies \"uber die Tochterteilchen getan werden.
+Wir betrachten hier ausschie\ss lich den Zerfall
+\begin{equation}
+  B^{\pm} \to \symup{K}^{\pm} \symup{K}^{+} \symup{K}^{-}\,.
+\end{equation}
+Um die invariante Masse zu bestimmen verwenden wir die Beziehung aus der speziellen Relativit\"atstheorie
+\begin{equation}
+  \symup{E}^2 = \symup{p}^2 + \symup{m}^2\,,
+  \label{eqn:relativityEQ}
+\end{equation}
+welche Energie, Masse und Impuls verkn\"upft.
+
+Aus den Daten entnehmen wir die Dreierimpulse der Tochterteilchen.
+Diese plotten wir zun\"achst um einen Crosscheck zu machen ob die Daten auch Sinn ergeben.
+
+% hier die Plots der impulse fuer x, y, z einbinden
+
+Es ist zu erkennen, dass die Teilchen stark in z-Richtung geboostet sind, was auch zu erwarten ist bei B-Mesonen.
+
+Um nun die invariante Masse zu berechnen, wird zun\"achst die Energie der B-Mesonen bestimmt.
+\begin{equation}
+  \symup{E}(B^{\pm}) =
+  \sqrt{\left(\sum_{i = 1}^{3} \vec{\symup{p}}_i\right)^2 + \left(\sum_{i = 1}^{3} \symup{m}_i\right)^2}
+\end{equation}
+
+F\"ur die Massen wird die Massenhypothese der Kaonen eingesetzt, da dies der interessante Endzustand ist.
+
+Mit der nun berechneten Energie kann durch umstellen von Gleichung \eqref{eqn:relativityEQ} auf den Impuls und damit auch auf das Betragsquadrat der B-Mesonen geschlossen werden.
+
+In Abbildung \ref{fig:invMassB} liegt der Massenpeak bei etwa $\SI{5280}{\mega\electronvolt}$ was sehr eng an dem Wert des PDG liegt.
+
+Dieser Peak ist so scharf, da es sich hier im simulierte Daten handelt. In Wirklichkeit sollte der peak etas verschmierter sein.
+
+\subsection{invariante Masse der B-Mesonen in echten Daten}
+Als n\"achstes wird die invariante Masse der echten B-Mesonen rekonstruiert.
+Hierzu wird zun\"achst eine Vorselektion durchgef\"uhrt um nur den oben genannten Endzustand zu verwenden.
+Dazu verwenden die folgenden Schnitte.
+\begin{enumerate}
+  \item \texttt{H1\_isMuon} = False
+  \item \texttt{H1\_ProbPi} < 0.5
+  \item \texttt{H1\_ProbK} > 0.5
+\end{enumerate}
+
+Diese Schnitte werden analog auch f\"ur Tochterteilchen 2 und 3 angewandt.
+Die Verteilungen der Wahrscheinlichkeiten ob ein Finalstate Teilchen ein Kaon oder Pion ist haben wir geplottet um die Schnitte auf \texttt{H1\_ProbK} und \texttt{H1\_ProbPi} eventuell etwas sch\"arfer zu machen.
+Die hatte aber nur zur Folfe, dass wir sehr viel Statistik Im Signal verloren haben und noch ziemlcih viel Hintergrund hatten. Deswegen haben wir die Schnitte wie oben belassen.
+
+Anschlie\ss end haben wir wie schon bei den simulierten Daten die invariante Masse der B-Mesonen berechnet. Dieser ist in Abbildung \ref{fig:realBMass} dargestellt. Um den Massenplot f\"ur die $B^{-}$ von den $B^{+}$-Mesonen zu separieren haben wir die Ladung der Tochterteilchen multipliziert. Wenn das Produkt $+1$ war haben wir das Ereignis zu den $B^{-}$ gez\"ahlt, sonst zu den $B^{+}$.
