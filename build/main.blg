@@ -1,15 +1,5 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'build/main.blg'
-<<<<<<< HEAD
-[88] biber:322> INFO - === Mi Jul 22, 2020, 11:12:00
-[106] Biber.pm:415> INFO - Reading 'build/main.bcf'
-[195] Utils.pm:304> WARN - No data sources defined!
-||||||| merged common ancestors
-[82] biber:322> INFO - === Di Jul 21, 2020, 12:26:14
-[97] Biber.pm:415> INFO - Reading 'build/main.bcf'
-[177] Utils.pm:304> WARN - No data sources defined!
-=======
-[78] biber:315> INFO - === Wed Jul 22, 2020, 11:10:14
-[161] Biber.pm:371> INFO - Reading 'build/main.bcf'
-[222] Utils.pm:193> WARN - No data sources defined!
->>>>>>> 78df2a4f3d49bb065c63b3c50ac1b5b5c3a45ed2
+[86] biber:322> INFO - === Mi Jul 22, 2020, 12:27:29
+[101] Biber.pm:415> INFO - Reading 'build/main.bcf'
+[187] Utils.pm:304> WARN - No data sources defined!

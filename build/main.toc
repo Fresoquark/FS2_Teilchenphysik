@@ -1,7 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {german}
-\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}% 
-\contentsline {section}{\numberline {2}Auswertung}{3}{section.2}% 
-\contentsline {subsection}{\numberline {2.1}invariante Masse der B-Mesonen in simulierten Daten}{3}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2}invariante Masse der B-Mesonen in echten Daten}{4}{subsection.2.2}% 
+\selectlanguage *{german}
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}%
+\contentsline {section}{\numberline {2}Auswertung}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}invariante Masse der B-Mesonen in simulierten Daten}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}invariante Masse der B-Mesonen in echten Daten}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}globale CP-Asymmetrie}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Zweik\"orper-Resonanzen f\"ur simulierte Daten}{7}{subsection.2.4}%
