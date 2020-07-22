@@ -1,5 +1,5 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'build/main.blg'
-[78] biber:315> INFO - === Wed Jul 22, 2020, 11:10:14
-[161] Biber.pm:371> INFO - Reading 'build/main.bcf'
-[222] Utils.pm:193> WARN - No data sources defined!
+[24] biber:315> INFO - === Wed Jul 22, 2020, 13:02:16
+[43] Biber.pm:371> INFO - Reading 'build/main.bcf'
+[102] Utils.pm:193> WARN - No data sources defined!

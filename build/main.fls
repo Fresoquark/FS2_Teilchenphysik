@@ -486,8 +486,9 @@ INPUT ./content/vorgehen.tex
 INPUT ./content/vorgehen.tex
 INPUT ./content/theorie.tex
 INPUT ./content/theorie.tex
-INPUT ./content/auswertung.tex
-INPUT ./content/auswertung.tex
+INPUT /home/nicole/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT /home/nicole/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /home/nicole/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/nicole/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT /home/nicole/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT /home/nicole/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
@@ -502,6 +503,8 @@ INPUT /home/nicole/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symb
 INPUT /home/nicole/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/nicole/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/nicole/.local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./content/auswertung.tex
+INPUT ./content/auswertung.tex
 INPUT ./content/discussion.tex
 INPUT ./content/discussion.tex
 INPUT build/main.aux

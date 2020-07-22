@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.7.15)  22 JUL 2020 11:10
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.7.15)  22 JUL 2020 13:02
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -36,7 +36,7 @@ Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' at position 4 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.050 seconds
+luaotfload | main : initialization completed in 0.049 seconds
 (./header.tex (/home/nicole/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 (/home/nicole/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -505,21 +505,21 @@ Lua module: polyglossia 2013/05/11 1.3 Polyglossia) (/home/nicole/.local/texlive
 File: gloss-german.ldf polyglossia: module for german
 Module polyglossia Info: Language data for german
 (polyglossia)            righthyphenmin	2
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            hyphenation	
-(polyglossia)            synonyms	table: 0x4233020
-(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            loader	loadhyph-de-1901.tex
+(polyglossia)            hyphenation	
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            synonyms	table: 0x3a84790
+(polyglossia)            patterns	hyph-de-1901.pat.txt
 (polyglossia)            patterns: hyph-de-1901.pat.txt on input line 6
 Module polyglossia Info: Language german was not yet loaded; created with id 4 on input line 6
 Module polyglossia Info: Language german already loaded; id is 4 on input line 6
 Module polyglossia Info: Language data for ngerman
 (polyglossia)            righthyphenmin	2
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            hyphenation	
-(polyglossia)            synonyms	table: 0x42331b0
-(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            loader	loadhyph-de-1996.tex
+(polyglossia)            hyphenation	
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            synonyms	table: 0x3a84920
+(polyglossia)            patterns	hyph-de-1996.pat.txt
 (polyglossia)            patterns: hyph-de-1996.pat.txt on input line 68
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 8 on input line 68
 Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 68
@@ -1877,14 +1877,33 @@ Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
 \openout6 = main.toc
 [2
 
-] (./content/vorgehen.tex) (./content/theorie.tex) (./content/auswertung.tex [3]
+] (./content/vorgehen.tex) (./content/theorie.tex [3]
 
-LaTeX Warning: Reference `fig:invMassB' on page 4 undefined on input line 35.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 30.
 
 
-LaTeX Warning: Reference `fig:realBMass' on page 4 undefined on input line 53.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 30.
 
-) (./content/discussion.tex) [4]
+
+LaTeX Warning: Citation 'PDG' on page 4 undefined on input line 59.
+
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 59.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 59.
+
+LaTeX Warning: Citation 'PDG' on page 4 undefined on input line 59.
+
+) (./content/auswertung.tex [4]
+
+LaTeX Warning: Reference `fig:invMassB' on page 5 undefined on input line 35.
+
+
+LaTeX Warning: Reference `fig:realBMass' on page 5 undefined on input line 53.
+
+) (./content/discussion.tex [5]) [6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 21.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 21.
 (./build/main.aux
@@ -1893,11 +1912,16 @@ Module polyglossia Info: Language ngerman already loaded; id is 8 on input line 
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 21.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 21.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 331814D41BBF1799403FCE5FB816DBC9;4138.
+(rerunfilecheck)             Checksum: 915EEEE1EBB25A688EE35603106AC9FC;5922.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: F55E49AD18F5949FEF2A819A64D5DD97;530.
+(rerunfilecheck)             Checksum: 2D2A155B83D6361EE576F73F40F7F028;701.
 
 LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 
@@ -1905,19 +1929,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 64868 strings out of 494291
+ 65097 strings out of 494291
  100000,2373549 words of node,token memory allocated
- 634 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 14 attribute, 75 glue_spec, 14 attribute_list, 2 write nodes
-   avail lists: 1:1,2:405,3:137,4:53,5:181,6:28,7:2276,8:52,9:169,10:10,11:229,12:1
- 67284 multiletter control sequences out of 65536+600000
- 148 fonts using 54888823 bytes
- 72i,7n,109p,9101b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (4 pages, 38909 bytes).
+ 647 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 75 glue_spec, 15 attribute_list, 2 write nodes
+   avail lists: 1:1,2:405,3:78,4:60,5:257,6:22,7:3433,8:40,9:188,10:10,11:355,12:1
+ 67495 multiletter control sequences out of 65536+600000
+ 160 fonts using 59363711 bytes
+ 72i,15n,109p,9101b,3123s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/nicole/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (6 pages, 50873 bytes).
 
-PDF statistics: 130 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 131072)
- 48 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 155 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 131072)
+ 64 words of extra memory for PDF output out of 10000 (max. 100000000)
 
