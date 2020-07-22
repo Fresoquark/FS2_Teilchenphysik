@@ -1,9 +1,0 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {german}
-\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}% 
-\contentsline {section}{\numberline {2}CP-Verletzung}{3}{section.2}% 
-\contentsline {section}{\numberline {3}Der $B$-Meson Zerfall und Zwischenresonanzen}{4}{section.3}% 
-\contentsline {section}{\numberline {4}Auswertung}{5}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}invariante Masse der B-Mesonen in simulierten Daten}{5}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}invariante Masse der B-Mesonen in echten Daten}{5}{subsection.4.2}% 
