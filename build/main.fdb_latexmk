@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber build/main"] 1595327173 "build/main.bcf" "build/main.bbl" "build/main" 1595328635
-  "build/main.bcf" 1595328634 101149 b0d60c4d138dfef30c878972124854a5 "lualatex"
+["biber build/main"] 1595409119 "build/main.bcf" "build/main.bbl" "build/main" 1595409765
+  "build/main.bcf" 1595409765 101149 b0d60c4d138dfef30c878972124854a5 "lualatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
-["lualatex"] 1595328630 "main.tex" "build/main.pdf" "main" 1595328635
+["lualatex"] 1595409760 "main.tex" "build/main.pdf" "main" 1595409765
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/nbreer/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -324,20 +324,25 @@
   "/home/nbreer/.local/texlive/2020/texmf-var/luatex-cache/generic-dev/names/luaotfload-names.luc" 1594970721 1273657 091e2941a3b87ec0243f0b0c042fc8d4 ""
   "/home/nbreer/.local/texlive/2020/texmf-var/tex/generic/config/language.dat.lua" 1594939795 17556 b8b072a7d51a633e2d3e153c37c233e1 ""
   "/home/nbreer/.local/texlive/2020/texmf-var/web2c/luahbtex/lualatex.fmt" 1594939820 2676083 dde2cb981ae1f5f693542a37e92a2d18 ""
-  "build/main.aux" 1595328634 3982 1a94ee8ebd53990dfb63c0a9b92ac2ef "lualatex"
-  "build/main.bbl" 1595327174 0 d41d8cd98f00b204e9800998ecf8427e "biber build/main"
-  "build/main.run.xml" 1595328634 2289 a5e61b1ec3fc5e3b375d9e9b10bfe73d "lualatex"
-  "build/main.toc" 1595328634 491 8891818723b7ee81cc8c26f18420a972 "lualatex"
-  "content/auswertung.tex" 1595328562 3214 4f6455576ed27c81cb971d0ecb109adb ""
+  "build/main.aux" 1595409765 5280 df55861f4435438ae52b8758f3bfc340 "lualatex"
+  "build/main.bbl" 1595409120 0 d41d8cd98f00b204e9800998ecf8427e "biber build/main"
+  "build/main.run.xml" 1595409765 2289 a5e61b1ec3fc5e3b375d9e9b10bfe73d "lualatex"
+  "build/main.toc" 1595409765 491 8891818723b7ee81cc8c26f18420a972 "lualatex"
+  "content/auswertung.tex" 1595409751 4095 615c1f8300afdc31bb5d709fe8d08a6d ""
   "content/discussion.tex" 1595262002 0 d41d8cd98f00b204e9800998ecf8427e ""
   "content/theorie.tex" 1595324752 0 d41d8cd98f00b204e9800998ecf8427e ""
   "content/vorgehen.tex" 1595328627 838 37540f4e53cc2e32658b388851ae3d1c ""
   "header.tex" 1595262366 4286 2da9911b9cd18cad28f3bcccf9494d86 ""
   "main.tex" 1595327160 333 681988c97c3352a422aaef0a688f94f4 ""
+  "plots/real_data_inv_masse_B.png" 1595408540 9981 50856bac01707ce9b333518919fd7663 ""
+  "plots/sim_inv_masse_B.png" 1595408540 7432 66950b20e70bb21ef2e3bd775be9bb1f ""
+  "plots/sim_px_kaon1.png" 1595408540 9455 4a990ac7261c47b5ec1d5a03ab1d9df9 ""
+  "plots/sim_py_kaon1.png" 1595408540 9105 ea356d7ad699c84a593ab2be2638084b ""
+  "plots/sim_pz_kaon1.png" 1595408540 8636 466bafceb2c016ea0859f383947f0b73 ""
   (generated)
-  "build/main.bcf"
   "build/main.toc"
-  "build/main.pdf"
   "build/main.run.xml"
   "build/main.aux"
+  "build/main.pdf"
+  "build/main.bcf"
   "build/main.log"
