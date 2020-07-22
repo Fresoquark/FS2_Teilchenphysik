@@ -24,7 +24,7 @@ all: build/main.pdf FORCE
 # hier weitere Abhängigkeiten für build/main.pdf deklarieren:
 build/main.pdf: FORCE | build
 	  TEXINPUTS="$(call translate,build:)" \
-	  BIBINPUTS=build: \
+	  #BIBINPUTS=build: \
 	  max_print_line=1048576 \
 	  latexmk $(TeXOptions) main.tex
 	  cp build/main.pdf build/$(Filename)
