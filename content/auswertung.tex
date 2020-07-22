@@ -1,8 +1,8 @@
 \section{Auswertung}
 \label{sec:auswertung}
-\subsection{invariante Masse der B-Mesonen in simulierten Daten}
+\subsection{Invariante Masse der B-Mesonen in simulierten Daten}
 
-Zu Beginn werden die \texttt{\.root}-Dateien der simulierten Daten eingelesen die Features betrachtet.
+Zu Beginn werden die \texttt{\.root}-Dateien der simulierten Daten eingelesen und die Features betrachtet.
 Das Ziel im ersten Teil ist, die invariante Masse der B-Mesonen zu bestimmen. Da dies nicht direkt funktioniert, muss dies \"uber die Tochterteilchen getan werden.
 Betrachten wird ausschie\ss lich der Zerfall
 \begin{equation}
@@ -62,17 +62,25 @@ Dieser Peak ist so scharf, da es sich hier im simulierte Daten handelt. In Wirkl
 \subsection{invariante Masse der B-Mesonen in echten Daten}
 Als n\"achstes wird die invariante Masse der echten B-Mesonen rekonstruiert.
 Hierzu wird zun\"achst eine Vorselektion durchgef\"uhrt um den oben genannten Endzustand zu verwenden.
-Dazu verwenden die folgenden Schnitte.
+%Dazu verwenden die folgenden Schnitte.
+%\begin{enumerate}
+%  \item \texttt{H1\_isMuon} == False
+%  \item \texttt{H1\_ProbPi} < 0.5
+%  \item \texttt{H1\_ProbK} > 0.5
+%\end{enumerate}
+Dazu werden die folgenden Schnitte
 \begin{enumerate}
   \item \texttt{H1\_isMuon} == False
   \item \texttt{H1\_ProbPi} < 0.5
   \item \texttt{H1\_ProbK} > 0.5
 \end{enumerate}
+verwendet.
 
 Diese Schnitte werden analog auch f\"ur Tochterteilchen 2 und 3 angewandt.
+Dabei bezeichnet der Schnitt $\texttt{H1\_isMuon}$ ob das besagte Teilchen als Myon identifiziert wurde, der Schnitt $\texttt{H1\_ProbPi}$ wie hoch die berechnete Wahrscheinlichkeit ist, dass das Teilchen ein Pion ist und der Schnitt $\texttt{H1\_ProbK}$ wie hoch die berechnete Wahrscheinlichkeit ist, dass das Teilchen ein Kaon ist.
 Auf den verwendeten Datensatz sind schon einige Schnitte angewandt worden, diese sind in Tabelle \ref{tab:cuts} im Anhang zu finden.
 Die Verteilungen der Wahrscheinlichkeiten ob ein Endzustandsteilchen ein Kaon oder Pion ist werden geplottet um die Schnitte auf \texttt{H1\_ProbK} und \texttt{H1\_ProbPi} sch\"arfer zu machen falls nötig.
-Dies hat zur Folge, dass sehr viel Statistik Im Signal verloren geht und noch ziemlich viel Hintergrund vorhanden ist. Deswegen werden die Schnitte wie oben belassen.
+Dies hat zur Folge, dass sehr viel Statistik im Signal verloren geht und noch ziemlich viel Hintergrund vorhanden ist. Deswegen werden die Schnitte wie oben belassen.
 Die Wahrscheinlichkeitsverteilungen mit unserem hypothetischen Schnitt ist in Abbildung \ref{fig:probCuts} zusehen.
 
 \begin{figure}[!htb]
@@ -102,7 +110,7 @@ Analog zu dem Massenplot der simulierten Daten findet sich ein recht scharfer Pe
 \newpage
 
 \subsection{globale CP-Asymmetrie}
-Um den Materie-Antimaterie Unterschied sichtbar zu machen, m\"ussen $B^{-}$ von den $B^{+}$-Mesonen separieren werden.
+Um den Materie-Antimaterie Unterschied sichtbar zu machen, m\"ussen $B^{-}$ von den $B^{+}$-Mesonen separiert werden.
 Hierzu haben wir die Ladungen der Tochterteilchen multipliziert.
 Ist das Produkt $+1$,wird das Ereignis zu den $B^{-}$ gez\"ahlt, andernfalls zu den $B^{+}$.
 Das bedeutet der Asymmetriefaktor berechnet sich gem\"a\ss
@@ -117,7 +125,7 @@ Daraus berechnet sich die statistische Unsicherheit und die Signifikanz mittels
 \end{align}
 
 Ohne Ber\"ucksichtigung der systematischen Unsicherheiten gilt dies als Entdeckung der CP-Asymmetrie.
-Da es jedoch eine Produktionsassymetrie von Materie zu Antimaterie von circa $\SI{1}{\percent}$ gibt, wird dies f\"ur die gesamte Unsicherheit mit berechnet.
+Da es jedoch eine Produktionsasymmetrie von Materie zu Antimaterie von circa $\SI{1}{\percent}$ gibt, wird dies f\"ur die gesamte Unsicherheit mit berechnet.
 \begin{equation}
   \text{Sig}_{ges} = \frac{\symup{A}}{\sqrt{\sigma_A^2 + 0.01^2}} \approx 3.11
 \end{equation}
@@ -149,7 +157,9 @@ In Abbildung \ref{fig:m12} und \ref{fig:m13} sind die Resonanzen f\"ur die Kombi
   \endminipage
   \label{fig:resonances}
 \end{figure}
-Zu sehen ist hier ein kontinuierlich es Spektrum mit ansteigender Anzahl der Events zu h\"oheren Massen f\"ur beide Diagramme. Die minimale Masse ist hier die doppelte Kaon Masse und die Obergrenze haben wir hier bei $\SI{3.5}{\giga\electronvolt}$ gew\"ahlt, da uns h\"oherliegende Resonanzen einerseits nicht interessieren und andererseits irrelevant f\"ur diese Analyse sind, da das B-Meson welches hier untersucht wird selbst nur eine Masse von $\SI{5279.32}{\mega\electronvolt}$ besitzt und aus den Diagrammen nur Charme-Resonanzen hervorkommen sollen.
+Zu sehen ist hier ein kontinuierliches Spektrum mit ansteigender Anzahl der Events zu h\"oheren Massen f\"ur beide Diagramme.
+%Die minimale Masse ist hier die doppelte Kaon Masse und die Obergrenze haben wir hier bei $\SI{3.5}{\giga\electronvolt}$ gew\"ahlt, da uns h\"oherliegende Resonanzen einerseits nicht interessieren und andererseits irrelevant f\"ur diese Analyse sind, da das B-Meson welches hier untersucht wird selbst nur eine Masse von $\SI{5279.32}{\mega\electronvolt}$ besitzt und aus den Diagrammen nur Charme-Resonanzen hervorkommen sollen.
+Die minimale Masse ist hier die doppelte Kaon Masse und die Obergrenze haben wir hier bei $\SI{3.5}{\giga\electronvolt}$ gew\"ahlt, da h\"oherliegende Resonanzen einerseits irrelevant f\"ur diese Analyse sind, da das B-Meson welches hier untersucht wird selbst nur eine Masse von $\SI{5279.32}{\mega\electronvolt}$ besitzt und aus den Diagrammen nur Charme-Resonanzen hervorkommen sollen und uns daher andererseits nicht interessieren.
 
 Die quadrierten Massen ergeben aufgetragen gegeneinander den Dalitz Plot, welcher in Abbildung \ref{fig:dalitzSim} zusehen ist.
 
