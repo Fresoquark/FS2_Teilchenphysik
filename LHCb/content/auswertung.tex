@@ -4,7 +4,7 @@
 
 Zu Beginn werden die \texttt{\.root}-Dateien der simulierten Daten eingelesen und die Features betrachtet.
 Das Ziel im ersten Teil ist, die invariante Masse der B-Mesonen zu bestimmen. Da dies nicht direkt funktioniert, muss dies \"uber die Tochterteilchen getan werden.
-Betrachten wird ausschie\ss lich der Zerfall
+Betrachtet wird ausschlie\ss lich der Zerfall
 \begin{equation}
   B^{\pm} \to \symup{K}^{\pm} \symup{K}^{+} \symup{K}^{-}\,.
 \end{equation}
@@ -38,7 +38,7 @@ Diese werden zunächst in einem Diagramm dargestellt um diese zu überprüfen.
 
 Es ist in Abbildung \ref{fig:momenta} zu erkennen, dass die Teilchen stark in z-Richtung geboostet sind, was auch zu erwarten ist bei B-Mesonen.
 
-Um die invariante Masse zu berechnen, wird zun\"achst die Energie der B-Mesonen bestimmt, mit 
+Um die invariante Masse zu berechnen, wird zun\"achst die Energie der B-Mesonen bestimmt, mit
 \begin{equation}
   \symup{E}(B^{\pm}) =
   \sqrt{\left(\sum_{i = 1}^{3} \vec{\symup{p}}_i\right)^2 + \left(\sum_{i = 1}^{3} \symup{m}_i\right)^2} \, .
@@ -130,8 +130,8 @@ Daraus berechnet sich die statistische Unsicherheit und die Signifikanz mittels
 \end{align}
 
 Ohne Ber\"ucksichtigung der systematischen Unsicherheiten gilt dies als Entdeckung der CP-Asymmetrie.
-Da es jedoch eine Produktionsasymmetrie von Materie zu Antimaterie von circa $\SI{1}{\percent}$ gibt, wird dies f\"ur die gesamte Unsicherheit mit berechnet. 
-Daraus ergibt sich eine Signifikanz von: 
+Da es jedoch eine Produktionsasymmetrie von Materie zu Antimaterie von circa $\SI{1}{\percent}$ gibt, wird dies f\"ur die gesamte Unsicherheit mit berechnet.
+Daraus ergibt sich eine Signifikanz von:
 \begin{equation}
   \text{Sig}_{ges} = \frac{\symup{A}}{\sqrt{\sigma_A^2 + 0.01^2}} \approx 3.11 \, .
 \end{equation}
@@ -146,9 +146,9 @@ Um diese Zwischenresonanzen herauszufiltern werden Dalitz Plots verwendet, da di
 Die Kinematik eines Dreik\"orperzerfalls wird eindeutig durch zwei unabh\"angige Variablen ausgedr\"uckt. Hierbei wird die invariante Masse von jeweils zwei der drei Endzustandsteilchen verwendet.
 Das bedeutet es gibt drei m\"ogliche Kombinationen:
 $M_{1,2}$, $M_{2,3}$, $M_{1,3}$.
-Bevor jedoch zwei der Kombinatione ausgew\"ahlt werden k\"onnen, muss die Ladung jedes Tochterteilchens identifiziert worden sein.
+Bevor jedoch zwei der Kombinationen ausgew\"ahlt werden k\"onnen, muss die Ladung jedes Tochterteilchens identifiziert worden sein.
 Denn die Resonanz muss neutral geladen sein. da aber zwei der drei Teilchen die selbe Ladung besitzen, beispielsweise Teilchen 1 und Teilchen 2, darf $M_{1,2}$ nicht als Variable verwendet werden.
-Eine doppelt geladene Resonanz ist au\ss erdem f\"ur Mesonen verboten, da diese immer aus einem Teilchen und einem Antiteilchen bestehen.
+Eine doppelt geladene Resonanz ist au\ss erdem f\"ur Mesonen verboten, da diese immer aus einem Quark und einem Antiquark bestehen.
 
 In Abbildung \ref{fig:m12} und \ref{fig:m13} sind die Resonanzen f\"ur die Kombinationen $M_{1,2}$ und $M_{1,3}$ dargestellt.
 
@@ -167,6 +167,9 @@ In Abbildung \ref{fig:m12} und \ref{fig:m13} sind die Resonanzen f\"ur die Kombi
 Zu sehen ist hier ein kontinuierliches Spektrum mit ansteigender Anzahl der Events zu h\"oheren Massen f\"ur beide Diagramme.
 %Die minimale Masse ist hier die doppelte Kaon Masse und die Obergrenze wird hier bei $\SI{3.5}{\giga\electronvolt}$ gew\"ahlt, da uns h\"oherliegende Resonanzen einerseits nicht interessieren und andererseits irrelevant f\"ur diese Analyse sind, da das B-Meson welches hier untersucht wird selbst nur eine Masse von $\SI{5279.32}{\mega\electronvolt}$ besitzt und aus den Diagrammen nur Charme-Resonanzen hervorkommen sollen.
 Die minimale Masse ist hier die doppelte Kaon Masse und die Obergrenze wird bei $\SI{3.5}{\giga\electronvolt}$ gew\"ahlt, da h\"oherliegende Resonanzen einerseits irrelevant f\"ur diese Analyse sind, da das B-Meson welches hier untersucht wird selbst nur eine Masse von $\SI{5279.32}{\mega\electronvolt}$ besitzt und aus den Diagrammen nur Charme-Resonanzen hervorkommen sollen und uns daher andererseits nicht interessieren.
+%%%%%%%%%%%
+%%Noch kene Ahnung wie das zu korrigieren ist
+%%%%%%%%%%%
 
 Die quadrierten Massen ergeben aufgetragen gegeneinander den Dalitz Plot, welcher in Abbildung \ref{fig:dalitzSim} zusehen ist.
 
@@ -231,7 +234,10 @@ Dieser Plot ist in Abbildung \ref{fig:klappeDalitz} dargestellt.
   \label{fig:klappeDalitz}
 \end{figure}
 
-Die Methode, die in Abschnitt \ref{sec:globCP} beschrieben wurde um die CP-Asymmetrie zu untersuchen, ist darauf ausgelegt, dass es sich um charmfreie B-Zerfälle handelt.
+%Die Methode, die in Abschnitt \ref{sec:globCP} beschrieben wurde um die CP-Asymmetrie zu untersuchen, ist darauf ausgelegt, dass es sich um charmfreie B-Zerfälle handelt.
+Die Methode, die in Abschnitt \ref{sec:globCP} beschrieben wurde, kann verwendet werden um jede Form der CP-Asymmetrie zu untersuchen.
+Da die zu erwartende CP-Verletzung im Übergang eines $b$-Quarks in ein $c$-Quark wesentlich geringer ist, als im entsprechenden Übergang in ein $u$-Quark müssen die entsprechenden Charm-Resonanzen entfernt werden.
+Ansonsten würde die beobachtete Asymmetie durch die Resonanzen stark gedämpft werden.
 Für die simulierten Daten konnte durch den Dalitz Plot in Abbildung \ref{fig:dalitzSim} gezeigt werden, dass keine Charm-Zwischenresonanzen vorhanden sind.
 Anhand Abbildung \ref{fig:dalitzReal} und \ref{fig:klappeDalitz} ist aber ersichtlich, dass für die echten Daten Zwischenresonanzen vorhanden sind.
 Dies ist auch erwartbar, da die häufigsten Zerfälle von $B$-Mesonen eben durch einen Zerfall eines $b$ Quark in ein $c$ Quark erfolgt.
