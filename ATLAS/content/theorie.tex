@@ -29,3 +29,28 @@ Energie. Die Quarks aus dem hadronischen Zerfall hadronisieren und schauern haup
 Energie der bereits rekonstruierten Endzustandsteilchen bestimmbar.
 
 \section{Analysestrategie}
+Um das Verhältnis von Signal zu Untergrun zu verbessern muss zunächst eine Eventselektion auf den Datensatz angewendet werden, da dieser eine enorme 
+Datenmenge besitzt. Dafür werden Analysemethoden in $\texttt{C++}$ verwendet. Die selektierten Events werden dann auf verschiedene Variablen wie die 
+invariante Masse des Systems geprüft um eine \textit{Finale Diskiminate} zu definieren, die zur optimalen Differenzierung zwischen Signal und 
+Untergrund dienen soll. Der Untergrund sollte dabei ein fallendes Spektrum aufweisen, auf dem das Signal optimalerweise ein Peak aufweist. Für die 
+Bestimmung des Untergrundspektrums werden Monte Carlo (MC) Methoden verwendet. Die simulierten Untergründe und die Benennung in der Analyse lauten 
+wie folgt: 
+
+\begin{itemize}
+    \item \texttt{diboson}: Paarproduktion der $W$-/ $Z$-Eichbosonen; Hierbei ist auch die Kombination $WZ$ möglich 
+    \item \texttt{singletop}: Produktion eines einzelnen Top-Quarks
+    \item \texttt{wjets}: Produktion eines $W$-Bosons im Zusammenhang mit Jets
+    \item \texttt{zjets}: Produktion eines $Z$-Bosons im Zusammenhang mit Jets
+    \item \texttt{ttbar}: Top-Quark Paarproduktion \, .
+\end{itemize}
+
+Weiterhin stehen verschiedene \texttt{zprime} MC-samples zur Verfügung, welche für verschiedene $Z^\prime$ Massen von $\SI{400}{\giga\electronvolt}$ bis 
+$\SI{3000}{\giga\electronvolt}$ generiert sind. \par
+Die Datensamples sind in \texttt{ntupeln} im \texttt{ROOT} Format abgespeichert. Diese enthalten \texttt{TTrees} in denen verschiedene Informationen,wie beispielsweise 
+die Pseudorapidität der Leptonen, über 
+die rekonstuierten Objekte abgespeichert sind. Die Daten dieser \texttt{.root} samples sind bereits vorselektiert worden. \par 
+
+Im Anschluss an die Eventselektion erfolgt eine Studie, um die Übereinstimmung der Monte Carlo samples mit den Daten zu überprüfen. Dies ist ein wichtiger 
+Schritt um die Qualität der simulierten Daten zu testen. Dann wird eine statistische Analyse vorgenommen, bei der die finale Diskriminate verwendet wird 
+um den Überschuss des Datenpieks über den kontinuiertlichen Untergrund abzuschätzen und, wenn möglich, ein Limit auf die $Z^\prime$ Masse mit Hilfe eines 
+Hypothesentests zu setzen.
