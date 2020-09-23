@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  23 SEP 2020 14:08
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/W32TeX)  (format=lualatex 2017.10.12)  23 SEP 2020 14:38
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -22,7 +22,7 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.230 seconds
+luaotfload | main : initialization completed in 0.226 seconds
 Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
 (./header.tex (c:/texlive/2017/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
@@ -2123,12 +2123,22 @@ Language ngerman already loaded; id is 8)
 \openout5 = main.toc
  [2
 
-] (./content/theorie.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc)
+] (./content/theorie.tex(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc)(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc)
+<content/graphics/pictures/Gluonfusion.png, id=39, pagebox=cropbox, 804.00375pt x 560.0925pt>
+File: content/graphics/pictures/Gluonfusion.png Graphic file (type png)
+<use content/graphics/pictures/Gluonfusion.png>
+Package luatex.def Info: content/graphics/pictures/Gluonfusion.png  used on input line 30. on input line 30.
+Package luatex.def Info: Requested size: 334.60571pt x 233.09212pt on input line 30.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
+(Font)              scaled to size 5.00008pt on input line 31.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 4.99992pt on input line 31.
+ [3](load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc) [3]) (./content/auswertung.tex) (./content/discussion.tex) (./content/anhang.tex) (./content/references.tex) [4]
+(load luc: C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc) [4<./content/graphics/pictures/Gluonfusion.png>]) (./content/auswertung.tex) (./content/discussion.tex) (./content/anhang.tex) (./content/references.tex) [5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
  (./build/main.aux
@@ -2136,25 +2146,25 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 9AABED74DB2FF0D856DAA0BF0A74ADA9;3030.
+(rerunfilecheck)             Checksum: 89C5B3913CE24F6B94DFE82848A1ADEB;3452.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 5FD5F7226BAD579D5E4BD9D8D74B158B;430.
+(rerunfilecheck)             Checksum: 03145B0F0A333C1D6151763633C4AC93;430.
 )
 
 Here is how much of LuaTeX's memory you used:
- 53185 strings out of 494469
+ 53240 strings out of 494469
  100000,1648299 words of node,token memory allocated
  538 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 6 attribute, 68 glue_spec, 6 attribute_list, 1 write nodes
-   avail lists: 1:1,2:345,3:68,4:56,5:259,6:3476,7:677,8:16,9:115,10:26,11:480
- 55633 multiletter control sequences out of 65536+600000
- 161 fonts using 41782359 bytes
+   avail lists: 1:1,2:313,3:55,4:63,5:226,6:3014,7:728,8:21,9:127,10:27,11:404
+ 55671 multiletter control sequences out of 65536+600000
+ 173 fonts using 44806459 bytes
  72i,7n,104p,8833b,885s stack positions out of 5000i,500n,10000p,200000b,100000s
-<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/xits/xits-math.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (4 pages, 47897 bytes).
+<c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/xits/xits-math.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf><c:/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
+Output written on main.pdf (5 pages, 88037 bytes).
 
-PDF statistics: 129 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 131072)
+PDF statistics: 153 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 15 named destinations out of 1000 (max. 131072)
  64 words of extra memory for PDF output out of 10000 (max. 100000000)
 

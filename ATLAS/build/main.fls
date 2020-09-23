@@ -509,6 +509,13 @@ INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./content/graphics/pictures/Gluonfusion.png
+INPUT content/graphics/pictures/Gluonfusion.png
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
 INPUT C:/texlive/2017/texmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc
 INPUT ./content/auswertung.tex
