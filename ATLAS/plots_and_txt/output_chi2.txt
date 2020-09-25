@@ -1,0 +1,28 @@
+scaler: 0.3 und p-value: 0.0209413
+scaler: 0.2 und p-value: 0.000843474
+scaler: 0.2 und p-value: 0.0119953
+scaler: 0.4 und p-value: 0.0460657
+scaler: 0.9 und p-value: 0.025671
+scaler: 1.9 und p-value: 0.0428774
+scaler: 5.5 und p-value: 0.0469559
+scaler: 12.5 und p-value: 0.0483001
+scaler: 25.1 und p-value: 0.0492776
+scaler: 53.2 und p-value: 0.049678
+scaler: 213.4 und p-value: 0.0488673
+################################################################
+crosssection: 33
+crosssection: 16.4
+crosssection: 4
+crosssection: 2.2
+crosssection: 1.71
+crosssection: 1.577
+crosssection: 1.65
+crosssection: 1.75
+crosssection: 1.6817
+crosssection: 1.862
+crosssection: 2.5608
+################################################################
+chi2: 5.29103
+NDF: 11
+p wert: 0.916257
+################################################################

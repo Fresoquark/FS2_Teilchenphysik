@@ -1,0 +1,73 @@
+ttbar:
+  Events:   7847944
+  xsec[pb]: 252.82
+
+singletop:
+  Events:   1468942
+  xsec[pb]: 52.47
+
+diboson:
+  Events:   922521
+  xsec[pb]: 29.41
+
+z+jets:
+  Events:   37422926
+  xsec[pb]: 2516.2
+
+w+jets:
+  Events:   66536222
+  xsec[pb]: 36214
+
+ZPrime400:
+  Events:   100000
+  xsec[pb]: 1.1e2
+
+ZPrime500:
+  Events:   100000
+  xsec[pb]: 8.2e1
+
+ZPrime750:
+  Events:   100000
+  xsec[pb]: 2.0e1
+
+ZPrime1000:
+  Events:   100000
+  xsec[pb]: 5.5
+
+ZPrime1250:
+  Events:   100000
+  xsec[pb]: 1.9
+
+ZPrime1500:
+  Events:   100000
+  xsec[pb]: 8.3e-1
+
+ZPrime1750:
+  Events:   100000
+  xsec[pb]: 3.0e-1
+
+ZPrime2000:
+  Events:   100000
+  xsec[pb]: 1.4e-1
+
+ZPrime2250:
+  Events:   100000
+  xsec[pb]: 6.7e-2
+
+ZPrime2500:
+  Events:   100000
+  xsec[pb]: 3.5e-2
+
+ZPrime3000:
+  Events:   100000
+  xsec[pb]: 1.2e-2
+
+data:
+  Lumi[ipb]:100
+
+
+
+
+
+
+

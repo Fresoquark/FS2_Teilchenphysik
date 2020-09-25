@@ -1,0 +1,918 @@
+filename :data.el.0.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.el.1.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.el.2.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.el.3.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.el.4.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.el.5.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.el.6.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.el.7.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.el.8.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.el.9.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.mu.0.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.mu.1.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.mu.2.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.mu.3.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.mu.4.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.mu.5.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.mu.6.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.mu.8.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :data.mu.9.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :ttbar.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :ttbar.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :singletop.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :singletop.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :diboson.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :diboson.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :wjets.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :wjets.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zjets.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zjets.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime1000.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime1250.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime1500.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime1750.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime2000.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime2250.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime2500.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime3000.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime400.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime500.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime750.el.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime1000.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime1250.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime1500.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime1750.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime2000.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime2250.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime2500.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime3000.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime400.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime500.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################
+filename :zprime750.mu.root
+Weights for ttbar_events       0.0322148
+Weights for singletop_events   0.0357196
+Weights for diboson_events     0.03188
+Weights for z_jets_events      0.0672369
+Weights for w_jets_events      0.544275
+Weights for zprime400_events   1.1
+Weights for zprime500_events   0.82
+Weights for zprime750_events   0.2
+Weights for zprime1000_events  0.55
+Weights for zprime1250_events  0.19
+Weights for zprime1500_events  0.083
+Weights for zprime1750_events  0.03
+Weights for zprime2000_events  0.014
+Weights for zprime2250_events  0.00067
+Weights for zprime2500_events  0.00035
+Weights for zprime3000_events  0.00012
+################################################################

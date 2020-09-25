@@ -1,0 +1,969 @@
+filename: data.el.0.root
+Expected Nr ttbar Events   2.67383
+Expected Nr singletop Events   2.96473
+Expected Nr diboson Events   2.64604
+Expected Nr z jets Events   5.58066
+Expected Nr  w jets Events   45.1748
+Expected Nr bkg Events   59.0401, nEvents after selection: 83
+Expected Nr zprime400_ Events   91.3
+Expected Nr zprime500_ Events   68.06
+Expected Nr zprime750_ Events   16.6
+Expected Nr zprime1000 Events   45.65
+Expected Nr zprime1250 Events   15.77
+Expected Nr zprime1500 Events   6.889
+Expected Nr zprime1750 Events   2.49
+Expected Nr zprime2000 Events   1.162
+Expected Nr zprime2250 Events   0.05561
+Expected Nr zprime2500 Events   0.02905
+Expected Nr zprime3000 Events   0.00996
+################################################################
+filename: data.el.1.root
+Expected Nr ttbar Events   2.8349
+Expected Nr singletop Events   3.14332
+Expected Nr diboson Events   2.80544
+Expected Nr z jets Events   5.91684
+Expected Nr  w jets Events   47.8962
+Expected Nr bkg Events   62.5967, nEvents after selection: 88
+Expected Nr zprime400_ Events   96.8
+Expected Nr zprime500_ Events   72.16
+Expected Nr zprime750_ Events   17.6
+Expected Nr zprime1000 Events   48.4
+Expected Nr zprime1250 Events   16.72
+Expected Nr zprime1500 Events   7.304
+Expected Nr zprime1750 Events   2.64
+Expected Nr zprime2000 Events   1.232
+Expected Nr zprime2250 Events   0.05896
+Expected Nr zprime2500 Events   0.0308
+Expected Nr zprime3000 Events   0.01056
+################################################################
+filename: data.el.2.root
+Expected Nr ttbar Events   2.57718
+Expected Nr singletop Events   2.85757
+Expected Nr diboson Events   2.5504
+Expected Nr z jets Events   5.37895
+Expected Nr  w jets Events   43.542
+Expected Nr bkg Events   56.9061, nEvents after selection: 80
+Expected Nr zprime400_ Events   88
+Expected Nr zprime500_ Events   65.6
+Expected Nr zprime750_ Events   16
+Expected Nr zprime1000 Events   44
+Expected Nr zprime1250 Events   15.2
+Expected Nr zprime1500 Events   6.64
+Expected Nr zprime1750 Events   2.4
+Expected Nr zprime2000 Events   1.12
+Expected Nr zprime2250 Events   0.0536
+Expected Nr zprime2500 Events   0.028
+Expected Nr zprime3000 Events   0.0096
+################################################################
+filename: data.el.3.root
+Expected Nr ttbar Events   3.12484
+Expected Nr singletop Events   3.4648
+Expected Nr diboson Events   3.09236
+Expected Nr z jets Events   6.52198
+Expected Nr  w jets Events   52.7947
+Expected Nr bkg Events   68.9986, nEvents after selection: 97
+Expected Nr zprime400_ Events   106.7
+Expected Nr zprime500_ Events   79.54
+Expected Nr zprime750_ Events   19.4
+Expected Nr zprime1000 Events   53.35
+Expected Nr zprime1250 Events   18.43
+Expected Nr zprime1500 Events   8.051
+Expected Nr zprime1750 Events   2.91
+Expected Nr zprime2000 Events   1.358
+Expected Nr zprime2250 Events   0.06499
+Expected Nr zprime2500 Events   0.03395
+Expected Nr zprime3000 Events   0.01164
+################################################################
+filename: data.el.4.root
+Expected Nr ttbar Events   2.70604
+Expected Nr singletop Events   3.00045
+Expected Nr diboson Events   2.67792
+Expected Nr z jets Events   5.6479
+Expected Nr  w jets Events   45.7191
+Expected Nr bkg Events   59.7514, nEvents after selection: 84
+Expected Nr zprime400_ Events   92.4
+Expected Nr zprime500_ Events   68.88
+Expected Nr zprime750_ Events   16.8
+Expected Nr zprime1000 Events   46.2
+Expected Nr zprime1250 Events   15.96
+Expected Nr zprime1500 Events   6.972
+Expected Nr zprime1750 Events   2.52
+Expected Nr zprime2000 Events   1.176
+Expected Nr zprime2250 Events   0.05628
+Expected Nr zprime2500 Events   0.0294
+Expected Nr zprime3000 Events   0.01008
+################################################################
+filename: data.el.5.root
+Expected Nr ttbar Events   2.89933
+Expected Nr singletop Events   3.21476
+Expected Nr diboson Events   2.8692
+Expected Nr z jets Events   6.05132
+Expected Nr  w jets Events   48.9847
+Expected Nr bkg Events   64.0194, nEvents after selection: 90
+Expected Nr zprime400_ Events   99
+Expected Nr zprime500_ Events   73.8
+Expected Nr zprime750_ Events   18
+Expected Nr zprime1000 Events   49.5
+Expected Nr zprime1250 Events   17.1
+Expected Nr zprime1500 Events   7.47
+Expected Nr zprime1750 Events   2.7
+Expected Nr zprime2000 Events   1.26
+Expected Nr zprime2250 Events   0.0603
+Expected Nr zprime2500 Events   0.0315
+Expected Nr zprime3000 Events   0.0108
+################################################################
+filename: data.el.6.root
+Expected Nr ttbar Events   2.54497
+Expected Nr singletop Events   2.82185
+Expected Nr diboson Events   2.51852
+Expected Nr z jets Events   5.31171
+Expected Nr  w jets Events   42.9977
+Expected Nr bkg Events   56.1948, nEvents after selection: 79
+Expected Nr zprime400_ Events   86.9
+Expected Nr zprime500_ Events   64.78
+Expected Nr zprime750_ Events   15.8
+Expected Nr zprime1000 Events   43.45
+Expected Nr zprime1250 Events   15.01
+Expected Nr zprime1500 Events   6.557
+Expected Nr zprime1750 Events   2.37
+Expected Nr zprime2000 Events   1.106
+Expected Nr zprime2250 Events   0.05293
+Expected Nr zprime2500 Events   0.02765
+Expected Nr zprime3000 Events   0.00948
+################################################################
+filename: data.el.7.root
+Expected Nr ttbar Events   2.70604
+Expected Nr singletop Events   3.00045
+Expected Nr diboson Events   2.67792
+Expected Nr z jets Events   5.6479
+Expected Nr  w jets Events   45.7191
+Expected Nr bkg Events   59.7514, nEvents after selection: 84
+Expected Nr zprime400_ Events   92.4
+Expected Nr zprime500_ Events   68.88
+Expected Nr zprime750_ Events   16.8
+Expected Nr zprime1000 Events   46.2
+Expected Nr zprime1250 Events   15.96
+Expected Nr zprime1500 Events   6.972
+Expected Nr zprime1750 Events   2.52
+Expected Nr zprime2000 Events   1.176
+Expected Nr zprime2250 Events   0.05628
+Expected Nr zprime2500 Events   0.0294
+Expected Nr zprime3000 Events   0.01008
+################################################################
+filename: data.el.8.root
+Expected Nr ttbar Events   2.89933
+Expected Nr singletop Events   3.21476
+Expected Nr diboson Events   2.8692
+Expected Nr z jets Events   6.05132
+Expected Nr  w jets Events   48.9847
+Expected Nr bkg Events   64.0194, nEvents after selection: 90
+Expected Nr zprime400_ Events   99
+Expected Nr zprime500_ Events   73.8
+Expected Nr zprime750_ Events   18
+Expected Nr zprime1000 Events   49.5
+Expected Nr zprime1250 Events   17.1
+Expected Nr zprime1500 Events   7.47
+Expected Nr zprime1750 Events   2.7
+Expected Nr zprime2000 Events   1.26
+Expected Nr zprime2250 Events   0.0603
+Expected Nr zprime2500 Events   0.0315
+Expected Nr zprime3000 Events   0.0108
+################################################################
+filename: data.el.9.root
+Expected Nr ttbar Events   3.41477
+Expected Nr singletop Events   3.78628
+Expected Nr diboson Events   3.37928
+Expected Nr z jets Events   7.12711
+Expected Nr  w jets Events   57.6931
+Expected Nr bkg Events   75.4006, nEvents after selection: 106
+Expected Nr zprime400_ Events   116.6
+Expected Nr zprime500_ Events   86.92
+Expected Nr zprime750_ Events   21.2
+Expected Nr zprime1000 Events   58.3
+Expected Nr zprime1250 Events   20.14
+Expected Nr zprime1500 Events   8.798
+Expected Nr zprime1750 Events   3.18
+Expected Nr zprime2000 Events   1.484
+Expected Nr zprime2250 Events   0.07102
+Expected Nr zprime2500 Events   0.0371
+Expected Nr zprime3000 Events   0.01272
+################################################################
+filename: data.mu.0.root
+Expected Nr ttbar Events   3.28591
+Expected Nr singletop Events   3.6434
+Expected Nr diboson Events   3.25176
+Expected Nr z jets Events   6.85816
+Expected Nr  w jets Events   55.516
+Expected Nr bkg Events   72.5553, nEvents after selection: 102
+Expected Nr zprime400_ Events   112.2
+Expected Nr zprime500_ Events   83.64
+Expected Nr zprime750_ Events   20.4
+Expected Nr zprime1000 Events   56.1
+Expected Nr zprime1250 Events   19.38
+Expected Nr zprime1500 Events   8.466
+Expected Nr zprime1750 Events   3.06
+Expected Nr zprime2000 Events   1.428
+Expected Nr zprime2250 Events   0.06834
+Expected Nr zprime2500 Events   0.0357
+Expected Nr zprime3000 Events   0.01224
+################################################################
+filename: data.mu.1.root
+Expected Nr ttbar Events   2.70604
+Expected Nr singletop Events   3.00045
+Expected Nr diboson Events   2.67792
+Expected Nr z jets Events   5.6479
+Expected Nr  w jets Events   45.7191
+Expected Nr bkg Events   59.7514, nEvents after selection: 84
+Expected Nr zprime400_ Events   92.4
+Expected Nr zprime500_ Events   68.88
+Expected Nr zprime750_ Events   16.8
+Expected Nr zprime1000 Events   46.2
+Expected Nr zprime1250 Events   15.96
+Expected Nr zprime1500 Events   6.972
+Expected Nr zprime1750 Events   2.52
+Expected Nr zprime2000 Events   1.176
+Expected Nr zprime2250 Events   0.05628
+Expected Nr zprime2500 Events   0.0294
+Expected Nr zprime3000 Events   0.01008
+################################################################
+filename: data.mu.2.root
+Expected Nr ttbar Events   3.02819
+Expected Nr singletop Events   3.35764
+Expected Nr diboson Events   2.99672
+Expected Nr z jets Events   6.32026
+Expected Nr  w jets Events   51.1618
+Expected Nr bkg Events   66.8647, nEvents after selection: 94
+Expected Nr zprime400_ Events   103.4
+Expected Nr zprime500_ Events   77.08
+Expected Nr zprime750_ Events   18.8
+Expected Nr zprime1000 Events   51.7
+Expected Nr zprime1250 Events   17.86
+Expected Nr zprime1500 Events   7.802
+Expected Nr zprime1750 Events   2.82
+Expected Nr zprime2000 Events   1.316
+Expected Nr zprime2250 Events   0.06298
+Expected Nr zprime2500 Events   0.0329
+Expected Nr zprime3000 Events   0.01128
+################################################################
+filename: data.mu.3.root
+Expected Nr ttbar Events   3.86578
+Expected Nr singletop Events   4.28635
+Expected Nr diboson Events   3.8256
+Expected Nr z jets Events   8.06842
+Expected Nr  w jets Events   65.313
+Expected Nr bkg Events   85.3591, nEvents after selection: 120
+Expected Nr zprime400_ Events   132
+Expected Nr zprime500_ Events   98.4
+Expected Nr zprime750_ Events   24
+Expected Nr zprime1000 Events   66
+Expected Nr zprime1250 Events   22.8
+Expected Nr zprime1500 Events   9.96
+Expected Nr zprime1750 Events   3.6
+Expected Nr zprime2000 Events   1.68
+Expected Nr zprime2250 Events   0.0804
+Expected Nr zprime2500 Events   0.042
+Expected Nr zprime3000 Events   0.0144
+################################################################
+filename: data.mu.4.root
+Expected Nr ttbar Events   3.12484
+Expected Nr singletop Events   3.4648
+Expected Nr diboson Events   3.09236
+Expected Nr z jets Events   6.52198
+Expected Nr  w jets Events   52.7947
+Expected Nr bkg Events   68.9986, nEvents after selection: 97
+Expected Nr zprime400_ Events   106.7
+Expected Nr zprime500_ Events   79.54
+Expected Nr zprime750_ Events   19.4
+Expected Nr zprime1000 Events   53.35
+Expected Nr zprime1250 Events   18.43
+Expected Nr zprime1500 Events   8.051
+Expected Nr zprime1750 Events   2.91
+Expected Nr zprime2000 Events   1.358
+Expected Nr zprime2250 Events   0.06499
+Expected Nr zprime2500 Events   0.03395
+Expected Nr zprime3000 Events   0.01164
+################################################################
+filename: data.mu.5.root
+Expected Nr ttbar Events   3.38255
+Expected Nr singletop Events   3.75056
+Expected Nr diboson Events   3.3474
+Expected Nr z jets Events   7.05987
+Expected Nr  w jets Events   57.1489
+Expected Nr bkg Events   74.6893, nEvents after selection: 105
+Expected Nr zprime400_ Events   115.5
+Expected Nr zprime500_ Events   86.1
+Expected Nr zprime750_ Events   21
+Expected Nr zprime1000 Events   57.75
+Expected Nr zprime1250 Events   19.95
+Expected Nr zprime1500 Events   8.715
+Expected Nr zprime1750 Events   3.15
+Expected Nr zprime2000 Events   1.47
+Expected Nr zprime2250 Events   0.07035
+Expected Nr zprime2500 Events   0.03675
+Expected Nr zprime3000 Events   0.0126
+################################################################
+filename: data.mu.6.root
+Expected Nr ttbar Events   3.28591
+Expected Nr singletop Events   3.6434
+Expected Nr diboson Events   3.25176
+Expected Nr z jets Events   6.85816
+Expected Nr  w jets Events   55.516
+Expected Nr bkg Events   72.5553, nEvents after selection: 102
+Expected Nr zprime400_ Events   112.2
+Expected Nr zprime500_ Events   83.64
+Expected Nr zprime750_ Events   20.4
+Expected Nr zprime1000 Events   56.1
+Expected Nr zprime1250 Events   19.38
+Expected Nr zprime1500 Events   8.466
+Expected Nr zprime1750 Events   3.06
+Expected Nr zprime2000 Events   1.428
+Expected Nr zprime2250 Events   0.06834
+Expected Nr zprime2500 Events   0.0357
+Expected Nr zprime3000 Events   0.01224
+################################################################
+filename: data.mu.8.root
+Expected Nr ttbar Events   3.7047
+Expected Nr singletop Events   4.10775
+Expected Nr diboson Events   3.6662
+Expected Nr z jets Events   7.73224
+Expected Nr  w jets Events   62.5916
+Expected Nr bkg Events   81.8025, nEvents after selection: 115
+Expected Nr zprime400_ Events   126.5
+Expected Nr zprime500_ Events   94.3
+Expected Nr zprime750_ Events   23
+Expected Nr zprime1000 Events   63.25
+Expected Nr zprime1250 Events   21.85
+Expected Nr zprime1500 Events   9.545
+Expected Nr zprime1750 Events   3.45
+Expected Nr zprime2000 Events   1.61
+Expected Nr zprime2250 Events   0.07705
+Expected Nr zprime2500 Events   0.04025
+Expected Nr zprime3000 Events   0.0138
+################################################################
+filename: data.mu.9.root
+Expected Nr ttbar Events   3.60806
+Expected Nr singletop Events   4.00059
+Expected Nr diboson Events   3.57056
+Expected Nr z jets Events   7.53053
+Expected Nr  w jets Events   60.9588
+Expected Nr bkg Events   79.6685, nEvents after selection: 112
+Expected Nr zprime400_ Events   123.2
+Expected Nr zprime500_ Events   91.84
+Expected Nr zprime750_ Events   22.4
+Expected Nr zprime1000 Events   61.6
+Expected Nr zprime1250 Events   21.28
+Expected Nr zprime1500 Events   9.296
+Expected Nr zprime1750 Events   3.36
+Expected Nr zprime2000 Events   1.568
+Expected Nr zprime2250 Events   0.07504
+Expected Nr zprime2500 Events   0.0392
+Expected Nr zprime3000 Events   0.01344
+################################################################
+filename: ttbar.el.root
+Expected Nr ttbar Events   882.074
+Expected Nr singletop Events   978.038
+Expected Nr diboson Events   872.907
+Expected Nr z jets Events   1841.01
+Expected Nr  w jets Events   14902.8
+Expected Nr bkg Events   19476.8, nEvents after selection: 27381
+Expected Nr zprime400_ Events   30119.1
+Expected Nr zprime500_ Events   22452.4
+Expected Nr zprime750_ Events   5476.2
+Expected Nr zprime1000 Events   15059.5
+Expected Nr zprime1250 Events   5202.39
+Expected Nr zprime1500 Events   2272.62
+Expected Nr zprime1750 Events   821.43
+Expected Nr zprime2000 Events   383.334
+Expected Nr zprime2250 Events   18.3453
+Expected Nr zprime2500 Events   9.58335
+Expected Nr zprime3000 Events   3.28572
+################################################################
+filename: ttbar.mu.root
+Expected Nr ttbar Events   1005.46
+Expected Nr singletop Events   1114.84
+Expected Nr diboson Events   995.008
+Expected Nr z jets Events   2098.53
+Expected Nr  w jets Events   16987.4
+Expected Nr bkg Events   22201.2, nEvents after selection: 31211
+Expected Nr zprime400_ Events   34332.1
+Expected Nr zprime500_ Events   25593
+Expected Nr zprime750_ Events   6242.2
+Expected Nr zprime1000 Events   17166
+Expected Nr zprime1250 Events   5930.09
+Expected Nr zprime1500 Events   2590.51
+Expected Nr zprime1750 Events   936.33
+Expected Nr zprime2000 Events   436.954
+Expected Nr zprime2250 Events   20.9114
+Expected Nr zprime2500 Events   10.9239
+Expected Nr zprime3000 Events   3.74532
+################################################################
+filename: singletop.el.root
+Expected Nr ttbar Events   31.6349
+Expected Nr singletop Events   35.0766
+Expected Nr diboson Events   31.3062
+Expected Nr z jets Events   66.0266
+Expected Nr  w jets Events   534.478
+Expected Nr bkg Events   698.522, nEvents after selection: 982
+Expected Nr zprime400_ Events   1080.2
+Expected Nr zprime500_ Events   805.24
+Expected Nr zprime750_ Events   196.4
+Expected Nr zprime1000 Events   540.1
+Expected Nr zprime1250 Events   186.58
+Expected Nr zprime1500 Events   81.506
+Expected Nr zprime1750 Events   29.46
+Expected Nr zprime2000 Events   13.748
+Expected Nr zprime2250 Events   0.65794
+Expected Nr zprime2500 Events   0.3437
+Expected Nr zprime3000 Events   0.11784
+################################################################
+filename: singletop.mu.root
+Expected Nr ttbar Events   36.1772
+Expected Nr singletop Events   40.1131
+Expected Nr diboson Events   35.8013
+Expected Nr z jets Events   75.507
+Expected Nr  w jets Events   611.221
+Expected Nr bkg Events   798.819, nEvents after selection: 1123
+Expected Nr zprime400_ Events   1235.3
+Expected Nr zprime500_ Events   920.86
+Expected Nr zprime750_ Events   224.6
+Expected Nr zprime1000 Events   617.65
+Expected Nr zprime1250 Events   213.37
+Expected Nr zprime1500 Events   93.209
+Expected Nr zprime1750 Events   33.69
+Expected Nr zprime2000 Events   15.722
+Expected Nr zprime2250 Events   0.75241
+Expected Nr zprime2500 Events   0.39305
+Expected Nr zprime3000 Events   0.13476
+################################################################
+filename: diboson.el.root
+Expected Nr ttbar Events   0.483222
+Expected Nr singletop Events   0.535794
+Expected Nr diboson Events   0.4782
+Expected Nr z jets Events   1.00855
+Expected Nr  w jets Events   8.16412
+Expected Nr bkg Events   10.6699, nEvents after selection: 15
+Expected Nr zprime400_ Events   16.5
+Expected Nr zprime500_ Events   12.3
+Expected Nr zprime750_ Events   3
+Expected Nr zprime1000 Events   8.25
+Expected Nr zprime1250 Events   2.85
+Expected Nr zprime1500 Events   1.245
+Expected Nr zprime1750 Events   0.45
+Expected Nr zprime2000 Events   0.21
+Expected Nr zprime2250 Events   0.01005
+Expected Nr zprime2500 Events   0.00525
+Expected Nr zprime3000 Events   0.0018
+################################################################
+filename: diboson.mu.root
+Expected Nr ttbar Events   0.483222
+Expected Nr singletop Events   0.535794
+Expected Nr diboson Events   0.4782
+Expected Nr z jets Events   1.00855
+Expected Nr  w jets Events   8.16412
+Expected Nr bkg Events   10.6699, nEvents after selection: 15
+Expected Nr zprime400_ Events   16.5
+Expected Nr zprime500_ Events   12.3
+Expected Nr zprime750_ Events   3
+Expected Nr zprime1000 Events   8.25
+Expected Nr zprime1250 Events   2.85
+Expected Nr zprime1500 Events   1.245
+Expected Nr zprime1750 Events   0.45
+Expected Nr zprime2000 Events   0.21
+Expected Nr zprime2250 Events   0.01005
+Expected Nr zprime2500 Events   0.00525
+Expected Nr zprime3000 Events   0.0018
+################################################################
+filename: wjets.el.root
+Expected Nr ttbar Events   2.67383
+Expected Nr singletop Events   2.96473
+Expected Nr diboson Events   2.64604
+Expected Nr z jets Events   5.58066
+Expected Nr  w jets Events   45.1748
+Expected Nr bkg Events   59.0401, nEvents after selection: 83
+Expected Nr zprime400_ Events   91.3
+Expected Nr zprime500_ Events   68.06
+Expected Nr zprime750_ Events   16.6
+Expected Nr zprime1000 Events   45.65
+Expected Nr zprime1250 Events   15.77
+Expected Nr zprime1500 Events   6.889
+Expected Nr zprime1750 Events   2.49
+Expected Nr zprime2000 Events   1.162
+Expected Nr zprime2250 Events   0.05561
+Expected Nr zprime2500 Events   0.02905
+Expected Nr zprime3000 Events   0.00996
+################################################################
+filename: wjets.mu.root
+Expected Nr ttbar Events   3.99464
+Expected Nr singletop Events   4.42923
+Expected Nr diboson Events   3.95312
+Expected Nr z jets Events   8.33737
+Expected Nr  w jets Events   67.4901
+Expected Nr bkg Events   88.2045, nEvents after selection: 124
+Expected Nr zprime400_ Events   136.4
+Expected Nr zprime500_ Events   101.68
+Expected Nr zprime750_ Events   24.8
+Expected Nr zprime1000 Events   68.2
+Expected Nr zprime1250 Events   23.56
+Expected Nr zprime1500 Events   10.292
+Expected Nr zprime1750 Events   3.72
+Expected Nr zprime2000 Events   1.736
+Expected Nr zprime2250 Events   0.08308
+Expected Nr zprime2500 Events   0.0434
+Expected Nr zprime3000 Events   0.01488
+################################################################
+filename: zjets.el.root
+Expected Nr ttbar Events   9.60001
+Expected Nr singletop Events   10.6444
+Expected Nr diboson Events   9.50025
+Expected Nr z jets Events   20.0366
+Expected Nr  w jets Events   162.194
+Expected Nr bkg Events   211.975, nEvents after selection: 298
+Expected Nr zprime400_ Events   327.8
+Expected Nr zprime500_ Events   244.36
+Expected Nr zprime750_ Events   59.6
+Expected Nr zprime1000 Events   163.9
+Expected Nr zprime1250 Events   56.62
+Expected Nr zprime1500 Events   24.734
+Expected Nr zprime1750 Events   8.94
+Expected Nr zprime2000 Events   4.172
+Expected Nr zprime2250 Events   0.19966
+Expected Nr zprime2500 Events   0.1043
+Expected Nr zprime3000 Events   0.03576
+################################################################
+filename: zjets.mu.root
+Expected Nr ttbar Events   7.57048
+Expected Nr singletop Events   8.3941
+Expected Nr diboson Events   7.49181
+Expected Nr z jets Events   15.8007
+Expected Nr  w jets Events   127.905
+Expected Nr bkg Events   167.162, nEvents after selection: 235
+Expected Nr zprime400_ Events   258.5
+Expected Nr zprime500_ Events   192.7
+Expected Nr zprime750_ Events   47
+Expected Nr zprime1000 Events   129.25
+Expected Nr zprime1250 Events   44.65
+Expected Nr zprime1500 Events   19.505
+Expected Nr zprime1750 Events   7.05
+Expected Nr zprime2000 Events   3.29
+Expected Nr zprime2250 Events   0.15745
+Expected Nr zprime2500 Events   0.08225
+Expected Nr zprime3000 Events   0.0282
+################################################################
+filename: zprime1000.el.root
+Expected Nr ttbar Events   51.7048
+Expected Nr singletop Events   57.3299
+Expected Nr diboson Events   51.1674
+Expected Nr z jets Events   107.915
+Expected Nr  w jets Events   873.561
+Expected Nr bkg Events   1141.68, nEvents after selection: 1605
+Expected Nr zprime400_ Events   1765.5
+Expected Nr zprime500_ Events   1316.1
+Expected Nr zprime750_ Events   321
+Expected Nr zprime1000 Events   882.75
+Expected Nr zprime1250 Events   304.95
+Expected Nr zprime1500 Events   133.215
+Expected Nr zprime1750 Events   48.15
+Expected Nr zprime2000 Events   22.47
+Expected Nr zprime2250 Events   1.07535
+Expected Nr zprime2500 Events   0.56175
+Expected Nr zprime3000 Events   0.1926
+################################################################
+filename: zprime1250.el.root
+Expected Nr ttbar Events   50.3517
+Expected Nr singletop Events   55.8297
+Expected Nr diboson Events   49.8285
+Expected Nr z jets Events   105.091
+Expected Nr  w jets Events   850.702
+Expected Nr bkg Events   1111.8, nEvents after selection: 1563
+Expected Nr zprime400_ Events   1719.3
+Expected Nr zprime500_ Events   1281.66
+Expected Nr zprime750_ Events   312.6
+Expected Nr zprime1000 Events   859.65
+Expected Nr zprime1250 Events   296.97
+Expected Nr zprime1500 Events   129.729
+Expected Nr zprime1750 Events   46.89
+Expected Nr zprime2000 Events   21.882
+Expected Nr zprime2250 Events   1.04721
+Expected Nr zprime2500 Events   0.54705
+Expected Nr zprime3000 Events   0.18756
+################################################################
+filename: zprime1500.el.root
+Expected Nr ttbar Events   44.8108
+Expected Nr singletop Events   49.6859
+Expected Nr diboson Events   44.3451
+Expected Nr z jets Events   93.5265
+Expected Nr  w jets Events   757.086
+Expected Nr bkg Events   989.455, nEvents after selection: 1391
+Expected Nr zprime400_ Events   1530.1
+Expected Nr zprime500_ Events   1140.62
+Expected Nr zprime750_ Events   278.2
+Expected Nr zprime1000 Events   765.05
+Expected Nr zprime1250 Events   264.29
+Expected Nr zprime1500 Events   115.453
+Expected Nr zprime1750 Events   41.73
+Expected Nr zprime2000 Events   19.474
+Expected Nr zprime2250 Events   0.93197
+Expected Nr zprime2500 Events   0.48685
+Expected Nr zprime3000 Events   0.16692
+################################################################
+filename: zprime1750.el.root
+Expected Nr ttbar Events   40.1396
+Expected Nr singletop Events   44.5066
+Expected Nr diboson Events   39.7225
+Expected Nr z jets Events   83.7771
+Expected Nr  w jets Events   678.167
+Expected Nr bkg Events   886.312, nEvents after selection: 1246
+Expected Nr zprime400_ Events   1370.6
+Expected Nr zprime500_ Events   1021.72
+Expected Nr zprime750_ Events   249.2
+Expected Nr zprime1000 Events   685.3
+Expected Nr zprime1250 Events   236.74
+Expected Nr zprime1500 Events   103.418
+Expected Nr zprime1750 Events   37.38
+Expected Nr zprime2000 Events   17.444
+Expected Nr zprime2250 Events   0.83482
+Expected Nr zprime2500 Events   0.4361
+Expected Nr zprime3000 Events   0.14952
+################################################################
+filename: zprime2000.el.root
+Expected Nr ttbar Events   33.1168
+Expected Nr singletop Events   36.7197
+Expected Nr diboson Events   32.7727
+Expected Nr z jets Events   69.1195
+Expected Nr  w jets Events   559.515
+Expected Nr bkg Events   731.243, nEvents after selection: 1028
+Expected Nr zprime400_ Events   1130.8
+Expected Nr zprime500_ Events   842.96
+Expected Nr zprime750_ Events   205.6
+Expected Nr zprime1000 Events   565.4
+Expected Nr zprime1250 Events   195.32
+Expected Nr zprime1500 Events   85.324
+Expected Nr zprime1750 Events   30.84
+Expected Nr zprime2000 Events   14.392
+Expected Nr zprime2250 Events   0.68876
+Expected Nr zprime2500 Events   0.3598
+Expected Nr zprime3000 Events   0.12336
+################################################################
+filename: zprime2250.el.root
+Expected Nr ttbar Events   27.6403
+Expected Nr singletop Events   30.6474
+Expected Nr diboson Events   27.3531
+Expected Nr z jets Events   57.6892
+Expected Nr  w jets Events   466.988
+Expected Nr bkg Events   610.318, nEvents after selection: 858
+Expected Nr zprime400_ Events   943.8
+Expected Nr zprime500_ Events   703.56
+Expected Nr zprime750_ Events   171.6
+Expected Nr zprime1000 Events   471.9
+Expected Nr zprime1250 Events   163.02
+Expected Nr zprime1500 Events   71.214
+Expected Nr zprime1750 Events   25.74
+Expected Nr zprime2000 Events   12.012
+Expected Nr zprime2250 Events   0.57486
+Expected Nr zprime2500 Events   0.3003
+Expected Nr zprime3000 Events   0.10296
+################################################################
+filename: zprime2500.el.root
+Expected Nr ttbar Events   25.4819
+Expected Nr singletop Events   28.2542
+Expected Nr diboson Events   25.2171
+Expected Nr z jets Events   53.1844
+Expected Nr  w jets Events   430.521
+Expected Nr bkg Events   562.659, nEvents after selection: 791
+Expected Nr zprime400_ Events   870.1
+Expected Nr zprime500_ Events   648.62
+Expected Nr zprime750_ Events   158.2
+Expected Nr zprime1000 Events   435.05
+Expected Nr zprime1250 Events   150.29
+Expected Nr zprime1500 Events   65.653
+Expected Nr zprime1750 Events   23.73
+Expected Nr zprime2000 Events   11.074
+Expected Nr zprime2250 Events   0.52997
+Expected Nr zprime2500 Events   0.27685
+Expected Nr zprime3000 Events   0.09492
+################################################################
+filename: zprime3000.el.root
+Expected Nr ttbar Events   23.1624
+Expected Nr singletop Events   25.6824
+Expected Nr diboson Events   22.9217
+Expected Nr z jets Events   48.3433
+Expected Nr  w jets Events   391.334
+Expected Nr bkg Events   511.444, nEvents after selection: 719
+Expected Nr zprime400_ Events   790.9
+Expected Nr zprime500_ Events   589.58
+Expected Nr zprime750_ Events   143.8
+Expected Nr zprime1000 Events   395.45
+Expected Nr zprime1250 Events   136.61
+Expected Nr zprime1500 Events   59.677
+Expected Nr zprime1750 Events   21.57
+Expected Nr zprime2000 Events   10.066
+Expected Nr zprime2250 Events   0.48173
+Expected Nr zprime2500 Events   0.25165
+Expected Nr zprime3000 Events   0.08628
+################################################################
+filename: zprime400.el.root
+Expected Nr ttbar Events   3.15705
+Expected Nr singletop Events   3.50052
+Expected Nr diboson Events   3.12424
+Expected Nr z jets Events   6.58921
+Expected Nr  w jets Events   53.3389
+Expected Nr bkg Events   69.71, nEvents after selection: 98
+Expected Nr zprime400_ Events   107.8
+Expected Nr zprime500_ Events   80.36
+Expected Nr zprime750_ Events   19.6
+Expected Nr zprime1000 Events   53.9
+Expected Nr zprime1250 Events   18.62
+Expected Nr zprime1500 Events   8.134
+Expected Nr zprime1750 Events   2.94
+Expected Nr zprime2000 Events   1.372
+Expected Nr zprime2250 Events   0.06566
+Expected Nr zprime2500 Events   0.0343
+Expected Nr zprime3000 Events   0.01176
+################################################################
+filename: zprime500.el.root
+Expected Nr ttbar Events   11.7262
+Expected Nr singletop Events   13.0019
+Expected Nr diboson Events   11.6043
+Expected Nr z jets Events   24.4742
+Expected Nr  w jets Events   198.116
+Expected Nr bkg Events   258.923, nEvents after selection: 364
+Expected Nr zprime400_ Events   400.4
+Expected Nr zprime500_ Events   298.48
+Expected Nr zprime750_ Events   72.8
+Expected Nr zprime1000 Events   200.2
+Expected Nr zprime1250 Events   69.16
+Expected Nr zprime1500 Events   30.212
+Expected Nr zprime1750 Events   10.92
+Expected Nr zprime2000 Events   5.096
+Expected Nr zprime2250 Events   0.24388
+Expected Nr zprime2500 Events   0.1274
+Expected Nr zprime3000 Events   0.04368
+################################################################
+filename: zprime750.el.root
+Expected Nr ttbar Events   35.7906
+Expected Nr singletop Events   39.6845
+Expected Nr diboson Events   35.4187
+Expected Nr z jets Events   74.7001
+Expected Nr  w jets Events   604.689
+Expected Nr bkg Events   790.283, nEvents after selection: 1111
+Expected Nr zprime400_ Events   1222.1
+Expected Nr zprime500_ Events   911.02
+Expected Nr zprime750_ Events   222.2
+Expected Nr zprime1000 Events   611.05
+Expected Nr zprime1250 Events   211.09
+Expected Nr zprime1500 Events   92.213
+Expected Nr zprime1750 Events   33.33
+Expected Nr zprime2000 Events   15.554
+Expected Nr zprime2250 Events   0.74437
+Expected Nr zprime2500 Events   0.38885
+Expected Nr zprime3000 Events   0.13332
+################################################################
+filename: zprime1000.mu.root
+Expected Nr ttbar Events   58.4054
+Expected Nr singletop Events   64.7596
+Expected Nr diboson Events   57.7985
+Expected Nr z jets Events   121.9
+Expected Nr  w jets Events   986.771
+Expected Nr bkg Events   1289.63, nEvents after selection: 1813
+Expected Nr zprime400_ Events   1994.3
+Expected Nr zprime500_ Events   1486.66
+Expected Nr zprime750_ Events   362.6
+Expected Nr zprime1000 Events   997.15
+Expected Nr zprime1250 Events   344.47
+Expected Nr zprime1500 Events   150.479
+Expected Nr zprime1750 Events   54.39
+Expected Nr zprime2000 Events   25.382
+Expected Nr zprime2250 Events   1.21471
+Expected Nr zprime2500 Events   0.63455
+Expected Nr zprime3000 Events   0.21756
+################################################################
+filename: zprime1250.mu.root
+Expected Nr ttbar Events   63.8175
+Expected Nr singletop Events   70.7605
+Expected Nr diboson Events   63.1543
+Expected Nr z jets Events   133.196
+Expected Nr  w jets Events   1078.21
+Expected Nr bkg Events   1409.14, nEvents after selection: 1981
+Expected Nr zprime400_ Events   2179.1
+Expected Nr zprime500_ Events   1624.42
+Expected Nr zprime750_ Events   396.2
+Expected Nr zprime1000 Events   1089.55
+Expected Nr zprime1250 Events   376.39
+Expected Nr zprime1500 Events   164.423
+Expected Nr zprime1750 Events   59.43
+Expected Nr zprime2000 Events   27.734
+Expected Nr zprime2250 Events   1.32727
+Expected Nr zprime2500 Events   0.69335
+Expected Nr zprime3000 Events   0.23772
+################################################################
+filename: zprime1500.mu.root
+Expected Nr ttbar Events   58.4377
+Expected Nr singletop Events   64.7953
+Expected Nr diboson Events   57.8304
+Expected Nr z jets Events   121.968
+Expected Nr  w jets Events   987.315
+Expected Nr bkg Events   1290.35, nEvents after selection: 1814
+Expected Nr zprime400_ Events   1995.4
+Expected Nr zprime500_ Events   1487.48
+Expected Nr zprime750_ Events   362.8
+Expected Nr zprime1000 Events   997.7
+Expected Nr zprime1250 Events   344.66
+Expected Nr zprime1500 Events   150.562
+Expected Nr zprime1750 Events   54.42
+Expected Nr zprime2000 Events   25.396
+Expected Nr zprime2250 Events   1.21538
+Expected Nr zprime2500 Events   0.6349
+Expected Nr zprime3000 Events   0.21768
+################################################################
+filename: zprime1750.mu.root
+Expected Nr ttbar Events   53.7987
+Expected Nr singletop Events   59.6517
+Expected Nr diboson Events   53.2397
+Expected Nr z jets Events   112.286
+Expected Nr  w jets Events   908.939
+Expected Nr bkg Events   1187.91, nEvents after selection: 1670
+Expected Nr zprime400_ Events   1837
+Expected Nr zprime500_ Events   1369.4
+Expected Nr zprime750_ Events   334
+Expected Nr zprime1000 Events   918.5
+Expected Nr zprime1250 Events   317.3
+Expected Nr zprime1500 Events   138.61
+Expected Nr zprime1750 Events   50.1
+Expected Nr zprime2000 Events   23.38
+Expected Nr zprime2250 Events   1.1189
+Expected Nr zprime2500 Events   0.5845
+Expected Nr zprime3000 Events   0.2004
+################################################################
+filename: zprime2000.mu.root
+Expected Nr ttbar Events   46.1638
+Expected Nr singletop Events   51.1862
+Expected Nr diboson Events   45.6841
+Expected Nr z jets Events   96.3504
+Expected Nr  w jets Events   779.946
+Expected Nr bkg Events   1019.33, nEvents after selection: 1433
+Expected Nr zprime400_ Events   1576.3
+Expected Nr zprime500_ Events   1175.06
+Expected Nr zprime750_ Events   286.6
+Expected Nr zprime1000 Events   788.15
+Expected Nr zprime1250 Events   272.27
+Expected Nr zprime1500 Events   118.939
+Expected Nr zprime1750 Events   42.99
+Expected Nr zprime2000 Events   20.062
+Expected Nr zprime2250 Events   0.96011
+Expected Nr zprime2500 Events   0.50155
+Expected Nr zprime3000 Events   0.17196
+################################################################
+filename: zprime2250.mu.root
+Expected Nr ttbar Events   44.7141
+Expected Nr singletop Events   49.5788
+Expected Nr diboson Events   44.2495
+Expected Nr z jets Events   93.3248
+Expected Nr  w jets Events   755.454
+Expected Nr bkg Events   987.321, nEvents after selection: 1388
+Expected Nr zprime400_ Events   1526.8
+Expected Nr zprime500_ Events   1138.16
+Expected Nr zprime750_ Events   277.6
+Expected Nr zprime1000 Events   763.4
+Expected Nr zprime1250 Events   263.72
+Expected Nr zprime1500 Events   115.204
+Expected Nr zprime1750 Events   41.64
+Expected Nr zprime2000 Events   19.432
+Expected Nr zprime2250 Events   0.92996
+Expected Nr zprime2500 Events   0.4858
+Expected Nr zprime3000 Events   0.16656
+################################################################
+filename: zprime2500.mu.root
+Expected Nr ttbar Events   40.494
+Expected Nr singletop Events   44.8995
+Expected Nr diboson Events   40.0732
+Expected Nr z jets Events   84.5167
+Expected Nr  w jets Events   684.154
+Expected Nr bkg Events   894.137, nEvents after selection: 1257
+Expected Nr zprime400_ Events   1382.7
+Expected Nr zprime500_ Events   1030.74
+Expected Nr zprime750_ Events   251.4
+Expected Nr zprime1000 Events   691.35
+Expected Nr zprime1250 Events   238.83
+Expected Nr zprime1500 Events   104.331
+Expected Nr zprime1750 Events   37.71
+Expected Nr zprime2000 Events   17.598
+Expected Nr zprime2250 Events   0.84219
+Expected Nr zprime2500 Events   0.43995
+Expected Nr zprime3000 Events   0.15084
+################################################################
+filename: zprime3000.mu.root
+Expected Nr ttbar Events   34.8242
+Expected Nr singletop Events   38.6129
+Expected Nr diboson Events   34.4623
+Expected Nr z jets Events   72.683
+Expected Nr  w jets Events   588.361
+Expected Nr bkg Events   768.944, nEvents after selection: 1081
+Expected Nr zprime400_ Events   1189.1
+Expected Nr zprime500_ Events   886.42
+Expected Nr zprime750_ Events   216.2
+Expected Nr zprime1000 Events   594.55
+Expected Nr zprime1250 Events   205.39
+Expected Nr zprime1500 Events   89.723
+Expected Nr zprime1750 Events   32.43
+Expected Nr zprime2000 Events   15.134
+Expected Nr zprime2250 Events   0.72427
+Expected Nr zprime2500 Events   0.37835
+Expected Nr zprime3000 Events   0.12972
+################################################################
+filename: zprime400.mu.root
+Expected Nr ttbar Events   4.25235
+Expected Nr singletop Events   4.71499
+Expected Nr diboson Events   4.20816
+Expected Nr z jets Events   8.87527
+Expected Nr  w jets Events   71.8443
+Expected Nr bkg Events   93.8951, nEvents after selection: 132
+Expected Nr zprime400_ Events   145.2
+Expected Nr zprime500_ Events   108.24
+Expected Nr zprime750_ Events   26.4
+Expected Nr zprime1000 Events   72.6
+Expected Nr zprime1250 Events   25.08
+Expected Nr zprime1500 Events   10.956
+Expected Nr zprime1750 Events   3.96
+Expected Nr zprime2000 Events   1.848
+Expected Nr zprime2250 Events   0.08844
+Expected Nr zprime2500 Events   0.0462
+Expected Nr zprime3000 Events   0.01584
+################################################################
+filename: zprime500.mu.root
+Expected Nr ttbar Events   12.9181
+Expected Nr singletop Events   14.3236
+Expected Nr diboson Events   12.7839
+Expected Nr z jets Events   26.962
+Expected Nr  w jets Events   218.254
+Expected Nr bkg Events   285.242, nEvents after selection: 401
+Expected Nr zprime400_ Events   441.1
+Expected Nr zprime500_ Events   328.82
+Expected Nr zprime750_ Events   80.2
+Expected Nr zprime1000 Events   220.55
+Expected Nr zprime1250 Events   76.19
+Expected Nr zprime1500 Events   33.283
+Expected Nr zprime1750 Events   12.03
+Expected Nr zprime2000 Events   5.614
+Expected Nr zprime2250 Events   0.26867
+Expected Nr zprime2500 Events   0.14035
+Expected Nr zprime3000 Events   0.04812
+################################################################
+filename: zprime750.mu.root
+Expected Nr ttbar Events   43.2001
+Expected Nr singletop Events   47.9
+Expected Nr diboson Events   42.7511
+Expected Nr z jets Events   90.1646
+Expected Nr  w jets Events   729.873
+Expected Nr bkg Events   953.888, nEvents after selection: 1341
+Expected Nr zprime400_ Events   1475.1
+Expected Nr zprime500_ Events   1099.62
+Expected Nr zprime750_ Events   268.2
+Expected Nr zprime1000 Events   737.55
+Expected Nr zprime1250 Events   254.79
+Expected Nr zprime1500 Events   111.303
+Expected Nr zprime1750 Events   40.23
+Expected Nr zprime2000 Events   18.774
+Expected Nr zprime2250 Events   0.89847
+Expected Nr zprime2500 Events   0.46935
+Expected Nr zprime3000 Events   0.16092
+################################################################
