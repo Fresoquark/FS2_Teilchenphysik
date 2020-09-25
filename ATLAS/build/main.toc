@@ -1,7 +1,8 @@
-\select@language {german}
-\contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}{section.1}
-\contentsline {section}{\numberline {2}Analysestrategie}{4}{section.2}
-\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
-\contentsline {section}{\numberline {4}Diskussion}{5}{section.4}
-\contentsline {section}{\numberline {5}Anhang}{5}{section.5}
-\contentsline {section}{\nonumberline Literatur}{5}{section*.3}
+\selectlanguage *{german}
+\contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}{section.1}%
+\contentsline {section}{\numberline {2}Analysestrategie}{4}{section.2}%
+\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Vorselektion}{5}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Diskussion}{6}{section.4}%
+\contentsline {section}{\numberline {5}Anhang}{6}{section.5}%
+\contentsline {section}{\nonumberline Literatur}{6}{section*.4}%
