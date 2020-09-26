@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.9.14)  26 SEP 2020 13:33
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.9.14)  26 SEP 2020 14:41
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -418,12 +418,12 @@ braces):
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 Module polyglossia Info: Language data for german
+(polyglossia)            synonyms	
+(polyglossia)            righthyphenmin	2
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-de-1901.tex
-(polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            synonyms	 on input line 10
+(polyglossia)            patterns	hyph-de-1901.pat.txt on input line 10
 Module polyglossia Info: Language german was not yet loaded; created with id 2 on input line 10
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, script=latin.
@@ -1320,12 +1320,12 @@ LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
 Module polyglossia Info: Language data for ngerman
+(polyglossia)            synonyms	
+(polyglossia)            righthyphenmin	2
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            hyphenation	
 (polyglossia)            loader	loadhyph-de-1996.tex
-(polyglossia)            righthyphenmin	2
-(polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            synonyms	 on input line 22
+(polyglossia)            patterns	hyph-de-1996.pat.txt on input line 22
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 3 on input line 22
 )
 \openout1 = main.aux
@@ -1507,7 +1507,7 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 <content/graphics/question2_1/data_electron_6_pt.pdf, id=62, 569.12625pt x 303.1325pt>
 File: content/graphics/question2_1/data_electron_6_pt.pdf Graphic file (type pdf)
 <use content/graphics/question2_1/data_electron_6_pt.pdf>
-Package luatex.def Info: content/graphics/question2_1/data_electron_6_pt.pdf  used on input line 24.
+Package luatex.def Info: content/graphics/question2_1/data_electron_6_pt.pdf  used on input line 27.
 (luatex.def)             Requested size: 334.60571pt x 178.2268pt.
 (./content/aufgabe3.tex
 
@@ -1526,7 +1526,22 @@ LaTeX Warning: Command \textgreater invalid in math mode on input line 17.
 
 LaTeX Warning: Command \textless invalid in math mode on input line 21.
 
-)) (./content/discussion.tex) (./content/anhang.tex) (./content/references.tex)
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 83.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 83.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 83.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 83.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 83.
+
+)) (./content/discussion.tex [6] [7]) (./content/anhang.tex) (./content/references.tex)
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1561,7 +1576,7 @@ braces):
 >  {german/babelname}  =>  {ngerman}
 >  {german/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {german/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-[6]
+[8]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
 (./build/main.aux
@@ -1572,25 +1587,25 @@ LaTeX Info: Redefining \ttfamily on input line 22.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 1F644A523FEBC2849ABE38D9F71D974C;5090.
+(rerunfilecheck)             Checksum: C6E6A8DCFEAF139C58F94DABC955AF04;5403.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: E9300DB81186B735B0B3300FADF40B07;605.
+(rerunfilecheck)             Checksum: 43D2E9612FB18487324F1D1EC47DC705;605.
 )
 
 Here is how much of LuaTeX's memory you used:
- 54210 strings out of 481285
+ 54216 strings out of 481285
  100000,1977958 words of node,token memory allocated
- 571 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 68 glue_spec, 7 attribute_list, 2 write nodes
-   avail lists: 2:383,3:78,4:74,5:290,6:20,7:5287,8:24,9:139,10:29,11:613
- 69926 multiletter control sequences out of 65536+600000
+ 575 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 68 glue_spec, 8 attribute_list, 2 write nodes
+   avail lists: 2:1501,3:79,4:75,5:309,6:20,7:8914,8:24,9:832,10:29,11:645
+ 69929 multiletter control sequences out of 65536+600000
  207 fonts using 76093267 bytes
- 73i,8n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
+ 73i,17n,114p,10617b,2933s stack positions out of 5000i,500n,10000p,200000b,200000s
 </home/nicole/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/nicole/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/nicole/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nicole/.local/texlive/2020/texmf-dist/fonts/opentype/public/xits/XITSMath-Regular.otf></home/nicole/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/nicole/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/nicole/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/nicole/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/nicole/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/nicole/.local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (6 pages, 106202 bytes).
+Output written on main.pdf (8 pages, 111433 bytes).
 
-PDF statistics: 211 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 131072)
+PDF statistics: 221 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 131072)
  80 words of extra memory for PDF output out of 10000 (max. 100000000)
 
