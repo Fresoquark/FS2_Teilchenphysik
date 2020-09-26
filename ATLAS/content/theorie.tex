@@ -1,4 +1,5 @@
 \section{Theoretische Grundlagen}
+\label{sec:theorie}
 
 In dem Lehrstuhlversuch \textit{Search for $t\bar{t}$ resonance with ATLAS detector} wird ein Datensatz, welcher bei
 einer Schwerpunktsenergie von $\sqrt{s} = \SI{8}{\tera\electronvolt}$, entsprechend einer Luminosität von
@@ -25,9 +26,9 @@ da sowohl ein geladenes Lepton und fehlende Energie verlangt wird, als auch mind
 aus dem Top-Quark-Zerfall stammen.
 Dieser semileptonische Fall ist in Abbildung \ref{fig:gluonfusion} für die $t\bar{t}$ Produktion durch die Gluonfusion als Feynman Diagramm dargestellt.  \par
 
-\begin{figure}
+\begin{figure}[h]
   \centering
-  \includegraphics[width=0.8\textwidth]{content/graphics/pictures/Gluonfusion.png}
+  \includegraphics[width=0.5\textwidth]{content/graphics/pictures/Gluonfusion.png}
   \caption{Feynman Diagramm der semileptonischen Zerfallsmode der $t\bar{t}$ Produktion durch Gluonfusion.}
   \label{fig:gluonfusion}
 \end{figure}
@@ -39,6 +40,7 @@ Energie. Die Quarks aus dem hadronischen Zerfall hadronisieren und schauern haup
 Energie der bereits rekonstruierten Endzustandsteilchen bestimmbar.
 
 \section{Analysestrategie}
+\label{sec:strategie}
 Um das Verhältnis von Signal zu Untergrund zu verbessern, muss zunächst eine Eventselektion auf den Datensatz angewendet werden, da dieser eine enorme
 Datenmenge besitzt. Dafür werden Analysemethoden in $\texttt{C++}$ verwendet. Die selektierten Events werden dann auf verschiedene Variablen wie die
 invariante Masse des Systems geprüft um eine \textit{Finale Diskiminate} zu definieren, die zur optimalen Differenzierung zwischen Signal und

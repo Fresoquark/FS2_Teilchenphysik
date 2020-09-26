@@ -526,6 +526,12 @@ INPUT ./content/graphics/question2_1/data_electron_6_pt.pdf
 INPUT ./content/graphics/question2_1/data_electron_6_pt.pdf
 INPUT ./content/aufgabe3.tex
 INPUT ./content/aufgabe3.tex
+INPUT /home/nicole/.local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT /home/nicole/.local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT /home/nicole/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /home/nicole/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /home/nicole/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /home/nicole/.local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT ./content/discussion.tex
 INPUT ./content/discussion.tex
 INPUT ./content/anhang.tex
