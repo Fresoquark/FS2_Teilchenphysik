@@ -135,11 +135,17 @@ width=0.9\textwidth, % maximale Breite einer Caption schmaler
 %\bibliography{programme.bib}
 %\addbibresource{lit.bib}
 %\addbibresource{programme.bib}
+\usepackage{xcolor}
+\xdefinecolor{tugreen}{RGB}{128, 186, 38}
 
 % Hyperlinks im Dokument
 \usepackage[
 unicode,        % Unicode in PDF-Attributen erlauben
 pdfusetitle,    % Titel, Autoren und Datum als PDF-Attribute
+%colorlinks = true,
+urlbordercolor = tugreen,
+linkbordercolor = tugreen,
+citebordercolor = tugreen,
 pdfcreator={},  % ┐ PDF-Attribute säubern
 pdfproducer={}, % ┘
 ]{hyperref}
