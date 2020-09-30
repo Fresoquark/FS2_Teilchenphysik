@@ -1,459 +1,663 @@
-Processed file    data.el.0.root
-lepton N effizienz  0.962008
-lepton pt effizienz  0.104323
-lepton eta effizienz  0
-jet pt effizienz  0.00143936
-met et effizienz  0.00019769
-btagging effizienz  0.000282097
-jet eta effizienz   0.000184363
-################################################################
-Processed file    data.el.1.root
-lepton N effizienz  0.96217
-lepton pt effizienz  0.105216
-lepton eta effizienz  0
-jet pt effizienz  0.00149712
-met et effizienz  0.000211018
-btagging effizienz  0.000299867
-jet eta effizienz   0.000195469
-################################################################
-Processed file    data.el.2.root
-lepton N effizienz  0.961988
-lepton pt effizienz  0.104565
-lepton eta effizienz  0
-jet pt effizienz  0.00134163
-met et effizienz  0.000195469
-btagging effizienz  0.000279876
-jet eta effizienz   0.000177699
-################################################################
-Processed file    data.el.3.root
-lepton N effizienz  0.961966
-lepton pt effizienz  0.104723
-lepton eta effizienz  0
-jet pt effizienz  0.0015371
-met et effizienz  0.000228788
-btagging effizienz  0.000290982
-jet eta effizienz   0.00021546
-################################################################
-Processed file    data.el.4.root
-lepton N effizienz  0.961597
-lepton pt effizienz  0.103927
-lepton eta effizienz  0
-jet pt effizienz  0.00143048
-met et effizienz  0.00019769
-btagging effizienz  0.000277655
-jet eta effizienz   0.000186584
-################################################################
-Processed file    data.el.5.root
-lepton N effizienz  0.961781
-lepton pt effizienz  0.104734
-lepton eta effizienz  0
-jet pt effizienz  0.0014749
-met et effizienz  0.000226566
-btagging effizienz  0.000326522
-jet eta effizienz   0.000199912
-################################################################
-Processed file    data.el.6.root
-lepton N effizienz  0.961739
-lepton pt effizienz  0.104716
-lepton eta effizienz  0
-jet pt effizienz  0.00141271
-met et effizienz  0.000186584
-btagging effizienz  0.000279876
-jet eta effizienz   0.000175478
-################################################################
-Processed file    data.el.7.root
-lepton N effizienz  0.962568
-lepton pt effizienz  0.104618
-lepton eta effizienz  0
-jet pt effizienz  0.00136384
-met et effizienz  0.000202133
-btagging effizienz  0.000288761
-jet eta effizienz   0.000186584
-################################################################
-Processed file    data.el.8.root
-lepton N effizienz  0.962139
-lepton pt effizienz  0.104172
-lepton eta effizienz  0
-jet pt effizienz  0.00141715
-met et effizienz  0.000211018
-btagging effizienz  0.000313196
-jet eta effizienz   0.000199912
-################################################################
-Processed file    data.el.9.root
-lepton N effizienz  0.962161
-lepton pt effizienz  0.10403
-lepton eta effizienz  0
-jet pt effizienz  0.00155043
-met et effizienz  0.000248779
-btagging effizienz  0.000346514
-jet eta effizienz   0.000235452
-################################################################
-Processed file    data.mu.0.root
-lepton N effizienz  0.930723
-lepton pt effizienz  0.0897657
-lepton eta effizienz  0
-jet pt effizienz  0.00125913
-met et effizienz  0.000198903
-btagging effizienz  0.000275268
-jet eta effizienz   0.000181144
-################################################################
-Processed file    data.mu.1.root
-lepton N effizienz  0.931059
-lepton pt effizienz  0.0908332
-lepton eta effizienz  0
-jet pt effizienz  0.00118632
-met et effizienz  0.000163385
-btagging effizienz  0.000255733
-jet eta effizienz   0.000149178
-################################################################
-Processed file    data.mu.2.root
-lepton N effizienz  0.930695
-lepton pt effizienz  0.0901477
-lepton eta effizienz  0
-jet pt effizienz  0.00123072
-met et effizienz  0.000174041
-btagging effizienz  0.000257509
-jet eta effizienz   0.000166937
-################################################################
-Processed file    data.mu.3.root
-lepton N effizienz  0.930252
-lepton pt effizienz  0.0897677
-lepton eta effizienz  0
-jet pt effizienz  0.00117033
-met et effizienz  0.000227318
-btagging effizienz  0.000298355
-jet eta effizienz   0.000213111
-################################################################
-Processed file    data.mu.4.root
-lepton N effizienz  0.930302
-lepton pt effizienz  0.0905508
-lepton eta effizienz  0
-jet pt effizienz  0.00124315
-met et effizienz  0.000188248
-btagging effizienz  0.000275268
-jet eta effizienz   0.000172265
-################################################################
-Processed file    data.mu.5.root
-lepton N effizienz  0.930661
-lepton pt effizienz  0.090137
-lepton eta effizienz  0
-jet pt effizienz  0.00119875
-met et effizienz  0.000195352
-btagging effizienz  0.0002877
-jet eta effizienz   0.000186472
-################################################################
-Processed file    data.mu.6.root
-lepton N effizienz  0.931533
-lepton pt effizienz  0.0903875
-lepton eta effizienz  0
-jet pt effizienz  0.00125913
-met et effizienz  0.000204231
-btagging effizienz  0.000269941
-jet eta effizienz   0.000181144
-################################################################
-Processed file    data.mu.8.root
-lepton N effizienz  0.930526
-lepton pt effizienz  0.091073
-lepton eta effizienz  0
-jet pt effizienz  0.0011952
-met et effizienz  0.000227318
-btagging effizienz  0.000312563
-jet eta effizienz   0.000204231
-################################################################
-Processed file    data.mu.9.root
-lepton N effizienz  0.931117
-lepton pt effizienz  0.0906361
-lepton eta effizienz  0
-jet pt effizienz  0.00114725
-met et effizienz  0.000213111
-btagging effizienz  0.000284148
-jet eta effizienz   0.000198904
-################################################################
 Processed file    ttbar.el.root
+jet eta counts27381
+nEntries:684191
+------------------------------------------------------------
 lepton N effizienz  0.931562
 lepton pt effizienz  0.507059
 lepton eta effizienz  0
+jet n effizienz  0.244049
 jet pt effizienz  0.140623
-met et effizienz  0.0428433
 btagging effizienz  0.0605416
+met et effizienz  0.0428433
 jet eta effizienz   0.0400195
 ################################################################
 Processed file    ttbar.mu.root
+jet eta counts31211
+nEntries:816358
+------------------------------------------------------------
 lepton N effizienz  0.92004
 lepton pt effizienz  0.482068
 lepton eta effizienz  0
+jet n effizienz  0.232829
 jet pt effizienz  0.134042
-met et effizienz  0.0409355
 btagging effizienz  0.0579194
+met et effizienz  0.0409355
 jet eta effizienz   0.038232
 ################################################################
 Processed file    singletop.el.root
+jet eta counts982
+nEntries:152640
+------------------------------------------------------------
 lepton N effizienz  0.980647
 lepton pt effizienz  0.432338
 lepton eta effizienz  0
+jet n effizienz  0.0531905
 jet pt effizienz  0.0310535
-met et effizienz  0.00706892
 btagging effizienz  0.0102725
+met et effizienz  0.00706892
 jet eta effizienz   0.00643344
 ################################################################
 Processed file    singletop.mu.root
+jet eta counts1123
+nEntries:180031
+------------------------------------------------------------
 lepton N effizienz  0.978754
 lepton pt effizienz  0.410402
 lepton eta effizienz  0
+jet n effizienz  0.0497859
 jet pt effizienz  0.0287506
-met et effizienz  0.00684882
 btagging effizienz  0.00970944
+met et effizienz  0.00684882
 jet eta effizienz   0.00623781
 ################################################################
 Processed file    diboson.el.root
+jet eta counts15
+nEntries:188227
+------------------------------------------------------------
 lepton N effizienz  0.90444
 lepton pt effizienz  0.381284
 lepton eta effizienz  0
+jet n effizienz  0.0119377
 jet pt effizienz  0.00482928
-met et effizienz  7.9691e-05
 btagging effizienz  0.000122193
+met et effizienz  7.9691e-05
 jet eta effizienz   7.9691e-05
 ################################################################
 Processed file    diboson.mu.root
+jet eta counts15
+nEntries:230071
+------------------------------------------------------------
 lepton N effizienz  0.873096
 lepton pt effizienz  0.351009
 lepton eta effizienz  0
+jet n effizienz  0.00909285
 jet pt effizienz  0.00375536
-met et effizienz  7.38902e-05
 btagging effizienz  9.99691e-05
+met et effizienz  7.38902e-05
 jet eta effizienz   6.51973e-05
 ################################################################
 Processed file    wjets.el.root
+jet eta counts83
+nEntries:6.46919e+06
+------------------------------------------------------------
 lepton N effizienz  0.999992
 lepton pt effizienz  0.170922
 lepton eta effizienz  0
+jet n effizienz  0.00290253
 jet pt effizienz  0.00173098
-met et effizienz  1.39121e-05
 btagging effizienz  1.99407e-05
+met et effizienz  1.39121e-05
 jet eta effizienz   1.28301e-05
 ################################################################
 Processed file    wjets.mu.root
+jet eta counts124
+nEntries:8.30643e+06
+------------------------------------------------------------
 lepton N effizienz  0.999995
 lepton pt effizienz  0.158869
 lepton eta effizienz  0
+jet n effizienz  0.00273667
 jet pt effizienz  0.00158612
-met et effizienz  1.56505e-05
 btagging effizienz  2.33554e-05
+met et effizienz  1.56505e-05
 jet eta effizienz   1.49282e-05
 ################################################################
 Processed file    zjets.el.root
+jet eta counts298
+nEntries:6.48977e+06
+------------------------------------------------------------
 lepton N effizienz  0.716686
 lepton pt effizienz  0.181417
 lepton eta effizienz  0
+jet n effizienz  0.00673414
 jet pt effizienz  0.00322092
-met et effizienz  4.8692e-05
 btagging effizienz  0.000135906
+met et effizienz  4.8692e-05
 jet eta effizienz   4.59184e-05
 ################################################################
 Processed file    zjets.mu.root
+jet eta counts235
+nEntries:7.82658e+06
+------------------------------------------------------------
 lepton N effizienz  0.501521
 lepton pt effizienz  0.125648
 lepton eta effizienz  0
+jet n effizienz  0.00249317
 jet pt effizienz  0.00138132
-met et effizienz  3.18146e-05
 btagging effizienz  7.37231e-05
+met et effizienz  3.18146e-05
 jet eta effizienz   3.00259e-05
 ################################################################
 Processed file    zprime1000.el.root
+jet eta counts1605
+nEntries:9290
+------------------------------------------------------------
 lepton N effizienz  0.933907
 lepton pt effizienz  0.73423
 lepton eta effizienz  0
+jet n effizienz  0.459957
 jet pt effizienz  0.439935
-met et effizienz  0.178902
 btagging effizienz  0.208719
+met et effizienz  0.178902
 jet eta effizienz   0.172766
 ################################################################
 Processed file    zprime1250.el.root
+jet eta counts1563
+nEntries:8586
+------------------------------------------------------------
 lepton N effizienz  0.935476
 lepton pt effizienz  0.747496
 lepton eta effizienz  0
+jet n effizienz  0.481132
 jet pt effizienz  0.466457
-met et effizienz  0.189844
 btagging effizienz  0.2157
+met et effizienz  0.189844
 jet eta effizienz   0.182041
 ################################################################
 Processed file    zprime1500.el.root
+jet eta counts1391
+nEntries:7644
+------------------------------------------------------------
 lepton N effizienz  0.940084
 lepton pt effizienz  0.771062
 lepton eta effizienz  0
+jet n effizienz  0.501439
 jet pt effizienz  0.49045
-met et effizienz  0.190476
 btagging effizienz  0.212062
+met et effizienz  0.190476
 jet eta effizienz   0.181973
 ################################################################
 Processed file    zprime1750.el.root
+jet eta counts1246
+nEntries:6771
+------------------------------------------------------------
 lepton N effizienz  0.947275
 lepton pt effizienz  0.775809
 lepton eta effizienz  0
+jet n effizienz  0.513957
 jet pt effizienz  0.503618
-met et effizienz  0.193177
 btagging effizienz  0.214592
+met et effizienz  0.193177
 jet eta effizienz   0.18402
 ################################################################
 Processed file    zprime2000.el.root
+jet eta counts1028
+nEntries:6107
+------------------------------------------------------------
 lepton N effizienz  0.945145
 lepton pt effizienz  0.762895
 lepton eta effizienz  0
+jet n effizienz  0.498772
 jet pt effizienz  0.48731
-met et effizienz  0.174718
 btagging effizienz  0.191256
+met et effizienz  0.174718
 jet eta effizienz   0.168331
 ################################################################
 Processed file    zprime2250.el.root
+jet eta counts858
+nEntries:5402
+------------------------------------------------------------
 lepton N effizienz  0.94502
 lepton pt effizienz  0.745094
 lepton eta effizienz  0
+jet n effizienz  0.494817
 jet pt effizienz  0.483895
-met et effizienz  0.168826
 btagging effizienz  0.184561
+met et effizienz  0.168826
 jet eta effizienz   0.15883
 ################################################################
 Processed file    zprime2500.el.root
+jet eta counts791
+nEntries:5194
+------------------------------------------------------------
 lepton N effizienz  0.948017
 lepton pt effizienz  0.750866
 lepton eta effizienz  0
+jet n effizienz  0.495764
 jet pt effizienz  0.48094
-met et effizienz  0.1598
 btagging effizienz  0.175972
+met et effizienz  0.1598
 jet eta effizienz   0.152291
 ################################################################
 Processed file    zprime3000.el.root
+jet eta counts719
+nEntries:5255
+------------------------------------------------------------
 lepton N effizienz  0.943673
 lepton pt effizienz  0.715128
 lepton eta effizienz  0
+jet n effizienz  0.450999
 jet pt effizienz  0.425309
-met et effizienz  0.145766
 btagging effizienz  0.164795
+met et effizienz  0.145766
 jet eta effizienz   0.136822
 ################################################################
 Processed file    zprime400.el.root
+jet eta counts98
+nEntries:8228
+------------------------------------------------------------
 lepton N effizienz  0.930846
 lepton pt effizienz  0.446403
 lepton eta effizienz  0
+jet n effizienz  0.163952
 jet pt effizienz  0.0470345
-met et effizienz  0.0123967
 btagging effizienz  0.0192027
+met et effizienz  0.0123967
 jet eta effizienz   0.0119105
 ################################################################
 Processed file    zprime500.el.root
+jet eta counts364
+nEntries:9115
+------------------------------------------------------------
 lepton N effizienz  0.932419
 lepton pt effizienz  0.561602
 lepton eta effizienz  0
+jet n effizienz  0.253867
 jet pt effizienz  0.149863
-met et effizienz  0.0416895
 btagging effizienz  0.0625343
+met et effizienz  0.0416895
 jet eta effizienz   0.0399342
 ################################################################
 Processed file    zprime750.el.root
+jet eta counts1111
+nEntries:9618
+------------------------------------------------------------
 lepton N effizienz  0.923685
 lepton pt effizienz  0.670514
 lepton eta effizienz  0
+jet n effizienz  0.388126
 jet pt effizienz  0.350281
-met et effizienz  0.121647
 btagging effizienz  0.157309
+met et effizienz  0.121647
 jet eta effizienz   0.115513
 ################################################################
 Processed file    zprime1000.mu.root
+jet eta counts1813
+nEntries:11359
+------------------------------------------------------------
 lepton N effizienz  0.918215
 lepton pt effizienz  0.70552
 lepton eta effizienz  0
+jet n effizienz  0.457259
 jet pt effizienz  0.433049
-met et effizienz  0.168061
 btagging effizienz  0.20213
+met et effizienz  0.168061
 jet eta effizienz   0.159609
 ################################################################
 Processed file    zprime1250.mu.root
+jet eta counts1981
+nEntries:10688
+------------------------------------------------------------
 lepton N effizienz  0.924588
 lepton pt effizienz  0.731942
 lepton eta effizienz  0
+jet n effizienz  0.486714
 jet pt effizienz  0.470153
-met et effizienz  0.193114
 btagging effizienz  0.221744
+met et effizienz  0.193114
 jet eta effizienz   0.185348
 ################################################################
 Processed file    zprime1500.mu.root
+jet eta counts1814
+nEntries:10051
+------------------------------------------------------------
 lepton N effizienz  0.928664
 lepton pt effizienz  0.748284
 lepton eta effizienz  0
+jet n effizienz  0.501244
 jet pt effizienz  0.4902
-met et effizienz  0.189334
 btagging effizienz  0.212516
+met et effizienz  0.189334
 jet eta effizienz   0.18048
 ################################################################
 Processed file    zprime1750.mu.root
+jet eta counts1670
+nEntries:9178
+------------------------------------------------------------
 lepton N effizienz  0.938331
 lepton pt effizienz  0.757137
 lepton eta effizienz  0
+jet n effizienz  0.503596
 jet pt effizienz  0.491392
-met et effizienz  0.189802
 btagging effizienz  0.209087
+met et effizienz  0.189802
 jet eta effizienz   0.181957
 ################################################################
 Processed file    zprime2000.mu.root
+jet eta counts1433
+nEntries:8348
+------------------------------------------------------------
 lepton N effizienz  0.940585
 lepton pt effizienz  0.76114
 lepton eta effizienz  0
+jet n effizienz  0.51713
 jet pt effizienz  0.506588
-met et effizienz  0.179923
 btagging effizienz  0.196814
+met et effizienz  0.179923
 jet eta effizienz   0.171658
 ################################################################
 Processed file    zprime2250.mu.root
+jet eta counts1388
+nEntries:7987
+------------------------------------------------------------
 lepton N effizienz  0.944785
 lepton pt effizienz  0.763991
 lepton eta effizienz  0
+jet n effizienz  0.518342
 jet pt effizienz  0.508451
-met et effizienz  0.182421
 btagging effizienz  0.201202
+met et effizienz  0.182421
 jet eta effizienz   0.173782
 ################################################################
 Processed file    zprime2500.mu.root
+jet eta counts1257
+nEntries:7529
+------------------------------------------------------------
 lepton N effizienz  0.943286
 lepton pt effizienz  0.759463
 lepton eta effizienz  0
+jet n effizienz  0.521052
 jet pt effizienz  0.50777
-met et effizienz  0.176517
 btagging effizienz  0.193253
+met et effizienz  0.176517
 jet eta effizienz   0.166954
 ################################################################
 Processed file    zprime3000.mu.root
+jet eta counts1081
+nEntries:7132
+------------------------------------------------------------
 lepton N effizienz  0.939849
 lepton pt effizienz  0.731352
 lepton eta effizienz  0
+jet n effizienz  0.483315
 jet pt effizienz  0.463124
-met et effizienz  0.160684
 btagging effizienz  0.178071
+met et effizienz  0.160684
 jet eta effizienz   0.15157
 ################################################################
 Processed file    zprime400.mu.root
+jet eta counts132
+nEntries:10079
+------------------------------------------------------------
 lepton N effizienz  0.920131
 lepton pt effizienz  0.42147
 lepton eta effizienz  0
+jet n effizienz  0.159738
 jet pt effizienz  0.0538744
-met et effizienz  0.0136918
 btagging effizienz  0.0203393
+met et effizienz  0.0136918
 jet eta effizienz   0.0130965
 ################################################################
 Processed file    zprime500.mu.root
+jet eta counts401
+nEntries:10622
+------------------------------------------------------------
 lepton N effizienz  0.922425
 lepton pt effizienz  0.535304
 lepton eta effizienz  0
+jet n effizienz  0.231877
 jet pt effizienz  0.135662
-met et effizienz  0.0388816
 btagging effizienz  0.058087
+met et effizienz  0.0388816
 jet eta effizienz   0.0377518
 ################################################################
 Processed file    zprime750.mu.root
+jet eta counts1341
+nEntries:11433
+------------------------------------------------------------
 lepton N effizienz  0.913321
 lepton pt effizienz  0.645063
 lepton eta effizienz  0
+jet n effizienz  0.371031
 jet pt effizienz  0.333158
-met et effizienz  0.122015
 btagging effizienz  0.152628
+met et effizienz  0.122015
 jet eta effizienz   0.117292
+################################################################
+Processed file    data.el.0.root
+jet eta counts83
+nEntries:450199
+------------------------------------------------------------
+lepton N effizienz  0.962008
+lepton pt effizienz  0.104323
+lepton eta effizienz  0
+jet n effizienz  0.00276544
+jet pt effizienz  0.00143936
+btagging effizienz  0.000282097
+met et effizienz  0.00019769
+jet eta effizienz   0.000184363
+################################################################
+Processed file    data.el.1.root
+jet eta counts88
+nEntries:450199
+------------------------------------------------------------
+lepton N effizienz  0.96217
+lepton pt effizienz  0.105216
+lepton eta effizienz  0
+jet n effizienz  0.00287206
+jet pt effizienz  0.00149712
+btagging effizienz  0.000299867
+met et effizienz  0.000211018
+jet eta effizienz   0.000195469
+################################################################
+Processed file    data.el.2.root
+jet eta counts80
+nEntries:450199
+------------------------------------------------------------
+lepton N effizienz  0.961988
+lepton pt effizienz  0.104565
+lepton eta effizienz  0
+jet n effizienz  0.00266549
+jet pt effizienz  0.00134163
+btagging effizienz  0.000279876
+met et effizienz  0.000195469
+jet eta effizienz   0.000177699
+################################################################
+Processed file    data.el.3.root
+jet eta counts97
+nEntries:450199
+------------------------------------------------------------
+lepton N effizienz  0.961966
+lepton pt effizienz  0.104723
+lepton eta effizienz  0
+jet n effizienz  0.0028654
+jet pt effizienz  0.0015371
+btagging effizienz  0.000290982
+met et effizienz  0.000228788
+jet eta effizienz   0.00021546
+################################################################
+Processed file    data.el.4.root
+jet eta counts84
+nEntries:450199
+------------------------------------------------------------
+lepton N effizienz  0.961597
+lepton pt effizienz  0.103927
+lepton eta effizienz  0
+jet n effizienz  0.00274989
+jet pt effizienz  0.00143048
+btagging effizienz  0.000277655
+met et effizienz  0.00019769
+jet eta effizienz   0.000186584
+################################################################
+Processed file    data.el.5.root
+jet eta counts90
+nEntries:450199
+------------------------------------------------------------
+lepton N effizienz  0.961781
+lepton pt effizienz  0.104734
+lepton eta effizienz  0
+jet n effizienz  0.00276544
+jet pt effizienz  0.0014749
+btagging effizienz  0.000326522
+met et effizienz  0.000226566
+jet eta effizienz   0.000199912
+################################################################
+Processed file    data.el.6.root
+jet eta counts79
+nEntries:450199
+------------------------------------------------------------
+lepton N effizienz  0.961739
+lepton pt effizienz  0.104716
+lepton eta effizienz  0
+jet n effizienz  0.00266993
+jet pt effizienz  0.00141271
+btagging effizienz  0.000279876
+met et effizienz  0.000186584
+jet eta effizienz   0.000175478
+################################################################
+Processed file    data.el.7.root
+jet eta counts84
+nEntries:450199
+------------------------------------------------------------
+lepton N effizienz  0.962568
+lepton pt effizienz  0.104618
+lepton eta effizienz  0
+jet n effizienz  0.00267659
+jet pt effizienz  0.00136384
+btagging effizienz  0.000288761
+met et effizienz  0.000202133
+jet eta effizienz   0.000186584
+################################################################
+Processed file    data.el.8.root
+jet eta counts90
+nEntries:450198
+------------------------------------------------------------
+lepton N effizienz  0.962139
+lepton pt effizienz  0.104172
+lepton eta effizienz  0
+jet n effizienz  0.0027499
+jet pt effizienz  0.00141715
+btagging effizienz  0.000313196
+met et effizienz  0.000211018
+jet eta effizienz   0.000199912
+################################################################
+Processed file    data.el.9.root
+jet eta counts106
+nEntries:450198
+------------------------------------------------------------
+lepton N effizienz  0.962161
+lepton pt effizienz  0.10403
+lepton eta effizienz  0
+jet n effizienz  0.00287651
+jet pt effizienz  0.00155043
+btagging effizienz  0.000346514
+met et effizienz  0.000248779
+jet eta effizienz   0.000235452
+################################################################
+Processed file    data.mu.0.root
+jet eta counts102
+nEntries:563088
+------------------------------------------------------------
+lepton N effizienz  0.930723
+lepton pt effizienz  0.0897657
+lepton eta effizienz  0
+jet n effizienz  0.00228739
+jet pt effizienz  0.00125913
+btagging effizienz  0.000275268
+met et effizienz  0.000198903
+jet eta effizienz   0.000181144
+################################################################
+Processed file    data.mu.1.root
+jet eta counts84
+nEntries:563087
+------------------------------------------------------------
+lepton N effizienz  0.931059
+lepton pt effizienz  0.0908332
+lepton eta effizienz  0
+jet n effizienz  0.00221458
+jet pt effizienz  0.00118632
+btagging effizienz  0.000255733
+met et effizienz  0.000163385
+jet eta effizienz   0.000149178
+################################################################
+Processed file    data.mu.2.root
+jet eta counts94
+nEntries:563087
+------------------------------------------------------------
+lepton N effizienz  0.930695
+lepton pt effizienz  0.0901477
+lepton eta effizienz  0
+jet n effizienz  0.00227674
+jet pt effizienz  0.00123072
+btagging effizienz  0.000257509
+met et effizienz  0.000174041
+jet eta effizienz   0.000166937
+################################################################
+Processed file    data.mu.3.root
+jet eta counts120
+nEntries:563087
+------------------------------------------------------------
+lepton N effizienz  0.930252
+lepton pt effizienz  0.0897677
+lepton eta effizienz  0
+jet n effizienz  0.00216308
+jet pt effizienz  0.00117033
+btagging effizienz  0.000298355
+met et effizienz  0.000227318
+jet eta effizienz   0.000213111
+################################################################
+Processed file    data.mu.4.root
+jet eta counts97
+nEntries:563087
+------------------------------------------------------------
+lepton N effizienz  0.930302
+lepton pt effizienz  0.0905508
+lepton eta effizienz  0
+jet n effizienz  0.0022501
+jet pt effizienz  0.00124315
+btagging effizienz  0.000275268
+met et effizienz  0.000188248
+jet eta effizienz   0.000172265
+################################################################
+Processed file    data.mu.5.root
+jet eta counts105
+nEntries:563087
+------------------------------------------------------------
+lepton N effizienz  0.930661
+lepton pt effizienz  0.090137
+lepton eta effizienz  0
+jet n effizienz  0.00219149
+jet pt effizienz  0.00119875
+btagging effizienz  0.0002877
+met et effizienz  0.000195352
+jet eta effizienz   0.000186472
+################################################################
+Processed file    data.mu.6.root
+jet eta counts102
+nEntries:563087
+------------------------------------------------------------
+lepton N effizienz  0.931533
+lepton pt effizienz  0.0903875
+lepton eta effizienz  0
+jet n effizienz  0.00226963
+jet pt effizienz  0.00125913
+btagging effizienz  0.000269941
+met et effizienz  0.000204231
+jet eta effizienz   0.000181144
+################################################################
+Processed file    data.mu.8.root
+jet eta counts115
+nEntries:563087
+------------------------------------------------------------
+lepton N effizienz  0.930526
+lepton pt effizienz  0.091073
+lepton eta effizienz  0
+jet n effizienz  0.00219682
+jet pt effizienz  0.0011952
+btagging effizienz  0.000312563
+met et effizienz  0.000227318
+jet eta effizienz   0.000204231
+################################################################
+Processed file    data.mu.9.root
+jet eta counts112
+nEntries:563087
+------------------------------------------------------------
+lepton N effizienz  0.931117
+lepton pt effizienz  0.0906361
+lepton eta effizienz  0
+jet n effizienz  0.00215775
+jet pt effizienz  0.00114725
+btagging effizienz  0.000284148
+met et effizienz  0.000213111
+jet eta effizienz   0.000198904
 ################################################################
