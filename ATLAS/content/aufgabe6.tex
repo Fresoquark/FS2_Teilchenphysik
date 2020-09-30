@@ -16,9 +16,11 @@ kann diese Anzahl berechnet werden. Dabei entspricht der Koeffizient
 $\epsilon * A$ den in Kapitel \label{sec:aufgabe3}
 berechneten Werten. Der Wirkungsquerschnitt der Prozesse ist zusammen mit 
 den erwarteten Events in Tabellle \ref{tab:Erwartungen} aufgelistet. Die erwarteten 
-Events sind für das ausgewählte Sample \texttt{data.mu.2.root} aufgelistet.
+Events sind für das ausgewählte Sample \texttt{data.mu.2.root} aufgelistet. Insgesamt 
+werden insgesamt $66.8647$ Untergrundevents erwartet. Gemessene Events nach der 
+Selektion in diesem Datenset sind $94$ Events. 
 
-\begin{table}
+\begin{table}[H]
     \centering
     \caption{Anzahl erwarteter Ereignisse für die einzelnen Prozesse im sample \texttt{data.mu.2.root}. Angegeben 
     ist der zugehörige Wirkungsquerschnitt der für die Berechnung der einzelnen Werte nach Formel 
@@ -48,12 +50,27 @@ Events sind für das ausgewählte Sample \texttt{data.mu.2.root} aufgelistet.
     \end{tabular}
 \end{table}
 
+Die selektierten Events beziehen sich noch auf das gegebene Sample, mit individuellen 
+Wirkungsquerschnitten und Sample-Größen, je nach Prozess. Deswegen müssen noch 
+Gewichte eingeführt werden, die die MC-Samples auf das Datensample normieren. Diese 
+Gewichte werden mit Hilfe der Formel 
 
-\begin{table}
+\begin{equation}
+w = \frac{\mathcal{L} \sigma}{\text{N}_\text{MC}}
+\label{eqn:gewichte}
+\end{equation}
+
+berechnet. Dabei beschreibt $\text{N}_\text{MC}$ die Anzahl der MC events vor der 
+Vorselektion. Die Gewichte mit den Samplegrößen sind in Tabelle 
+\ref{tab:Gewichte} aufgelistet. Der Wirkungsquerschnitt ist in Tabelle 
+\ref{tab:Erwartungen} zu finden. 
+
+\begin{table}[H]
     \centering
     \caption{Berechnete Gewichte für die einzelnen Prozesse. Der für die Berechnung notwendige 
     Wirkungsquerschnitt ist in Tabelle \ref{tab:Erwartungen} aufgelistet. Die integrierte 
-    Luminosität beträgt $\mathcal{L} = \SI{1}{\femto\barn}^{-1}$.}
+    Luminosität beträgt $\mathcal{L} = \SI{1}{\femto\barn}^{-1}$. Die Gewichte werden mit 
+    Hilfe von Formel \eqref{eqn:gewichte} berechnet.}
     \label{tab:Gewichte}
     \begin{tabular}{c|cc}
     \toprule 
@@ -78,3 +95,70 @@ Events sind für das ausgewählte Sample \texttt{data.mu.2.root} aufgelistet.
     \bottomrule 
     \end{tabular}
 \end{table}
+
+Diese Gewichte werden an die entsprechenden Samples mulipliziert. In sogenannten 
+Stacked Plots werden die einzelnen Untergrunde aufeinander gestapelt und 
+die Datenpunkte als overlay eingefügt um die Übereinstimmung von Daten und 
+Simulation zu Überprüfen. Exemplarisch werden in 
+Abbildung \ref{fig:stackedex} vier Stacked Plots auf 
+fehlerhafte Modellierung diskutiert, die restlichen werden im Anhang \ref{sec:stackedrest}
+ 
+aufgelistet.
+
+\begin{figure}[H]
+  \begin{subfigure}{0.5\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{plots_and_txt/stacked_plots/stacked_lep_pt.pdf}
+    \caption{}
+    \label{fig:stacked_lep_pt}
+  \end{subfigure}%
+  \begin{subfigure}{0.5\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{plots_and_txt/stacked_plots/stacked_btagged.pdf}
+    \caption{}
+    \label{fig:stacked_btagged}
+  \end{subfigure}%
+  \newline
+  \begin{subfigure}{0.5\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{plots_and_txt/stacked_plots/stacked_jet_pt.pdf}
+    \caption{}
+    \label{fig:stacked_jet_pt_good}
+  \end{subfigure}%
+  \begin{subfigure}{0.5\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{plots_and_txt/stacked_plots/stacked_met_et.pdf}
+    \caption{}
+    \label{fig:stacked_met_et}
+  \end{subfigure}%
+  \caption{Gestapelte Untergründe im Vergleich mit den selektierten Datensample. 
+  Zusehen sind der transverale Impuls der Myonen (\subref{fig:stacked_lep_pt}), 
+  die Anzahl an btagged Jets (\subref{fig:stacked_btagged}), 
+  der transverase Impuls des Jets mit dem höchsten transversalen Impuls des Events (\subref{fig:stacked_jet_pt_good}) und die fehlende transversal Energie (\subref{fig:stacked_met_et}).
+  }
+  \label{fig:stackedex}
+\end{figure}
+
+
+Die größte Diskrepanz ist in der Verteilung der fehlenden Transversalenergie 
+zu sehen. In den Bins, sind die Datenpunkte entweder deutlich über den 
+Untergrunddaten oder deutlich unter ihnen abgebildet. Ein erhöhter Datenpunkt könnte 
+prinzipiell einen Hinweis auf ein Signal liefern, da aber ebensoviele 
+Punkte deutlich unter dem Untergrundsignal sind, liegt der Ursprung vermutlich 
+eher in einem systematischen Fehler. Da diese Grafiken bereits deutlich 
+auf Monte Carlo Fehlmodellierungen hinweisen, verlieren die Ergebnisse 
+deutlich an Sigifikanz. \par 
+
+Als nächstes wird die Diskriminante untersucht.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{plots_and_txt/stacked_plots/stacked_disc.pdf}
+    \caption{Verteilung der invarianten Masse des Systems, welches aus den vier Jets mit dem größten $p_T$, dem Lepton und dem Neutrino gebildet wird.}
+    \label{fig:stacked_disc}
+\end{figure}
+
+Im zweiten und fünften Bin sind Exzesse der Daten über dem Untergrund feststellbar. 
+Jedoch auf Grund der vorher bemerkten Fehlmodellierung der Untergründe kann 
+hier nicht von einer Entdeckung oder einem Hinweis auf ein $Z^\prime$ Signal 
+gesprochen werden.
