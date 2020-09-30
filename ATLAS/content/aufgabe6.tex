@@ -9,9 +9,72 @@ $\mathcal{L} = \SI{1}{\femto\barn}^{-1}$ korrespondieren. Mit Hilfe der Formel
 
 \begin{equation}
 N = \mathcal{L} \sigma A \epsilon
+\label{eqn:erwartung}
 \end{equation}
 
 kann diese Anzahl berechnet werden. Dabei entspricht der Koeffizient 
 $\epsilon * A$ den in Kapitel \label{sec:aufgabe3}
 berechneten Werten. Der Wirkungsquerschnitt der Prozesse ist zusammen mit 
-den erwarteten Events in Tabellle \ref{tab:Erwartungen} aufgelistet.
+den erwarteten Events in Tabellle \ref{tab:Erwartungen} aufgelistet. Die erwarteten 
+Events sind für das ausgewählte Sample \texttt{data.mu.2.root} aufgelistet.
+
+\begin{table}
+    \centering
+    \caption{Anzahl erwarteter Ereignisse für die einzelnen Prozesse im sample \texttt{data.mu.2.root}. Angegeben 
+    ist der zugehörige Wirkungsquerschnitt der für die Berechnung der einzelnen Werte nach Formel 
+    \eqref{eqn:erwartung} benötigt wird.}
+    \label{tab:Erwartungen}
+    \begin{tabular}{c|cc}
+    \toprule 
+    Prozess & $\text{N}_\text{expected}$ & $\sigma$ / $\SI{}{\pico\barn}$ \\
+    \midrule
+    \texttt{ttbar}      &  3.0282   & 252.82    \\
+    \texttt{singletop}  &  3.3576   & 52.47     \\
+    \texttt{diboson}    &  2.9967   & 29.41     \\
+    \texttt{wjets}      &  6.3202   & 2516.20   \\
+    \texttt{zjets}      &  51.1618  & 36214     \\
+    \texttt{zprime400}  &  103.4000 & 1.1e2     \\
+    \texttt{zprime500}  &  77.0800  & 8.2e1     \\
+    \texttt{zprime750}  &  18.8000  & 2.0e1     \\
+    \texttt{zprime1000} &  51.7000  & 5.5       \\
+    \texttt{zprime1250} &  17.8600  & 1.9       \\
+    \texttt{zprime1500} &  7.8020   & 8.3e-1    \\
+    \texttt{zprime1750} &  2.8200   & 3.0e-1    \\
+    \texttt{zprime2000} &  1.3160   & 1.4e-1    \\
+    \texttt{zprime2250} &  0.0630   & 6.7e-2    \\
+    \texttt{zprime2500} &  0.0330   & 3.5e-2    \\
+    \texttt{zprime3000} &  0.0113   & 1.2e-2    \\
+    \bottomrule 
+    \end{tabular}
+\end{table}
+
+
+\begin{table}
+    \centering
+    \caption{Berechnete Gewichte für die einzelnen Prozesse. Der für die Berechnung notwendige 
+    Wirkungsquerschnitt ist in Tabelle \ref{tab:Erwartungen} aufgelistet. Die integrierte 
+    Luminosität beträgt $\mathcal{L} = \SI{1}{\femto\barn}^{-1}$.}
+    \label{tab:Gewichte}
+    \begin{tabular}{c|cc}
+    \toprule 
+    Prozess & $\text{N}_\text{MC}$ & Gewichtung $w$ \\
+    \midrule
+    \texttt{ttbar}      & 7847944    & 0.03221     \\
+    \texttt{singletop}  & 1468942    & 0.03572     \\
+    \texttt{diboson}    & 922521     & 0.03188     \\
+    \texttt{wjets}      & 66536222   & 0.54428     \\
+    \texttt{zjets}      & 37422926   & 0.06724     \\
+    \texttt{zprime400}  & 100000     & 1.10000     \\
+    \texttt{zprime500}  & 100000     & 0.82000     \\
+    \texttt{zprime750}  & 100000     & 0.20000     \\
+    \texttt{zprime1000} & 100000     & 0.55000     \\
+    \texttt{zprime1250} & 100000     & 0.19000     \\
+    \texttt{zprime1500} & 100000     & 0.08300     \\
+    \texttt{zprime1750} & 100000     & 0.03000     \\
+    \texttt{zprime2000} & 100000     & 0.01400     \\
+    \texttt{zprime2250} & 100000     & 0.00067     \\
+    \texttt{zprime2500} & 100000     & 0.00035     \\
+    \texttt{zprime3000} & 100000     & 0.00012     \\
+    \bottomrule 
+    \end{tabular}
+\end{table}
