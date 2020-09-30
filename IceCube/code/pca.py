@@ -20,14 +20,14 @@ plt.scatter(dim1, dim2, c=y, s=50, cmap=discrete_cmap)
 plt.title("vor PCA")
 plt.xlabel('feature 0')
 plt.ylabel('feature 1')
-plt.savefig('plots/before_pca.pdf')
+plt.savefig('../plots/before_pca.pdf')
 plt.clf()
 
 plt.scatter(dim1_false, dim2_false, c=y, s=50, cmap=discrete_cmap)
 plt.title("vor PCA")
 plt.xlabel('feature 0')
 plt.ylabel('feature 1')
-plt.savefig('plots/before_pca_false.pdf')
+plt.savefig('../plots/before_pca_false.pdf')
 plt.clf()
 
 # fuehre PCA durch
@@ -52,7 +52,7 @@ for i in range(4):
     plt.hist(transformed[:, i], bins=50,
              range=[transformed[:, i].min(), transformed[:, i].max()],
              histtype='step', density=True)
-    plt.savefig('plots/hist_dim_{}.pdf'.format(i))
+    plt.savefig('../plots/hist_dim_{}.pdf'.format(i))
     plt.clf()
 
 # ... und pllotten sie
@@ -60,12 +60,12 @@ plt.scatter(X_new1, X_new2, c=y, s=50, cmap=discrete_cmap)
 plt.title("nach PCA")
 plt.xlabel('feature 0')
 plt.ylabel('feature 1')
-plt.savefig('plots/after_pca.pdf')
+plt.savefig('../plots/after_pca.pdf')
 plt.clf()
 
 plt.scatter(X_new1_false, X_new2_false, c=y, s=50, cmap=discrete_cmap)
 plt.title("nach PCA")
 plt.xlabel('feature 0')
 plt.ylabel('feature 1')
-plt.savefig('plots/after_pca_false.pdf')
+plt.savefig('../plots/after_pca_false.pdf')
 plt.clf()
