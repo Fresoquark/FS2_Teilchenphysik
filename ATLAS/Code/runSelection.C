@@ -52,6 +52,7 @@ int main(int argn, char *argv[]) {
   float b_tagged_counts(0);
   float met_et_counts(0);
   float jet_eta_counts(0);
+  float jet_n_counts(0);
   
   // normiert auf femtobarn
   // cross sections
@@ -170,6 +171,7 @@ int main(int argn, char *argv[]) {
 	if (tree->jet_n < 4){ //jan lukas: <= 4
 		continue;
 	}
+	jet_n_counts++;
 	// jet pt
 	unsigned int schwelle_jet_pt = 100000;
 	// schwelle gibt hier die Energie jedes einzelnen Jets im Event an
@@ -223,17 +225,20 @@ int main(int argn, char *argv[]) {
       newTree->Fill();
     }
   }
-  cout << "jet eta counts" << jet_eta_counts << endl;
-  cout << "nEntries:" << nEntries << endl;
+ 
   ofstream myfile;
   myfile.open("effizienzen.txt", ios_base::app);
   myfile << "Processed file    " << filename << endl;
+  myfile << "jet eta counts" << jet_eta_counts << endl;
+  myfile << "nEntries:" << nEntries << endl;
+  myfile << "------------------------------------------------------------" <<endl;
   myfile << "lepton N effizienz  " << lep_n_counts/nEntries << endl;
   myfile << "lepton pt effizienz  " << lep_pt_counts/nEntries << endl;
   myfile << "lepton eta effizienz  " << lep_eta_counts/nEntries << endl;
+  myfile << "jet n effizienz  " << jet_n_counts/nEntries << endl;
   myfile << "jet pt effizienz  " << jet_pt_counts/nEntries << endl;
-  myfile << "met et effizienz  " << met_et_counts/nEntries << endl;
   myfile << "btagging effizienz  " << b_tagged_counts/nEntries << endl;
+  myfile << "met et effizienz  " << met_et_counts/nEntries << endl;
   myfile << "jet eta effizienz   " << jet_eta_counts/nEntries << endl;
   myfile << "################################################################" << endl;
   myfile.close();
@@ -249,6 +254,7 @@ int main(int argn, char *argv[]) {
   ofstream ourfile;
   ourfile.open("expected_events.txt", ios_base::app);
   ourfile << "filename: " << filename << endl;
+  ourfile << "jet_eta_counts" << jet_eta_counts << endl;
   ourfile << "Expected Nr ttbar Events  " << " " << N_ttbar << endl;       
   ourfile << "Expected Nr singletop Events  "<< " " << N_singletop << endl;     
   ourfile << "Expected Nr diboson Events  " << " " << N_diboson << endl;      
