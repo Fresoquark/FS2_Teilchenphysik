@@ -182,6 +182,11 @@ int main(){
 		file << "crosssection: " << limitXsec[i] << endl;
  	}
 	// ende code snippet
+	file << "################################################################" << endl;
+	file << "chi2:    " << discriminant_Chi2 << endl;
+	file << "NDF:    " << ndf << endl;
+	file << "p wert: " << TMath::Prob(discriminant_Chi2, ndf) << endl;
+	file << "################################################################" << endl;
 	file.close();
 
 
