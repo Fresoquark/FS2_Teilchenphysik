@@ -124,7 +124,9 @@ gesamt = np.concatenate((signal, bg), axis=0)
 X = gesamt[:, :-1]
 y = gesamt[:, -1]
 
-
+print(X)
+print('###############')
+print(y)
 K_num = [10, 20]
 a = [0, 1]
 for j in K_num:
