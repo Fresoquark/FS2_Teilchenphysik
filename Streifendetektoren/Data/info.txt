@@ -1,0 +1,5 @@
+# Aufgabenteil 6.3
+Spannung: U = 90V
+
+#Aufgabenteil 6.5
+Spannung: U = 75V
