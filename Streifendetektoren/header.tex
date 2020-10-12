@@ -1,0 +1,176 @@
+\documentclass[
+bibliography=totoc,     % Literatur im Inhaltsverzeichnis
+captions=tableheading,  % Tabellenüberschriften
+titlepage=firstiscover, % Titelseite ist Deckblatt
+]{scrartcl}
+
+% Paket float verbessern
+\usepackage{scrhack}
+
+% Warnung, falls nochmal kompiliert werden muss
+\usepackage[aux]{rerunfilecheck}
+
+% unverzichtbare Mathe-Befehle
+\usepackage{amsmath}
+% viele Mathe-Symbole
+\usepackage{amssymb}
+% Erweiterungen für amsmath
+\usepackage{mathtools}
+\usepackage{dsfont}
+% Fonteinstellungen
+\usepackage{fontspec}
+% Latin Modern Fonts werden automatisch geladen
+% Alternativ zum Beispiel:
+%\setromanfont{Libertinus Serif}
+%\setsansfont{Libertinus Sans}
+%\setmonofont{Libertinus Mono}
+
+% Wenn man andere Schriftarten gesetzt hat,
+% sollte man das Seiten-Layout neu berechnen lassen
+\recalctypearea{}
+
+% deutsche Spracheinstellungen
+\usepackage{polyglossia}
+\setmainlanguage{german}
+
+
+\usepackage[
+math-style=ISO,    % ┐
+bold-style=ISO,    % │
+sans-style=italic, % │ ISO-Standard folgen
+nabla=upright,     % │
+partial=upright,   % ┘
+warnings-off={           % ┐
+mathtools-colon,       % │ unnötige Warnungen ausschalten
+mathtools-overbracket, % │
+},                       % ┘
+]{unicode-math}
+
+% traditionelle Fonts für Mathematik
+\setmathfont{Latin Modern Math}
+% Alternativ zum Beispiel:
+%\setmathfont{Libertinus Math}
+
+\setmathfont{XITS Math}[range={scr, bfscr}]
+\setmathfont{XITS Math}[range={cal, bfcal}, StylisticSet=1]
+
+% Zahlen und Einheiten
+\usepackage[
+locale=DE,                   % deutsche Einstellungen
+separate-uncertainty=true,   % immer Fehler mit \pm
+per-mode=symbol-or-fraction, % / in inline math, fraction in display math
+]{siunitx}
+
+% chemische Formeln
+\usepackage[
+version=4,
+math-greek=default, % ┐ mit unicode-math zusammenarbeiten
+text-greek=default, % ┘
+]{mhchem}
+
+% richtige Anführungszeichen
+\usepackage[autostyle]{csquotes}
+
+% schöne Brüche im Text
+\usepackage{xfrac}
+
+% Standardplatzierung für Floats einstellen
+\usepackage{float}
+\floatplacement{figure}{htbp}
+\floatplacement{table}{htbp}
+\usepackage{makecell}
+
+% Floats innerhalb einer Section halten
+\usepackage[
+section, % Floats innerhalb der Section halten
+below,   % unterhalb der Section aber auf der selben Seite ist ok
+]{placeins}
+
+% Seite drehen für breite Tabellen: landscape Umgebung
+\usepackage{pdflscape}
+
+% Captions schöner machen.
+\usepackage[
+labelfont=bf,        % Tabelle x: Abbildung y: ist jetzt fett
+font=small,          % Schrift etwas kleiner als Dokument
+width=0.9\textwidth, % maximale Breite einer Caption schmaler
+]{caption}
+% subfigure, subtable, subref
+\usepackage{subcaption}
+
+% Grafiken können eingebunden werden
+\usepackage{graphicx}
+
+% PDF's können als weitere Seite eingefügt werden
+\usepackage{pdfpages}
+
+% Grafiken im Text einbinden
+\usepackage{wrapfig}
+
+% größere Variation von Dateinamen möglich
+\usepackage{grffile}
+
+% schöne Tabellen
+\usepackage{booktabs}
+
+% Verbesserungen am Schriftbild
+\usepackage{microtype}
+
+% Tikzpictures mitverwenden
+\usepackage{tikz}
+\usepackage{circuitikz}
+
+%Matrizen mit doppeltem Unterstrich einbinden
+\usepackage{ulem}
+
+%Neue Commands für erweiterte Funktionen
+\newcommand \matrize[1]{\underline{\underline{#1}}}
+
+% Literaturverzeichnis
+%\usepackage[
+%backend=biber,
+%]{biblatex}
+% Quellendatenbank
+%\bibliography{lit.bib}
+%\bibliography{programme.bib}
+%\addbibresource{lit.bib}
+%\addbibresource{programme.bib}
+\usepackage{xcolor}
+\xdefinecolor{tugreen}{RGB}{128, 186, 38}
+
+% Hyperlinks im Dokument
+\usepackage[
+unicode,        % Unicode in PDF-Attributen erlauben
+pdfusetitle,    % Titel, Autoren und Datum als PDF-Attribute
+%colorlinks = true,
+urlbordercolor = tugreen,
+linkbordercolor = tugreen,
+citebordercolor = tugreen,
+pdfcreator={},  % ┐ PDF-Attribute säubern
+pdfproducer={}, % ┘
+]{hyperref}
+% erweiterte Bookmarks im PDF
+\usepackage{bookmark}
+
+% Trennung von Wörtern mit Strichen
+\usepackage[shortcuts]{extdash}
+
+% Einrückung zu Beginn des Paragraphen ausstellen
+\setlength\parindent{0pt}
+
+%Benutzung von Schleifen
+\usepackage{ifthen}
+\usepackage{forloop}
+
+%Fuer Tabellen oder CSV allg
+\usepackage{csvsimple}
+
+\author{%
+Fabian Koch\\%
+\href{mailto:fabian3.koch@tu-dortmund.de}{fabian3.koch@tu-dortmund.de}\\%
+Nils Breer\\%
+\href{mailto:nils.breer@tu-dortmund.de}{nils.breer@tu-dortmund.de}\\%
+Nicole Schulte\\%
+\href{mailto:nicole.schulte@tu-dortmund.de}{nicole.schulte@tu-dortmund.de}\\%
+}
+\publishers{TU Dortmund – Fakultät Physik}
