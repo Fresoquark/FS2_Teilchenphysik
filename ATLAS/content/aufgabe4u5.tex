@@ -50,6 +50,11 @@ Auch nach der oben durchgeführten Selektion bleiben Untergrundprozesse wie der 
 Um nun eine bessere Unterscheidung zwischen Signalereignissen, also $Z^\prime$-Ereignissen, und den Untergründen herzustellen werden weitere Größen konstruiert.
 Da diese unter Umständen mehr Informationen als einfache Größen enthalten, kann ihre Diskriminierungsstärke deutlich erhöht sein.
 Untersucht wurden $\Delta\Phi$, die Differenz zwischen dem Azimuthalwinkel der fehlenden Transversalenergie und der Leptonflugrichtung, die invariante Masse des Systems, die durch die drei Jets mit dem größten $p_T$ gebildet wird, die invariante Masse und die Pseudorapidität des Systems, die durch die vier Jets mit dem größten $p_T$, dem Lepton und dem Neutrino gebildet werden.
+Zur Berechnung der invarianten Masse des Systems, werden Informationen über das Neutrino benötigt. Zur Berechnung der $z$-Komponente des Neutrinoimpulses werden 
+Informationen der $W$-Boson Masse benötigt. Diese wird zunächst als fester Parameter eingeführt für eine 
+Masse von $m_W = \SI{80.4}{\giga\electronvolt}$. Dann wird überprüft, ob die transversale Masse kleiner oder größer ist als die theoretische 
+Masse. Im Zuge dessen wird die Neutrinoinformation von $p_Z$ solange korrigiert, bis die transversale Masse des $W$-Bosons der theoretischen entspricht. 
+Mit Hilfe der Klasse \texttt{TLorentzVektor.h} werden dann die Vierervektorinformationen berechnet und die invariante Masse des Systems kann bestimmt werden.
 Für $\Delta\Phi$ wird darauf geachtet, dass jeweils die kleinere Differenz von $|\phi_1 - \phi_2|$ und $|2\pi - |\phi_1 - \phi_2||$ genutzt wird.
 Diese werden für alle Datentupel und Monte-Carlo Simulationen berechnet.
 Um die Größe mit der stärksten Diskriminierungsstärke zu ermitteln, werden die Verteilungen für den größten Untergrundprozess ($t\bar{t}$) mit einer möglichen Signalverteilung ($Z^\prime(1000)$, also einem hypothetischen $Z^\prime$ mit einer Masse von $\SI{1000}{\giga\electronvolt}$) verglichen.
