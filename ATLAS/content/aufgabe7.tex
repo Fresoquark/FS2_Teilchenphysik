@@ -2,22 +2,23 @@
 \label{sec:chi}
 
 Im vorherigen Kapitel wurde die Übereinstimmung der Daten mit den Simulationen bereits qualitativ durchgeführt.
-Um nun die Übereinstimmung quantitativ zu bestimmen, wird ein $\Chi^2$-Test durchgeführt.
-Dieser $\Chi^2$-Test ist ein statistisches Maß um die Abweichung zwischen einer beobachteten und erwarteten Verteilung zu bestimmen.
+Um nun die Übereinstimmung quantitativ zu bestimmen, wird ein $\chi^2$-Test durchgeführt.
+Dieser $\chi^2$-Test ist ein statistisches Maß um die Abweichung zwischen einer beobachteten und erwarteten Verteilung zu bestimmen.
 Die erwartete Verteilung entspricht dabei den Monte-Carlo Simulationen, also der Untergrundverteilungen plus einer spezifischen Massenhypothese des $Z^\prime$.
 Die beobachtete Verteilung entspricht den gemessenen Daten.
 Die Prüfgröße $\Chi^2$ berechnet sich dann durch
 
 \begin{equation}
-  \Chi^2 = \sum_{j=1}^m \frac{(N_j - n_{0j})^2}{n_{0j}}
+  \chi^2 = \sum_{j=1}^m \frac{(N_j - n_{0j})^2}{n_{0j}}
 \end{equation}
 
 und gibt die Größe der Abweichung in jedem Bin der Verteilung an.
 Dabei ist $N_j$ die beobachtete und $n_{0j}$ die erwartete Häufigkeit.
 Dies wird auf dem Datensample \texttt{data.mu.2.root} für die Diskriminante, also der invarianten Masse des Systems durchgeführt.
-Ist die Nullhypothese, dass es ein $Z^\prime$ gibt, wahr, so muss der Unterschied zwischen $N_j$ und $n_{0j}$ sehr gering sein.
+Ist die Nullhypothese, dass es kein $Z^\prime$ gibt, und das Standard Model somit 
+korrekt ist, wahr, so muss der Unterschied zwischen $N_j$ und $n_{0j}$ sehr gering sein.
 Das Konfidenzlevel berechnet sich aus $p = 1 - \alpha$, wobei $\alpha$ die Signifikanz des Tests ist.
-Damit eine Hypothese angenommen wird, muss $\Chi^2 < \Chi^2_{1-\alpha}$ gelten.
+Damit eine Hypothese angenommen wird, muss $\chi^2 < \chi^2_{1-\alpha}$ gelten.
 Das Konfidenzlevel wird durch das Paket \texttt{TMath} von \texttt{root} berechnet und ist von der Anzahl an Freiheitsgraden, bzw. Bins abhängig.
 Da keine Hinweise auf ein mögliches $Z^\prime$ gefunden wurden, kann in einem nächsten Schritt eine obere Ausschlussgrenze im $\SI{95}{\percent}$ Konfidenzintervall für die verschiedenen $Z^\prime$-Massenhypothesen gefunden werden.
 Um die Gewichte der einzelnen Hypothesen zu berücksichtigen wird ein scaler genutzt, der die Gewichte entsprechend skaliert bis das $\SI{95}{\percent}$ Konfidenzintervall erreicht wurde.
@@ -27,7 +28,7 @@ Sie alle erfüllen die geforderte Signifkinaz nicht.
 
 \begin{table}
   \centering
-  \caption{Die berechneten Parameter des $\Chi^2$-Tests für eine reine Untergrundverteilung und den verschiedenen $Z^\prime$-Massenhypothesen. Für die Massenhypothesen wurde außerdem die erwartete obere Ausschlussgrenze des Wirkungsquerschnittes im $\SI{95}{\percent}$ Konfidenzintervall berechnet.}
+  \caption{Die berechneten Parameter des $\chi^2$-Tests für eine reine Untergrundverteilung und den verschiedenen $Z^\prime$-Massenhypothesen. Für die Massenhypothesen wurde außerdem die erwartete obere Ausschlussgrenze des Wirkungsquerschnittes im $\SI{95}{\percent}$ Konfidenzintervall berechnet.}
   \label{tab:chi2}
   \begin{tabular}{c|cccc}
     \toprule
@@ -52,9 +53,16 @@ Sie alle erfüllen die geforderte Signifkinaz nicht.
 Abschließend werden die so berechneten erwarteten oberen Ausschlussgrenzen der Wirkungsquerschnitte im $\SI{95}{\percent}$ Konfidenzintervall der unterschiedlichen $Z^\prime$-Massenhypothesen gegen ihre Masse aufgetragen.
 Dies wird mit den erwarteten Wirkungsquerschnitten verglichen.
 Das ist in Abbildung \ref{fig:limit} dargestellt.
-Aus diesen Plots ist erkennbar, dass nur Massen bis $\SI{1250}{\giga\electronvolt}$ erlaubt sind.
-Allerdings wurden in den in Kapitel \ref{sec:aufgabe6} angefertigten stacked Plots keine entsprechenden Hinweise gefunden.
-Die höheren Massen können ausgeschlossen werden, da die Daten ansonsten nicht zu dem simulierten Untergrund passen würden.
+Massenhypothesen für $m_{Z^\prime} \textless \SI{1250}{\giga\electronvolt}$ können 
+ausgeschlossen werden, da das obere Limit des gemessenen Wirkungsquerschnitts 
+kleiner ist, als der theoretisch vorhergesagte Wirkungsquerschnitt. Das bedeutet, 
+ein Teilchen dieser Art hätte schon gemessen werden müssen. Da dies nicht der Fall 
+ist, kann dieser Bereich ausgeschlossen werden. Für Massen oberhalb von 
+$m_{Z^\prime} \textgreater \SI{1250}{\giga\electronvolt}$ ist der theoretische 
+Wirkungsquerschnitt kleiner als das obere Limit des beobachteten Wirkungsquerschnitts. 
+Das bedeutet, dass in diesem Bereich die Untergrundhypothese nicht mehr von 
+der Massenhypothese der $Z^\prime$ unterschieden werden kann. Dieser Bereich liefert somit 
+erlaubte Werte für ein mögliches $Z^\prime$.
 
 \begin{figure}
     \centering
