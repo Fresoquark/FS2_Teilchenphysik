@@ -104,6 +104,52 @@ mit der Depletionsspannung $U_{dep}$.
   \caption{}
 \end{figure}
 
+\subsection{Störsignale}
+
+Der Sensor und die Ausleseelektronik wie der BEETLE Chip erzeugen Störsignale, die die Messung negativ beeinflussen.
+Sie verändern das eigentliche Signal und erschweren eine korrekte Auslesung.
+Sie werden allumfassend als Rauschen, oder im Englischen Noise, bezeichnet.
+Rauschen kann niemals gänzlich eliminiert werden, aber die Effekte können zumindest auf ein Minimum reduziert werden.
+Der so tatsächlich gemessene ADC Count für ein Signal $k$ des Streifens $i$ besteht aus den folgenden Komponenten:
+
+\begin{equation}
+  \mathup{ADC}(i,k) = \mathup{P}(i,k) + \mathup{D}(k) + \mathup{Signal}(i,k).
+\end{equation}
+
+Dabei bezeichnet $\mathup{P}(i)$ das Pedestal des Streifens.
+Das Pedestal ist der Mittelwert der ADC COunts eines Streifens ohne ein externes Signal $\mathup{Signal}(i,k)$.
+Dieses Pedestal berechnet sich nach $N$ Messungen ohne Quelle zu
+
+\begin{equation}
+  \mathup{P}(i) = \frac{1}{N} \sum^N_{k=1} \mathup{ADC}(i,k).
+\end{equation}
+
+Weiterhin verfügt jeder der 128 Kanäle über einen Pedestal Offset von 500 ADC Counts.
+Eine globale, alle Streifen betreffende Störung wird Common Mode Shift $\mathup{D}(k)$ genannt und berechnet sich durch
+
+\begin{equation}
+  \mathup{D}(k) = \frac{1}{128} \sum^{128}_{i=1} (\mathup{ADC}(i,k) - \mathup{P}(i)).
+\end{equation}
+
+Schlussendlich bestimmt sich die Noise jedes einzelnen STreifens durch den Root-Mean-Square der ADC Counts nachdem das Pedestal und der Common Mode Shift abgeszogen wurden.
+Dies erfolgt nach der Gleichung
+
+\begin{equation}
+  \mathup{Noise}(i) = \sqrt{ \frac{1}{1 - N}  \sum^N_{k = 1} ( \mathup{ADC}(i,k) - \mathup{P}(i) - \mathup{D}(k))^2  }.
+\end{equation}
+
+Dieses Rauschen wird natürlich bei jeder Signalgenerierung mit aufgezeichnet und in die ADC Counts umgewandelt.
+Relevante Signalereignisse sollen durch einen Signal-to-Noise-Cut vom Rauschen unterschieden werden.
+Dabei wird das entstandene Signal durch das Rauschen des betreffenden Streifens geteilt.
+Dieser Wert wird mit dem Cutwert verglichen.
+Das Signal muss also ein Vielfaches (hier 5) des Rauschens betragen damit es weiter in der Analyse berücksichtigt wird.
+
+Durch charge sharing und cross talk kann es zu der Bildung von Clustern kommen.
+Cluster meint in diesem Fall, dass benachbarte Streifen das gleiche Signal sehen.
+Charge Sharing bezeichnet den Vorgang, dass ein Teilchen am Rande eines Streifens herfliegt und seine Ladung auch im benachbarten Streifen deponiert.
+Crosstalk hingegen meint, dass während der Auslesung das Signal des einen Streifens eine Signal in der Auslesekette des anderen Streifens induziert.
+Und natürlich treten auch Teilchenspuren auf, die nicht nur durch einen Streifen fliegen, sondern durch mehrere da sie nicht senkrecht zur Oberfläche verlaufen.
+
 
 
 
