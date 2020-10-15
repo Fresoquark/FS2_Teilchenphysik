@@ -1,5 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
+from numpy.random import normal
 
 strips = np.arange(0, 127)
 
@@ -29,6 +30,15 @@ for i in range(0, 999):
     dshift *= 1/128
     common.append(dshift)
 
+
+mean_hist = np.mean(common)
+variance_hist = np.var(common)
+sigma_hist = np.sqrt(variance_hist)
+
+mean_hist_theorie = 0 
+gaussian_numbers = normal(mean_hist_theorie, sigma_hist, 99999999)
+
+
 noise = []
 #Noise
 for i in strips:
@@ -46,7 +56,8 @@ plt.ylabel("ADC")
 plt.savefig("plots/noise.pdf")
 plt. clf()
 
-plt.hist(common, bins=15, range=[-15, 15], label="Shift", weights=np.ones(len(common)) / len(common), color = 'magenta', alpha=0.5,edgecolor='black', linewidth=1.2)
+plt.hist(common, bins=15, range=[-15, 15], label="Shift", weights=np.ones(len(common)) / len(common), color = 'magenta', alpha=0.6)
+plt.hist(gaussian_numbers, bins=15, range=[-15, 15], label="Theorie-Gauß", weights= np.ones(len(gaussian_numbers))/ len(gaussian_numbers), color = 'dodgerblue', alpha = 0.4)
 plt.legend()
 plt.grid()
 plt.xlabel("Common Mode Shift")
