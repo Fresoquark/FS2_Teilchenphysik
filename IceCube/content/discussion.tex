@@ -1,2 +1,15 @@
 \section{Diskussion}
 \label{sec:discussion}
+
+Im allgemeinen ist festzuhalten, dass der Naive-Bayes Lerner die schlechtes Effizienz der drei Klassifizierer hat.
+Einerseits ist der Naive-Bayes Lerner relativ schnell und trifft gute Vorhersagen, wenn die Attribute unabh\"angig von einander sind. Au\ss erdem funktioniert er am besten mit kategorischen Attributen und weniger gut mit den hier verwendeten numerischen Eingaben.
+Au\ss erdem wird der Naive-bayes Lerner auch "schlechter Sch\"atzer" genannt, weswegen der Output von Methoden wie \texttt{predict\_proba} mit Bedacht verwendet werden sollten.
+
+Der kNN-Klassifizierer, welcher auch als "Lazy lerner" bekannt ist geh\"ort zu der Familie des \"uberwachten maschinellen Lernens und wird oft als Benchmark(\"ubersetzen bitte) f\"ur komplexere Lerner wie SVMs verwendet.
+Der kNN ist relativ schnell f\"ur wenige Attribute doch leidet sehr unter dem Fluch der Dimensionalit\"at. Wir haben hier 20 Attribute verwendet und nehmen auch die 20 n\"achsten Nachbarn, as den Algorithmus sehr langsam macht und die Vorhersage mit zunehmender Attributszahl immer schlechter wird.
+Au\ss erdem sollten die Attribute die selbe Gr\"o\ss enordnung besitzen da unsere Abstandsbestimmung mit der euklidischen Norm berechnet wurde. Um den Algorithmus noch effizienter zu machen sollte man hier die Daten vor dem Training normieren. 
+Dennoch ist der kNN immer noch besser als der Naive-Bayes Lerner.
+
+Der \texttt{RandomForestClassifier} ist auf unserem Sample der beste Klassifizierer. Er kann B\"aume dekorrelieren um eben Korrelationen in den Attributen zu kontrollieren.
+Au\ss erdem sind die Fehler vergleichsweise klein, da der Random Forest den Output jedes Baums verwendet und so Abweichungen minimiert.
+Hier k\"onnte man die Effizienz noch verbessern indem eine andere Feature Selection verwendet wird. Zum Beispile k\"onnte eine Hauptkomponentenanalyse verwendet werden um die besten Attribute zu finden. Man k\"onnte auch mehr oder weniger Attribute benutzen und die Effizienzen neu berechnen um eventuell Overfitting Effekte zu finden falls bestimmte Attribute die anfangs als wichtig gelabelt wurden trotzdem die Effizienz verringern.
