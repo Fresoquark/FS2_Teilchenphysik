@@ -11,7 +11,7 @@ means = []
 for i in strips:
     means.append(np.mean(data[i]))
 
-plt.plot(strips, means, 'bo', label="Pedestals")
+plt.plot(strips, means, marker = 'p',  color = 'magenta', linestyle = 'None' , label="Pedestals")
 plt.legend()
 plt.grid()
 plt.xlabel("Channel")
@@ -38,7 +38,7 @@ for i in strips:
         noisetemp += (data[i][j] - means[i] - common[j])**2
     noise.append(np.sqrt(1/(N - 1) * noisetemp))
 
-plt.plot(strips, noise, 'bo', label="Noise")
+plt.plot(strips, noise, marker = 'o',  color = 'magenta', linestyle = 'None' , label="Noise")
 plt.legend()
 plt.grid()
 plt.xlabel("Channel")
@@ -46,7 +46,7 @@ plt.ylabel("ADC")
 plt.savefig("plots/noise.pdf")
 plt. clf()
 
-plt.hist(common, bins=15, range=[-15, 15], label="Shift", weights=np.ones(len(common)) / len(common))
+plt.hist(common, bins=15, range=[-15, 15], label="Shift", weights=np.ones(len(common)) / len(common), color = 'magenta', alpha=0.5,edgecolor='black', linewidth=1.2)
 plt.legend()
 plt.grid()
 plt.xlabel("Channel")
