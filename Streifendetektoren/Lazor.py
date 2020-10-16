@@ -16,8 +16,12 @@ plt.clf()
 
 data = np.genfromtxt("Data/Laserscan.txt")
 
+print(data)
+print(data[0][68])
+
 strips = np.arange(0, 128)
-position = np.arange(0, 34, 1)
+position = np.arange(0, 35, 1)
+reduposition = np.arange(0, 35, 1)
 
 for i in position:
     plt.plot(strips, data[i])
@@ -31,13 +35,34 @@ plt. clf()
 maxarr = []
 
 #Do for alle channel
-for i in range(67, 70, 1):
-    #Tem parray for maximum
+for i in range(68, 71, 1):
+    #Temparray for maximum
+    print(i)
     maximum = []
-    for posi in range(0, 34, 1):
+    for posi in range(0, 35, 1):
         maximum.append(data[posi][i])
+
+        print(data[posi][i])
     #Find index for maximum => Laserpos
     maxarr.append(np.argmax(maximum))
+    #print("------------------------")
+
+newposi = []
+for i in reduposition:
+    newposi.append(data[i][69])
 
 #Distance between the strips as the mean of the differences between the maxima
 print("Distance between strips: ", np.mean([maxarr[0]-maxarr[1], maxarr[1]-maxarr[2]]) * 10, "micrometres")
+
+
+
+plt.plot(reduposition*10, newposi, marker = 'o',  color = 'black', linestyle = 'None', label="Messwerte")
+plt.vlines(10, 0, 170, color = 'orange', linestyle = 'dashed')
+plt.vlines(110, 0, 170, color = 'orange', linestyle = 'dashed')
+plt.vlines(65, 0, 170, color = 'red', linestyle = 'dashed')
+plt.legend()
+plt.grid()
+plt.xlabel("Position in micrometre")
+plt.ylabel("ADC")
+plt.savefig("plots/lazorausdehnung.pdf")
+plt.clf()
