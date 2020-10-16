@@ -28,13 +28,16 @@ plt.ylabel("ADC")
 plt.savefig("plots/lazorchannel.pdf")
 plt. clf()
 
+maxarr = []
 
+#Do for alle channel
+for i in range(67, 70, 1):
+    #Tem parray for maximum
+    maximum = []
+    for posi in range(0, 34, 1):
+        maximum.append(data[posi][i])
+    #Find index for maximum => Laserpos
+    maxarr.append(np.argmax(maximum))
 
-#for i in strips:
-#    plt.plot(channel, data[][i])
-#
-#plt.xlim(65,72.5)
-#plt.xlabel("Channel")
-#plt.ylabel("ADC")
-#plt.savefig("plots/lazorchannel2.pdf")
-#plt. clf()
+#Distance between the strips as the mean of the differences between the maxima
+print("Distance between strips: ", np.mean([maxarr[0]-maxarr[1], maxarr[1]-maxarr[2]]) * 10, "micrometres")
