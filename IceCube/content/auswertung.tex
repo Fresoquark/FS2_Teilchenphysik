@@ -1,14 +1,14 @@
 \section{Auswertung}
 \label{sec:auswertung}
 
-Zu Beginn wurden aus den zur Vef\"ugung gestellten Datens\"atzen alle Features die Monte Carlo Daten, Gewichte und Labels enthalten, entfernt. Au\ss erdem wurden die Spalten entfernt, die ausschlie\ss lich den selben Wert, "Inf" oder "not a Number" enthalten.
-Abschlie\ss end wurde Signal und Hintergrund Samples auf Features \"uberpr\"uft, die nur in einem der beiden Samples auftreten und diese ebenfalls entfernt, sodass beide Samples die selben Features enthalten.
+Zu Beginn wurden aus den zur Vef\"ugung gestellten Datens\"atzen alle Attribute die Monte Carlo Daten, Gewichte und Labels enthalten, entfernt. Au\ss erdem wurden die Spalten entfernt, die ausschlie\ss lich den selben Wert, "Inf" oder "not a Number" enthalten.
+Abschlie\ss end wurde Signal und Hintergrund Samples auf Attribute \"uberpr\"uft, die nur in einem der beiden Samples auftreten und diese ebenfalls entfernt, sodass beide Samples die selben Attribute enthalten.
 Um sp\"ater zwischen Hintergrund und Signal unterscheiden zu k\"onnen, wurde an das Signal mit "0" gelabelt und der Hintergrund mit "1".
 
-Im folgendenwerden wir drei verschieden Klassifizierer auf eine Auswahl an Features testen. Es werden der \texttt{Naive-Bayes} Klassifizierer, der \texttt{RandomForestClassifier} und der \texttt{KNeighborsClassifier} mit Hilfe von \texttt{sklearn} verwendet.
-Vorab wurden mittels der \texttt{SelectKBest} Methode die 20 besten features ermittelt. Die G\"ute der Features wurde mit dem \texttt{f\_classif} ermittelt.
-Diese Features sind der beigef\"ugten pdf des verwendeten jupyter Notebooks zu entnehmen.
-Aus diesen Features wurden Test- und Trainingsdatens\"atze extrahiert mit welchen die obigen Klassifizierer getestet nun werden.
+Im folgendenwerden wir drei verschieden Klassifizierer auf eine Auswahl an Attributen testen. Es werden der \texttt{Naive-Bayes} Klassifizierer, der \texttt{RandomForestClassifier} und der \texttt{KNeighborsClassifier} mit Hilfe von \texttt{sklearn} verwendet.
+Vorab wurden mittels der \texttt{SelectKBest} Methode die 20 besten Attribute ermittelt. Die G\"ute der Attribute wurde mit dem \texttt{f\_classif} ermittelt.
+Diese Attribute sind der beigef\"ugten pdf des verwendeten jupyter Notebooks zu entnehmen.
+Aus diesen Attributen wurden Test- und Trainingsdatens\"atze extrahiert mit welchen die obigen Klassifizierer getestet nun werden.
 
 Zuerst wurde der \texttt{RandomForestClassifier} verwendet. Dieser basiert auf den bin\"aren Entscheidungsb\"aumen.
 Bei einem Entscheidungsbaum wird an jedem Knoten ein Schnitt in einer Variable durchgeführt und die daraus entstandenen Teilmengen werden in den beiden Ästen des Knotens wiederum durch Schnitte unterteilt, bis entweder eine bestimmte Tiefe
