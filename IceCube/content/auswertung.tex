@@ -5,15 +5,17 @@ Zu Beginn wurden aus den zur Vef\"ugung gestellten Datens\"atzen alle Attribute 
 Abschlie\ss end wurde Signal und Hintergrund Samples auf Attribute \"uberpr\"uft, die nur in einem der beiden Samples auftreten und diese ebenfalls entfernt, sodass beide Samples die selben Attribute enthalten.
 Um sp\"ater zwischen Hintergrund und Signal unterscheiden zu k\"onnen, wurde an das Signal mit "0" gelabelt und der Hintergrund mit "1".
 
-Im folgendenwerden wir drei verschieden Klassifizierer auf eine Auswahl an Attributen testen. Es werden der \texttt{Naive-Bayes} Klassifizierer, der \texttt{RandomForestClassifier} und der \texttt{KNeighborsClassifier} mit Hilfe von \texttt{sklearn} verwendet.
+Im folgenden werden wir drei verschieden Klassifizierer auf eine Auswahl an Attributen testen. Es werden der \texttt{Naive-Bayes} Klassifizierer, der \texttt{RandomForestClassifier} und der \texttt{KNeighborsClassifier} mit Hilfe von \texttt{sklearn} verwendet.
 Vorab wurden mittels der \texttt{SelectKBest} Methode die 20 besten Attribute ermittelt. Die G\"ute der Attribute wurde mit dem \texttt{f\_classif} ermittelt.
 Diese Attribute sind der beigef\"ugten pdf des verwendeten jupyter Notebooks zu entnehmen.
-Aus diesen Attributen wurden Test- und Trainingsdatens\"atze extrahiert mit welchen die obigen Klassifizierer getestet nun werden.
+Aus diesen Attributen wurden Test- und Trainingsdatens\"atze extrahiert, mit welchen die obigen Klassifizierer nun getestet werden.
 
 Zuerst wurde der \texttt{RandomForestClassifier} verwendet. Dieser basiert auf den bin\"aren Entscheidungsb\"aumen.
 Bei einem Entscheidungsbaum wird an jedem Knoten ein Schnitt in einer Variable durchgeführt und die daraus entstandenen Teilmengen werden in den beiden Ästen des Knotens wiederum durch Schnitte unterteilt, bis entweder eine bestimmte Tiefe
 des Baumes erreicht ist oder die Blätter nur Ereignisse einer Klasse enthalten. Um die Effekte des Übertrainierens zu minimieren, wird über ein Ensemble unterschiedlicher
-Entscheidungsbäume gemittelt (Siehe Anleitung).
+Entscheidungsbäume gemittelt.
+Die Bäume werden dabei jeweils auf unterschiedlichen Teilmengen des Trainingsadtensatzes trainiert.
+Die Attribute des Baumes an denen der beste Schnitt gesucht wird, werden zufällig ausgescucht.
 Daf\"ur wurde ein Wald mit 100 B\"aumen gew\"ahlt. Alle anderen Parameter wurde mit default initialisiert.
 Mit der Vorhersage des Klassifizierers wurden die Effizienz\footnote{wir haben den "accuracy score" von sklearn verwendet da es keinen anderen gab} und die Reinheit("precision") bestimmt.
 Au\ss erdem wurde der Jaccard Score f\"ur unsere obige Attributsauswahl berechnet. Die Entsprechende ROC-Kurve ist Abbildung \ref{fig:roc_curves} zu entnehmen.
@@ -50,13 +52,13 @@ Die Ergebnisse befinden sich wieder in Tabelle \ref{tab:results} und der Abbildu
     \text{Naive-Bayes} & 0.79763 & 0.75398 & 0.68410 \\
     \bottomrule
   \end{tabular}
-  \caption{Effizienz und Reinheit des RandomForestClassifiers.}
+  \caption{Effizienz, Reinheit und Jaccard Score der drei verwendeten Klassifizierer.}
   \label{tab:results}
 \end{table}
 
 \begin{figure}
   \centering
   \includegraphics[width=0.8\textwidth]{plots/roc_curves.png}
-  \caption{ROC-Kurven aller getesteten lassifizierer.}
+  \caption{ROC-Kurven aller getesteten Klassifizierer.}
   \label{fig:roc_curves}
 \end{figure}
