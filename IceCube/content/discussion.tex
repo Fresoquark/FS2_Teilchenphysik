@@ -1,15 +1,29 @@
 \section{Diskussion}
 \label{sec:discussion}
 
-Im allgemeinen ist festzuhalten, dass der Naive-Bayes Lerner die schlechtes Effizienz der drei Klassifizierer hat.
-Einerseits ist der Naive-Bayes Lerner relativ schnell und trifft gute Vorhersagen, wenn die Attribute unabh\"angig von einander sind. Au\ss erdem funktioniert er am besten mit kategorischen Attributen und weniger gut mit den hier verwendeten numerischen Eingaben.
+Im allgemeinen ist festzuhalten, dass der Naive-Bayes Lerner die schlechteste Effizienz der drei Klassifizierer aufweist.
+Allerdings ist der Naive-Bayes Lerner relativ schnell und trifft gute Vorhersagen, wenn die Attribute unabh\"angig von einander sind. Au\ss erdem funktioniert er am besten mit kategorischen Attributen und weniger gut mit den hier verwendeten numerischen Eingaben.
 Au\ss erdem wird der Naive-bayes Lerner auch "schlechter Sch\"atzer" genannt, weswegen der Output von Methoden wie \texttt{predict\_proba} mit Bedacht verwendet werden sollten.
+Dies wird auch durch die ROC- Kurve deutlich.
+Dort verläuft die Kurve wesentlich flacher, die Fläche unterhalb der Kurve ist daher wesentlich geringer als bei den anderen beiden Klassifizierern.
+Zu beobachten ist ebenfalls der schlechte Jaccard-Score.
+Die Trennung zwischen Signal und Untergrund ist hier nicht gut erfolgt.
 
-Der kNN-Klassifizierer, welcher auch als "Lazy lerner" bekannt ist geh\"ort zu der Familie des \"uberwachten maschinellen Lernens und wird oft als Benchmark(\"ubersetzen bitte) f\"ur komplexere Lerner wie SVMs verwendet.
-Der kNN ist relativ schnell f\"ur wenige Attribute doch leidet sehr unter dem Fluch der Dimensionalit\"at. Wir haben hier 20 Attribute verwendet und nehmen auch die 20 n\"achsten Nachbarn, as den Algorithmus sehr langsam macht und die Vorhersage mit zunehmender Attributszahl immer schlechter wird.
-Au\ss erdem sollten die Attribute die selbe Gr\"o\ss enordnung besitzen da unsere Abstandsbestimmung mit der euklidischen Norm berechnet wurde. Um den Algorithmus noch effizienter zu machen sollte man hier die Daten vor dem Training normieren. 
+Der kNN-Klassifizierer, welcher auch als "Lazy lerner" bekannt ist geh\"ort zu der Familie des \"uberwachten maschinellen Lernens und wird oft als Maßstab f\"ur komplexere Lerner wie Support Vector Machines (SVM) verwendet.
+Der kNN ist relativ schnell f\"ur wenige Attribute doch leidet sehr unter dem Fluch der Dimensionalit\"at. Bei 20 verwendeten Attributen und somit 20 n\"achsten Nachbarn, wird der Algorithmus sehr langsam und die Vorhersage wird mit zunehmender Attributszahl immer schlechter.
+Au\ss erdem sollten die Attribute die selbe Gr\"o\ss enordnung besitzen da die Abstandsbestimmung mit der euklidischen Norm berechnet wurde. Um den Algorithmus noch effizienter zu machen, sollten hier die Daten vor dem Training normiert werden.
 Dennoch ist der kNN immer noch besser als der Naive-Bayes Lerner.
+Die Effizienz und die Reinheit sind bereits wesentlich besser als noch bei dem Naive-Bayes Lerner.
+Auch der Jaccard-Score zeigt bereits eine gute Trennung.
 
-Der \texttt{RandomForestClassifier} ist auf unserem Sample der beste Klassifizierer. Er kann B\"aume dekorrelieren um eben Korrelationen in den Attributen zu kontrollieren.
-Au\ss erdem sind die Fehler vergleichsweise klein, da der Random Forest den Output jedes Baums verwendet und so Abweichungen minimiert.
-Hier k\"onnte man die Effizienz noch verbessern indem eine andere Feature Selection verwendet wird. Zum Beispile k\"onnte eine Hauptkomponentenanalyse verwendet werden um die besten Attribute zu finden. Man k\"onnte auch mehr oder weniger Attribute benutzen und die Effizienzen neu berechnen um eventuell Overfitting Effekte zu finden falls bestimmte Attribute die anfangs als wichtig gelabelt wurden trotzdem die Effizienz verringern.
+Der \texttt{RandomForestClassifier} ist auf dem genutzen Sample der beste Klassifizierer. Er kann die B\"aume dekorrelieren um die auftretenden Korrelationen in den Attributen zu kontrollieren.
+Die Fehler bleiben vergleichsweise klein, da der Random Forest den Output jedes Baums verwendet und so Abweichungen minimiert.
+Hier k\"onnte die Effizienz noch verbessert werden, indem eine andere Feature Selection verwendet wird, wie zum Beispiel eine Hauptkomponentenanalyse.
+Durch eine Variation der Anzahl an ausgewählten Attributen könnten eventuelle Overfitting Effekte gefunden werden.
+Dafür müssten die Effizienzen neuberechnet werden.
+Damit ließen sich eventuell Attribute finden, die die Effizienz verringern, obwohl sie zunächst von der Selektion als wichtig angesehen wurden.
+Allerdings sind die erreichte Effizienz und Reinheit bereits sehr gut.
+Die berechnete ROC- Kurve ähnelt dem eines perfekten Lerners schon sehr gut.
+Dieser würde eine senkrechte Linie nach oben und anschließend einen konstanten Wert von 1.0 bei der true positive rate aufweisen.
+
+%Man k\"onnte auch mehr oder weniger Attribute benutzen und die Effizienzen neu berechnen um eventuell Overfitting Effekte zu finden falls bestimmte Attribute die anfangs als wichtig gelabelt wurden trotzdem die Effizienz verringern.
