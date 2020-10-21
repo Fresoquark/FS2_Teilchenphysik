@@ -28,11 +28,11 @@ energie4_0V, ADC4_0V = np.genfromtxt("Data/Calib/calib_40_0V.txt",skip_header=2,
 
 
 
-energie1 = energie1 /1e6*3.6
-energie2 = energie2 /1e6*3.6
-energie3 = energie3 /1e6*3.6
-energie4 = energie4 /1e6*3.6
-energie4_0V = energie4_0V /1e6*3.6
+energie1 = (energie1 /1e6)*3.6
+energie2 = (energie2 /1e6)*3.6
+energie3 = (energie3 /1e6)*3.6
+energie4 = (energie4 /1e6)*3.6
+energie4_0V = (energie4_0V /1e6)*3.6
 
 
 

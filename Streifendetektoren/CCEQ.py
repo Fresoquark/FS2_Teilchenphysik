@@ -80,7 +80,6 @@ umrechnung = np.sort(umrechnung)
 spannung = np.arange(0,210,10)
 
 
-
 plt.plot(spannung, umrechnung, marker = '.',  color = 'magenta', linestyle = 'None', label="Energien für Quelle")
 plt.legend()
 plt.grid()
@@ -94,6 +93,8 @@ CCEQ = []
 for i in umrechnung:
     CCEQe = i / 0.11395334577499346
     CCEQ.append(CCEQe)
+
+print(CCEQ)
 
 plt.plot(spannung, CCEQ, marker = '.',  color = 'magenta', linestyle = 'None', label="CCEQ für Quelle")
 plt.legend()

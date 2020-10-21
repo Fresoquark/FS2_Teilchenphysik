@@ -79,8 +79,15 @@ plt.savefig("plots/hitmap.pdf")
 plt.clf()
 
 
-signal, no_entries = np.genfromtxt('Data/signal_quelle.txt', unpack=True, skip_header=1)
+signal, no_entries_all = np.genfromtxt('Data/signal_quelle.txt', unpack=True, skip_header=1)
+
+#ganzen negativen Werte in den Müll
+signal = signal[signal > 0]
+no_entries = no_entries_all[128:]
+
+
 ADC_most_probable = np.argmax(no_entries)
+
 print(np.mean(no_entries[no_entries > 0]))
 plt.plot(signal, no_entries, marker = '.',  color = 'magenta', linestyle = 'None', label="ADC Counts der $^{90}Sr$ Quelle")
 plt.vlines(signal[ADC_most_probable], 0, np.max(no_entries), color='dodgerblue', linestyle='--')
@@ -101,17 +108,20 @@ e = 3.474112787015162e-10
 umrechnung = []
 
 for i in signal:
-    calc = a + b* i + c* i**2 + d* i**3 + e* i**4
+    calc = a + (b* (i)) + (c* ((i)**2)) + (d* ((i)**3)) + (e* ((i)**4))
     umrechnung.append(calc)
-umrechnung = np.sort(umrechnung)
+
+
 
 energy_most_probable = np.argmax(no_entries)
+
+
 plt.plot(umrechnung, no_entries, marker = '.',  color = 'magenta', linestyle = 'None', label="Energiespektrum der $^{90}Sr$ Quelle")
 plt.vlines(umrechnung[energy_most_probable], 0, np.max(no_entries), color='dodgerblue', linestyle='--')
-plt.xlim(1.5, 6)
+plt.xlim(0,0.6)
 plt.legend()
 plt.grid()
-plt.xlabel("Energie in keV")
+plt.xlabel("Energie in MeV")
 plt.ylabel("Häufigkeit")
 plt.savefig("plots/signal_Quelle_energie.pdf")
 plt.clf()
