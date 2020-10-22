@@ -88,6 +88,11 @@ no_entries = no_entries_all[128:]
 
 ADC_most_probable = np.argmax(no_entries)
 
+print("########################################################")
+print("MPV ADC: ", signal[ADC_most_probable], " .")
+print("########################################################")
+
+
 print(np.mean(no_entries[no_entries > 0]))
 plt.plot(signal, no_entries, marker = '.',  color = 'magenta', linestyle = 'None', label="ADC Counts der $^{90}Sr$ Quelle")
 plt.vlines(signal[ADC_most_probable], 0, np.max(no_entries), color='dodgerblue', linestyle='--')
@@ -114,6 +119,10 @@ for i in signal:
 
 
 energy_most_probable = np.argmax(no_entries)
+
+print("########################################################")
+print("MPV Energie: ", umrechnung[energy_most_probable], "in MeV")
+print("########################################################")
 
 
 plt.plot(umrechnung, no_entries, marker = '.',  color = 'magenta', linestyle = 'None', label="Energiespektrum der $^{90}Sr$ Quelle")

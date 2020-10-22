@@ -20,6 +20,16 @@ else
 endif
 
 all: build/main.pdf FORCE
+	 python CCEL.py
+	 python Lazor.py
+	 python CCEQ.py
+	 python CCEQ_L_Compare.py
+	 python Kalibration.py 
+	 python kennlinie.py 
+	 python Lazor.py 
+	 python Noise.py 
+	 python Quellscan.py
+	 
 
 # hier weitere Abhängigkeiten für build/main.pdf deklarieren:
 build/main.pdf: FORCE | build
@@ -32,8 +42,9 @@ build/main.pdf: FORCE | build
 build:
 	mkdir -p build
 
-# plots:
+plots:
 # 	mkdir -p plots
+
 
 clean:
 	rm -rf build
