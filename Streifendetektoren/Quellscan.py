@@ -83,19 +83,29 @@ signal, no_entries_all = np.genfromtxt('Data/signal_quelle.txt', unpack=True, sk
 
 #ganzen negativen Werte in den Müll
 signal = signal[signal > 0]
+signal_mean_defined = signal[signal < 254.67294950000002]
+
+
 no_entries = no_entries_all[128:]
 
+no_entries_for_mean = no_entries[:64]
 
 ADC_most_probable = np.argmax(no_entries)
+
+ADC_mean = np.mean(no_entries_for_mean)
 
 print("########################################################")
 print("MPV ADC: ", signal[ADC_most_probable], " .")
 print("########################################################")
+print("Mean ADC y- value: ", ADC_mean, " .")
+print("########################################################")
+print("Mean ADC dazu korrespondierender x-Wert auf txt File, der am besten dazu passt 129.873047")
+print("########################################################")
 
-
-print(np.mean(no_entries[no_entries > 0]))
+#print(np.mean(no_entries[no_entries > 0]))
 plt.plot(signal, no_entries, marker = '.',  color = 'magenta', linestyle = 'None', label="ADC Counts der $^{90}Sr$ Quelle")
 plt.vlines(signal[ADC_most_probable], 0, np.max(no_entries), color='dodgerblue', linestyle='--')
+plt.vlines(signal[32], 0, np.max(no_entries), color='deeppink', linestyle='--')
 plt.xlim(30, 250)
 plt.legend()
 plt.grid()
@@ -111,26 +121,41 @@ d = -1.4001913507631864e-07
 e = 3.474112787015162e-10
 
 umrechnung = []
+umrechnung_mean = []
+keV_spektrum = []
 
 for i in signal:
     calc = a + (b* (i)) + (c* ((i)**2)) + (d* ((i)**3)) + (e* ((i)**4))
     umrechnung.append(calc)
 
+for i in signal_mean_defined:
+    calc_mean = a + (b* (i)) + (c* ((i)**2)) + (d* ((i)**3)) + (e* ((i)**4))
+    umrechnung_mean.append(calc_mean)
+
+for i in umrechnung:
+    i = i*10**3
+    keV_spektrum.append(i)
 
 
 energy_most_probable = np.argmax(no_entries)
+energy_mean = np.mean(no_entries_for_mean)
 
 print("########################################################")
-print("MPV Energie: ", umrechnung[energy_most_probable], "in MeV")
+print("MPV Energie: ", keV_spektrum[energy_most_probable], "in keV")
+print("########################################################")
+print("Mean Energie y-value : ",energy_mean, " .")
+print("########################################################")
+print("Mean Energie korrespondierte Umrechnung : ",keV_spektrum[32], "keV")
 print("########################################################")
 
 
-plt.plot(umrechnung, no_entries, marker = '.',  color = 'magenta', linestyle = 'None', label="Energiespektrum der $^{90}Sr$ Quelle")
-plt.vlines(umrechnung[energy_most_probable], 0, np.max(no_entries), color='dodgerblue', linestyle='--')
-plt.xlim(0,0.6)
+plt.plot(keV_spektrum, no_entries, marker = '.',  color = 'magenta', linestyle = 'None', label="Energiespektrum der $^{90}Sr$ Quelle")
+plt.vlines(keV_spektrum[energy_most_probable], 0, np.max(no_entries), color='dodgerblue', linestyle='--')
+plt.vlines(keV_spektrum[32], 0, np.max(no_entries), color='deeppink', linestyle='--')
+plt.xlim(0,600)
 plt.legend()
 plt.grid()
-plt.xlabel("Energie in MeV")
+plt.xlabel("Energie in keV")
 plt.ylabel("Häufigkeit")
 plt.savefig("plots/signal_Quelle_energie.pdf")
 plt.clf()

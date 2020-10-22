@@ -101,6 +101,10 @@ for i in range(len(energie1)):
 mean_fit_ADC = mean_ADC[:140]
 mean_fit_pulses = mean_pulses[:140]
 
+print("#####################################################################################")
+print("Letzter Wert der Funktion: ", mean_fit_ADC[139])
+print("#####################################################################################")
+
 
 def poly4(mean_fit_ADC, a , b, c, d, e):
     return a + (np.array(mean_fit_ADC) * b) + ((np.array(mean_fit_ADC)**2) * c) + ((np.array(mean_fit_ADC)**3) * d) + ((np.array(mean_fit_ADC)**4) * e)
