@@ -54,9 +54,11 @@ for i in range(68, 71, 1):
         maximum.append(data[posi][i])
     #Find index for maximum => Laserpos
     maxarr.append(np.argmax(maximum))
+    print("Maximum", i, data[np.argmax(maximum)][i], np.argmax(maximum))
     #print("------------------------")
 
 #Distance between the strips as the mean of the differences between the maxima
+#print("Maximaposi: ", maxarr, "x10")
 print("Distance between strips: ", np.mean([maxarr[0]-maxarr[1], maxarr[1]-maxarr[2]]) * 10, "micrometres")
 
 #Channel 69
