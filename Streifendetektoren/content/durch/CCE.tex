@@ -1,0 +1,33 @@
+\subsection{Bestimmung der Charge Collection Efficiency mit Laser und Quelle}
+
+Die Bestimmung der Charge Collection Efficiency (CCE) wird sowohl mit dem Laser als auch mit der Quelle durchgeführt.
+
+Für den Laser wird eines der zuvor bestimmten Maxima genutzt.
+Der Laser wird erneut fokussiert.
+Die Vorspannung wird in $\SI{10}{\volt}$ Schritten von $\SI{0}{\volt}$ bis $\SI{200}{\volt}$ variiert.
+Für jede Stufe werden im Laser Run 1000 Events aufgenommen.
+Die so erhaltenen Messpunkte geben schlussendlich Auskunft über die CCE des Detektors.
+Durch einen Fit der Daten mittels Gleichung \eqref{eqn:Eindringtiefe} kann die EIndringtiefe des Lasers berechnet werden.
+
+Für die Quelle muss der Aufbau zunächst wieder umgebaut werden.
+Der Reiter muss in die Quellenposition gebracht werden.
+Die gesamte Detektoreinheit wird dann in einen mit Bleiziegeln ausgekleideten Behälter gelegt.
+Die Quelle wird auf die entsprechende Vorrichtung gelegt.
+Das Messprogramm an sich verläuft analog zu der des Lasers.
+Es wird in $\SI{10}{\volt}$ Schritten von $\SI{0}{\volt}$ bis $\SI{200}{\volt}$ jeweils 10000 Events vermessen.
+Damit das Timing korrekt eingestellt ist, muss die Latenz auf 129 eingestellt und der Trigger richtig eingestellt werden.
+Der Trigger sollte im OR und Trigger-Pulse-in-Modus betrieben werden.
+Der Trigger-Threshold 1 ist auf -50 und Der Trigger-Threshold 2 ist auf 50 einzustellen.
+Die Messung wird über den RS Run gestartet.
+Das mitgelieferte Programm berechnet aus den Rohdaten zusätzlich die Verteilung der Cluster des Sensors.
+Daraus wird die mittlere Clusterenergie in Abhängigkeit der angelegten Soannung bestimmt.
+Um die beiden Methoden zu vergleichen, werden diese in einem extra Plot zusammen dargestellt.
+
+
+
+
+
+
+
+
+%
