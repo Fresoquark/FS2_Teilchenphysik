@@ -104,7 +104,7 @@ gefittet. Die Messwerte und die Fitfunktion sind in Abbildung
   \label{fig:kalibfunktion}
 \end{figure}
 
-Ein sinnvoller Fit war nur bis zu einem ADC-Wert von $254.6729$ möglich, da 
+Ein sinnvoller Fit war nur bis zu einem ADC-Wert von 254,6729 möglich, da 
 ab diesem Punkt die Funktion weder grafisch noch von den Parametern passend war. 
 Mit Hilfe von \texttt{scipy.optimize.curve$\_$fit} wurde der Fit durchgeführt und die 
 Parameter und dessen Unsicherheiten berechnet .\par 
@@ -112,6 +112,7 @@ Für die Funktion:
 
 \begin{equation}
 E \left(ADC  \right) = a + b * ADC + c * ADC^2 + d * ADC^3 + e * ADC^4
+\label{eqn:kalib}
 \end{equation}
 
 ergeben sich die folgenden Parameter: 

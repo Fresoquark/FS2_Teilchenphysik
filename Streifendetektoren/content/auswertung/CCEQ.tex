@@ -1,0 +1,38 @@
+\subsubsection{Mittels einer Quelle}
+\label{sec:CCEQ}
+
+In diesem Teil wird die Charge Collection Efficiency bei einer 
+Quellmessung bestimmt. Gemessen werden jeweils 10000 Events 
+bei Spannungen von $\SI{0}{}$ bis $\SI{200}{\volt}$ in 
+$\SI{10}{\volt}$ Schritten. Das gegebene Auswertungsskript erstellt 
+dann für jede Spannung eine Datei, in der in jeder Zeile die 
+Einträge stehen, die diesem Cluster zugeordnet werden. Für die Auswertung 
+werden die Einträge einer Zeile addiert und danach über alle Zeilen, also 
+alle Cluster der Datei gemittelt. Zunächst werden dann die gemittelten ADC 
+Werte gegen ihre Spannung aufgetragen, zu sehen in Abbildung \ref{fig:ADCCluster}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/CCEQuelle.pdf}
+  \caption{Gemittelte Clustereinträge als ADC Werte gegen die jeweilige 
+  Spannung aufgetragen. Die Charge Collection Efficiency wurde hier mit 
+  Hilfe einer $^{90}\text{Sr}$ Quelle bestimmt.}
+  \label{fig:ADCCluster}
+\end{figure}
+
+Im Anschluss daran werden die ADC Einträge mit Hilfe der 
+Kalibrierungsfunktion \eqref{eqn:kalib} in Energien umgerechnet. Die Charge 
+Collection Efficiency in Abhängigkeit von der Energie ist in 
+Abbildung \ref{fig:Energiecluster} dargestellt. Da Effizienzen maximal einen 
+Wert von 1 erreichen können, wird in beiden Diagrammen auf den Sättigungswert 
+normiert.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/CCEQuelleenergie.pdf}
+  \caption{Gemittelte Clustereinträge als Energie Werte gegen die jeweilige 
+  Spannung aufgetragen. Die Charge Collection Efficiency wurde hier mit 
+  Hilfe einer $^{90}\text{Sr}$ Quelle bestimmt und die Energie mit 
+  Hilfe der Kalibrierungsfunktion \eqref{eqn:kalib} bestimmt.}
+  \label{fig:Energiecluster}
+\end{figure}

@@ -1,0 +1,87 @@
+\subsection{Der Große Quellscan}
+\label{sec:Quellscan}
+
+Dieser Versuchsteil wird mit 1.000.000 Events durchgeführt. Zunächst wird 
+in einem Histogramm, die Anzahl der Cluster pro Event mit der Anzahl der 
+Kanäle pro Cluster verglichen. Dies ist in Abbildung \ref{fig:AnzahlCluster} 
+dargestellt.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/clustersamount_hist.pdf}
+  \caption{Grafische Darstellung der Anzahl der Kanäle pro Cluster und 
+  der Anzahl der Cluster pro Event für einen großen Quellscan einer 
+  $^{90}\text{Sr}$ Quelle.}
+  \label{fig:AnzahlCluster}
+\end{figure}
+
+Zu einem ist erkennbar, dass meistens ein Kanal pro Cluster beteiligt ist. Die 
+Häufigkeit der beteiligten Kanäle pro Cluster wird geringer für größer werdende 
+Kanalanzahl. Des Weiteren ist erkennbar, dass pro Event meistens ein Cluster 
+entsteht. Bei einigen Events entstehen auch zwei Cluster oder kein Cluster, wobei 
+diese Häufigkeit geringer ist gegenüber der Häufigkeit für ein Cluster pro Event.
+Für drei oder mehr Cluster ist die Häufigkeit verschwindend gering.
+\par \medskip 
+
+Als nächstes wird eine Hitmap erstellt, in der die Anzahl der Ereignisse pro 
+Kanal dargestellt wird. Die Hitmap ist in Abbildung \ref{fig:Hitmap} 
+dargestellt.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/hitmap.pdf}
+  \caption{Grafische Darstellung Anzahl der Ereignisse pro Kanal.}
+  \label{fig:Hitmap}
+\end{figure}
+
+Zu erkennen ist eine große Beteiligung der Streifen von 35 bis 60, da dort 
+ein Maximum zu sehen ist. Streifen von 0 bis 35 zeigen auch eine hohe Beteiligung 
+und Streifen von 60 bis 128 eine immer geringer werdende. Im Vergleich zu 
+Abbildung \ref{fig:lazorchannel} ist zu erkennen, dass bei einem großen Quellscan 
+deutlich mehr Streifen beteiligt sind, was an der großen Ausdehnung und größeren 
+Streuwinkel der Quelle liegen kann. \par \medskip 
+
+Als nächstes wird das Energiespektrum der Quelle ausgemessen. Dazu werden zunächst 
+die ADC Werte in Abhängigkeit von ihrer Häufigkeit dargestellt. Es muss beachtet 
+werden, dass bei der Datenverarbeitung ADC Counts mit einem Eintrag kleiner als Null 
+verworfen wurden. Für die Berechnung des Mittelwerts wurden weiterhin nur Werte, 
+welche im Gültigkeitsbereich der Kalibrierungsfunktion \eqref{eqn:kalib} liegen (sprich ADC 
+Werte im Bereich von $0 \textless \text{ADC} \textless 254.6729$) liegen, 
+betrachtet. Das ADC-Energiespektrum ist in Abbildung \ref{fig:ADCSpektrum} 
+dargestellt. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/signal_Quelle.pdf}
+  \caption{Signal der $^{90}\text{Sr}$ Quelle angegeben als ADC Count mit 
+  der Häufigkeit, mit der diese im großen Quellscan auftauchen.}
+  \label{fig:ADCSpektrum}
+\end{figure}
+
+Der Mittelwert und der Wahrscheinlichste Wert (MPV: Most probable 
+value) betragen:
+
+\begin{align*}
+    \bar{\text{ADC}} &= 129.87 \\ 
+    \text{MPV} &= 81.92 \, .
+\end{align*}
+
+Mit Hilfe der Kalibrierungsfunktion \eqref{eqn:kalib} wird das Spektrum 
+dann in ein Energiespektrum überführt. Das keV-Energiespektrum ist in Abbildung 
+\ref{fig:Energiespektrum} dargestellt.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/signal_Quelle_energie.pdf}
+  \caption{Signal der $^{90}\text{Sr}$ Quelle angegeben als Energie mit 
+  der Häufigkeit, mit der diese im großen Quellscan auftauchen.}
+  \label{fig:Energiespektrum}
+\end{figure}
+
+Der Mittelwert und der Wahrscheinlichste Wert (MPV: Most probable 
+value) betragen:
+
+\begin{align*}
+    \bar{\text{E}} &= \SI{157.61}{\kilo\electronvolt} \\ 
+    \text{MPV} &= \SI{93.26}{\kilo\electronvolt} \, .
+\end{align*}

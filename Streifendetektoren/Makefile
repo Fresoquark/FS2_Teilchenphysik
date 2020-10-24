@@ -26,7 +26,6 @@ all: build/main.pdf FORCE
 	 python CCEQ_L_Compare.py
 	 python Kalibration.py 
 	 python kennlinie.py 
-	 python Lazor.py 
 	 python Noise.py 
 	 python Quellscan.py
 	 

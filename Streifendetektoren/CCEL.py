@@ -20,7 +20,7 @@ d = -1.4001913507631864e-07
 e = 3.474112787015162e-10
 
 dicke = 300*10**(-6)# 300 meter
-depletionsSpannung = 70 # volt
+depletionsSpannung = 75 # volt
 
 norm = mean / max(mean)
 
@@ -41,7 +41,7 @@ def fit_func(spann, a):
 params, params_covariance = optimize.curve_fit(fit_func, spann, norm)
 
 print("#####################################################################################")
-print("Parameter a: ", params[0]*10**6, ' micrometer')
+print("Parameter a: ", params[0]*10**6, ' micrometer plus/minus', params_covariance[0][0]*10**6)
 # print("Parameter a: ", params[1], 'micrometer')
 print("#####################################################################################")
 

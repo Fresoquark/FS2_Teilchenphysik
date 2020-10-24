@@ -1,2 +1,92 @@
 \section{Diskussion}
 \label{sec:diskussion}
+
+Die Messung der Strom-Spannungs-Kennlinie zeigt eine gute Übereinstimmung mit 
+den erwarteten Daten. Herstellerangaben für die Depletionsspannung liegen 
+im Bereich zwischen $U_{dep} = 60$ bis $\SI{80}{\volt}$. Mit einer 
+Depletionsspannung von $U_{dep} \approx \SI{70}{\volt}$ liegt der 
+Messwert also in einem akzeptablen Bereich. Möglicherweise ist die 
+Abschätzung auf $U_{dep} \approx \SI{70}{\volt}$ etwas zu hoch und die 
+Depletionsspannung liegt um einige wenige Volt geringer, allerdings ist dies 
+in der Abbildung \ref{fig:kennlinie} schwer identifizierbar. \par \medskip
+
+Die Untergrundmessung zeigt zu einem, dass ohne externes Feld im Mittel 
+ungefähr 4.6 ADC Counts gemessen werden. Zusammen mit dem Common Mode Shift, 
+bei dem die Messwerte näherungsweise einem Theoriegauß um die Null verteilt 
+entsprechen, ergibt sich ein ungefähres mittleres Gesamtrauschen von 
+ungefähr 508 ADC Counts. Ein systematischer Fehler in der Messung ist in diesem 
+Versuchsteil auszuschließen. \par \medskip
+
+Bei der Kalibrationsmessung befindet sich das gemessene Maximum im Bereich von 
+$t_{max} \approx \SI{48}{\nano\second}$. Laut Anleitung \cite{Anleitung} sollte 
+dieses im Bereich von $t_{max} \approx \SI{65}{\nano\second}$ liegen. 
+Rückblickend an den Versuchstag gedacht, ist aufgefallen, dass zunächst eine 
+Messung durchgeführt wurde, bei der die Spannung noch auf Null Volt lag. Erst 
+später ist uns dies aufgefallen und wir haben die Messung für eine 
+Depletionsspannung von $\SI{90}{\volt}$ wiederholt. Eine dieser Messung ergab 
+ein Maxiumum um die $t_{max} \approx \SI{60}{\nano\second}$, das andere 
+war sehr gering. Daher wird vermutet, dass durch einen menschlichen Fehler 
+das falsche Spektrum, also das Spektrum bei $\SI{0}{\volt}$ abgespeichert wurde, 
+da dort der optimale Delay kleiner war. Für die weiteren Messungen 
+wurde allerdings der richtige Wert für den Delay verwendet. \par \smallskip 
+
+Des Weiteren konnte festgestellt werden, dass der Fit mit einem Polynom 4. Grades 
+nicht auf dem Gesamten Messbereich möglich war. Daher wurde eine willkürliche 
+Grenze gesetzt, bei der der Fit optisch und von den Parametern her, sinnvoll 
+möglich war. \par \medskip 
+
+Laut Anleitung hat der Laser eine Ausdehnung auf dem Sensor von 
+$d_\text{laser} = \SI{20}{\micro\metre}$. Die von uns bestimmte Ausdehnung 
+beträgt einem Wert von $d_\text{laser} = \SI{18.4 \pm 0.6}{\micro\metre}$. 
+Die entspricht einer prozentualen Abweichung von $\SI{8}{\percent}$ oder 
+einer Sigma-Umgebung. Daher kann dieser Versuchsteil als gut umgesetzt 
+bewertet werden. Der gemessene pitch, also der Abstand 
+zwischen den Sensorstreifen, entspricht
+$\SI{160 \pm 110}{\micro\metre}$. Hierbei ist zu beachten, dass durch die Methode, 
+der Bestimmung des Mittleren Abstandes der einzelnen Peaks, keine Unsicherheit 
+bestimmbar war, aber davon auszugehen ist, dass diese ein genaueres 
+Ergebnis liefern würde. In der Anleitung ist ein 
+pitch von $\SI{160}{\micro\metre}$ als Angabe für den Sensor gegeben. Die Werte 
+stimmen überein, jedoch kann durch den hohen Fehler bzw. die Abwesenheit eines 
+Fehlers keine genauere Bewertung vorgenommen werden. \par \medskip 
+
+Die Messung der Charge Collection Efficiency für den Laser ergibt eine 
+mittlere Eindringtiefe von $a = \SI[parse-numbers=false]{174.43 \pm 5.8 \times 10^{-5}}{\micro\meter}$.
+Laut Anleitung hängt diese von der Wellenlänge des Lasers ab und beträgt 
+für $\SI{960}{\nano\meter}$ $\SI{74}{\micro\meter}$ und für 
+$\SI{1073}{\nano\meter}$ $\SI{380}{\micro\meter}$. Der verwendete Laser besitzt 
+eine Wellenlänge von $\SI{980}{\nano\meter}$. Der ermittelte Wert scheint daher 
+etwas hoch, allerdings ist das Verhalten der Eindringtiefe mit wachsender 
+Wellenlänge nicht bekannt (sprich ob exponentiell, linear, etc.) und kann daher 
+nur als möglicher Wert bewertet werden. Jedoch ist zu erkennen, dass die Verwendung 
+einer Quelle oder eines Lasers durchaus einen Einfluss auf die Charge Collection 
+Efficiency hat. Das hat den Ursprung, dass der Laser bei einer 
+Eindringtiefe von $a = \SI[parse-numbers=false]{174.43 \pm 5.8 \times 10^{-5}}{\micro\meter}$ 
+in einen $\SI{300}{\nano\meter}$ dicken Laser, seine Energie vollständig 
+deponieren kann. Bei der Quelle allerdings spielen statistische Fluktuationen 
+auch eine Rolle. Wie bereits in der Theorie erwähnt, produzieren die ionisierenden 
+Teilchen aus dem Beta-Zerfall Sekundärteilchen, welche eine Wahrscheinlichkeit 
+besitzten, den Detektor verlassen zu können. Dies Beeinflusst die Charge Collection 
+Efficiency, weswegen diese für die Quelle flacher ansteigt, als für den Laser. \par \medskip 
+
+Die Darstellung der Kanäle pro Cluster und die Cluster pro Event passen gut 
+zueinander. Sie zeigt, dass pro Event vermehrt wenige Cluster auftreten und drei 
+oder mehr Cluster kaum eine Wahrscheinlichkeit besitzen. Des Weiteren sind vermehrt 
+wenige Kanäle in einem Cluster zusammengefasst. Es gibt kaum Cluster mit vier oder 
+mehr Kanäle.\par 
+Die Bestimmung des Energiespektrums spiegelt weitesgehend die Erwartung wieder. Wie 
+bereits beschrieben wird eine Faltung einer Gaußverteilung mit einer Landauverteilung 
+erwartet mit einem Peak bei kleineren Energien und einem Mittelwert bei höheren Energien.
+Der gemessene Mittelwert und MPV spiegeln diesen Sachverhalt wieder. Laut 
+Anleitung gilt für $^{90}\text{Sr}$ eine mittlere deponierte Energie in Silizium 
+von $\bar{\text{E}} = \SI{3.88}{\mega\electronvolt\per\centi\meter}$. Gerechnet auf die 
+tatsächliche Dicke des Sensors ergibt dies eine mittlere Energiedeposition 
+von $\bar{\text{E}} = \SI{116.4}{\mega\electronvolt}$ pro $\SI{300}{\centi\meter}$. 
+Gemessen wurde eine mittlere Energiedeposition von 
+$\bar{\text{E}} = \SI{157.61}{\kilo\electronvolt}$. Dies weicht um $\SI{35}{\percent}$
+von dem erwarteten Ergebniss ab. Hierbei sind statistische Fluktuationen zu 
+beachten. Des Weiteren macht es einen großen Einfluss, welcher Bereich 
+des mittels Kalibrierungsfunktion überführten Spektrums für die Berechnung 
+verwendet wurde. Hier wurde nur der Bereich der Messwerte der Kalibrierungsfunktion 
+selber genommen, da der volle Messbereich den Mittelwert weiter zu hohen Energien 
+geführt hätte. 
