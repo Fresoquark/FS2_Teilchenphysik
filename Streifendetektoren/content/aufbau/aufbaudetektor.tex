@@ -2,7 +2,7 @@ Generell besteht der verwendete Aufbau aus drei Teilen, welche nachfolgend genau
 Damit die Datenaufnahme am Rechner reibungslos funktioniert muss der Aufbau in der richtigen Reihenfolge erfolgen.
 Das generelle Schema ist in Abbildung \ref{fig:aufbau} dargestellt.
 
-\begin{figure}
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.5\textwidth]{content/graphics/aufbau.png}
   \caption{Aufbau und Verkabelung des benutzten Detektorsystems.}
@@ -39,7 +39,7 @@ Erzeugt wird der Laser dabei nicht innerhalb des Lasersystems auf der Detektorei
 Die Wellenlänge des Lasers beträgt $\SI{980}{\nano\metre}$, der Durchmesser $\SI{20}{\micro\metre}$ und die Spitzenleistung $\SI{0.6}{\milli\watt}$ bei einer Pulslänge von $\SI{5}{\nano\second}$.
 Das Aussehen der Detektoreinheit ist in Abbildung \ref{fig:detektoreinheit} zu sehen.
 
-\begin{figure}
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{content/graphics/detektoreinheit.png}
   \caption{Die verwendete Detektoreinheit in Aufsicht und Frontalansicht.}
@@ -89,7 +89,7 @@ Die Dicke der Depletionszone berechnet sich durch
 mit der Depletionsspannung $U_{dep}$.
 
 
-\begin{figure}
+\begin{figure}[H]
   \begin{subfigure}{0.45\textwidth}
     \centering
     \includegraphics[width=\linewidth]{content/graphics/schrag.png}
@@ -114,6 +114,7 @@ Rauschen kann niemals gänzlich eliminiert werden, aber die Effekte können zumi
 Der so tatsächlich gemessene ADC Count für ein Signal $k$ des Streifens $i$ besteht aus den folgenden Komponenten:
 
 \begin{equation}
+  \label{eqn:ADC}
   \mathup{ADC}(i,k) = \mathup{P}(i,k) + \mathup{D}(k) + \mathup{Signal}(i,k).
 \end{equation}
 
@@ -122,6 +123,7 @@ Das Pedestal ist der Mittelwert der ADC COunts eines Streifens ohne ein externes
 Dieses Pedestal berechnet sich nach $N$ Messungen ohne Quelle zu
 
 \begin{equation}
+  \label{eqn:pedestal}
   \mathup{P}(i) = \frac{1}{N} \sum^N_{k=1} \mathup{ADC}(i,k).
 \end{equation}
 
@@ -129,6 +131,7 @@ Weiterhin verfügt jeder der 128 Kanäle über einen Pedestal Offset von 500 ADC
 Eine globale, alle Streifen betreffende Störung wird Common Mode Shift $\mathup{D}(k)$ genannt und berechnet sich durch
 
 \begin{equation}
+  \label{eqn:shift}
   \mathup{D}(k) = \frac{1}{128} \sum^{128}_{i=1} (\mathup{ADC}(i,k) - \mathup{P}(i)).
 \end{equation}
 
@@ -136,6 +139,7 @@ Schlussendlich bestimmt sich die Noise jedes einzelnen STreifens durch den Root-
 Dies erfolgt nach der Gleichung
 
 \begin{equation}
+  \label{eqn:noise}
   \mathup{Noise}(i) = \sqrt{ \frac{1}{1 - N}  \sum^N_{k = 1} ( \mathup{ADC}(i,k) - \mathup{P}(i) - \mathup{D}(k))^2  }.
 \end{equation}
 

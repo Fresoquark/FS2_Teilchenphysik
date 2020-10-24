@@ -1,0 +1,130 @@
+\subsection{Kalibrationsmessung}
+\label{sec:kalibration}
+
+Bei der Kalibrationsmessung sendet die Kontrolleinheit einen wohldefinierten 
+Elektronenpuls an den BEETLE Chip, um später ADC Counts in Ladung umrechnen 
+zu können.
+Zunächst wird eine Delay Messung durchgeführt, die den optimalen Abstand zwischen
+Signal und Auslese des BEETLE Chips bestimmen soll. Dazu werden die ADC Counts 
+in Abhängigkeit der Zeit gemessen und aufgetragen. Das Maximum der Messwerte wird 
+dann für den weiteren Verlauf eingetragen. Die Messwerte für den Delay 
+Scan und das ermittelte Maximum sind in Abbildung \ref{fig:delay} 
+dargestellt.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/delay_messung.pdf}
+  \caption{Gemessene ADC Counts in Abhängigkeit von der Zeit. Das 
+  Maximum beträgt $t_{max} \approx \SI{48}{\nano\second}$.}
+  \label{fig:delay}
+\end{figure}
+
+Das Maximum befindet sich an der Position $t_{max} \approx \SI{48}{\nano\second}$
+und wird für die weitere Messung als Delay eingetragen. Laut Anleitung 
+\cite{Anleitung} liegen typische Werte für einen Delay bei 
+ungefähr $t_{max} \approx \SI{65}{\nano\second}$. Die Abweichung wird 
+in der Diskussion \ref{sec:diskussion} genauer untersucht. \par \smallskip
+
+Im Anschluss daran, werden für fünf Kanäle Kalibrationskurven aufgenommen. Vier 
+davon werden bei einer Spannung von $U = \SI{90}{\volt}$ aufgenommen und eine 
+bei einer Spannung von $U = \SI{0}{\volt}$. Die untersuchten Streifen sind 
+Streifen 10, 20, 30 und 40, wobei für 40 beide Spannungen gemessen werden. 
+Die Kalibrationskurven für $U = \SI{90}{\volt}$ 
+sind in Abbildung \ref{fig:kalib} dargestellt. Aufgetragen sind die ADC Counts 
+in Abhängigkeit vom Elektronenpuls bzw. der Energie. Um eine Energie in MeV 
+auftragen zu können, werden die aufgenommenen Werte zunächst durch $10^6$ geteilt 
+und mit $\SI{3.6}{\electronvolt}$ multipliziert, da dies die Energie ist, die benötigt 
+wird um ein Elektron-Loch Paar in Silizium zu erzeugen.
+
+\begin{figure*}
+    \centering
+    \begin{subfigure}[b]{0.475\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{plots/calib_channel10.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.475\textwidth}  
+        \centering 
+        \includegraphics[width=\textwidth]{plots/calib_channel20.pdf}
+    \end{subfigure}
+    \vskip\baselineskip
+    \begin{subfigure}[b]{0.475\textwidth}   
+        \centering 
+        \includegraphics[width=\textwidth]{plots/calib_channel30.pdf}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.475\textwidth}   
+        \centering 
+        \includegraphics[width=\textwidth]{plots/calib_channel40.pdf}  
+    \end{subfigure}
+    \caption{Gemessene ADC Counts in Abhängigkeit des Elektronenpulses für die Streifen 10, 20, 30 und 40 bei einer 
+    Spannung von $U = \SI{90}{\volt}$. Bei allen ist ein Sättigungsverhalten ab ungefähr 
+    $E \approx \SI{0.55}{\mega\electronvolt}$ erkennbar.}
+    \label{fig:kalib}
+\end{figure*}
+
+Für den Streifen 40 wird noch ein Vergleichsdiagramm erstellt, in dem der Verlauf 
+für $U = \SI{0}{\volt}$ mit dem Verlauf für $U = \SI{90}{\volt}$ 
+verglichen wird. Die beiden Kurven sind in Abbildung \ref{fig:kalibvergleich} 
+dargestellt.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/calib_channel40_comparison.pdf}
+  \caption{Gemessene ADC Counts in Abhängigkeit des Elektronenpulses für den Streifen 40 bei einer 
+    Spannung von $U = \SI{0}{\volt}$ und $U = \SI{90}{\volt}$ im Vergleich.}
+  \label{fig:kalibvergleich}
+\end{figure}
+
+Abbildung \ref{fig:kalibvergleich} zeigt, dass der Verlauf für eine Spannung 
+$U = \SI{0}{\volt}$ ähnlich ist, die Kurve jedoch flacher ist, als bei einer Spannung 
+von $U = \SI{90}{\volt}$. Dies stammt daher, dass bei einer Spannung unterhalb der 
+Depletionsspannung noch Rekombination des Elektron-Loch-Paares stattfinden kann, 
+welches die Anzahl der gemessenen Counts beeinflusst. \par 
+
+Alle Diagramme aus Abbildung \ref{fig:kalib} und \ref{fig:kalibvergleich} 
+zeigen eine Sättigung ab ungefähr $E \approx \SI{0.55}{\mega\electronvolt}$. 
+Das bedeutet, dass ab einem gewissen Schwellwert alle Counts den gleichen 
+Energiewert zugewiesen bekommen und der Detektor ab dort nicht mehr sensitiv 
+messen kann. \par \medskip 
+
+Für spätere Messungen wird eine Kalibrationsfunktion benötigt, um die gemessenen 
+ADC Counts in eine Energie umrechnen zu können. Dafür werden von den Streifen 
+in Abbildung \ref{fig:kalib} pro Punkt jeweils die Mittelwerte genommen. Diese 
+werden dann in einem Energie-ADC Diagramm und mit einem Polynom vierten Grades 
+gefittet. Die Messwerte und die Fitfunktion sind in Abbildung 
+\ref{fig:kalibfunktion} dargestellt.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/calib_mean.pdf}
+  \caption{Mittelwerte der Daten aus Diagramm \ref{fig:kalib} für eine 
+  Spannung von $U = \SI{90}{\volt}$ im Vergleich grafisch dargestellt 
+  und mit Hilfe eines Polynoms 4. Grades gefittet.}
+  \label{fig:kalibfunktion}
+\end{figure}
+
+Ein sinnvoller Fit war nur bis zu einem ADC-Wert von $254.6729$ möglich, da 
+ab diesem Punkt die Funktion weder grafisch noch von den Parametern passend war. 
+Mit Hilfe von \texttt{scipy.optimize.curve$\_$fit} wurde der Fit durchgeführt und die 
+Parameter und dessen Unsicherheiten berechnet .\par 
+Für die Funktion: 
+
+\begin{equation}
+E \left(ADC  \right) = a + b * ADC + c * ADC^2 + d * ADC^3 + e * ADC^4
+\end{equation}
+
+ergeben sich die folgenden Parameter: 
+
+\begin{align*}
+    a &= \SI[parse-numbers=false]{0.00865  \pm   6.3*10^{-6}}{\mega\electronvolt} \\
+      &= \SI[parse-numbers=false]{8.6477 \pm 0.0063}{\kilo\electronvolt} \\
+    b &= \SI[parse-numbers=false]{0.00013  \pm   1.6*10^{-8}}{\mega\electronvolt} \\
+      &= \SI[parse-numbers=false]{131.054 \pm 0.016}{\electronvolt} \\
+    c &= \SI[parse-numbers=false]{2.0*10^{-5}  \pm   3.5*10^{-12}}{\mega\electronvolt} \\
+      &= \SI[parse-numbers=false]{20 \pm 3.5*10^{-6}}{\electronvolt} \\
+    d &= \SI[parse-numbers=false]{-1.4*10^{-7}  \pm   1.1*10^{-16}}{\mega\electronvolt} \\
+      &= \SI[parse-numbers=false]{-0.14 \pm 1.1*10^{-10}}{\electronvolt} \\
+    e &= \SI[parse-numbers=false]{3.5e-10  \pm   3.8*10^{-22}}{\mega\electronvolt} \\
+      &= \SI[parse-numbers=false]{3.5e-4 \pm 3.8*10^{-16}}{\electronvolt} \, . \\
+\end{align*}
