@@ -1,0 +1,107 @@
+\subsection{Vermessung des Streifensensor mittels Laser}
+
+Wie in der Durchführung in Kapitel \ref{sec:laserdurch} bereits beschrieben, muss für die nachfolgenden Messungen die optimale Latenz des Lasers bestimmt werden.
+Dafür werden die Daten des Laser Sync Runs in Abbildung \ref{fig:lazordelay} dargestellt.
+Aus diesen Daten wird das Maximum abgelesen, welches die optimale Latenz darstellt.
+Dieses liegt bei $t_\text{Latenz} = \SI{110}{\nano\second}$.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/lazordelay.pdf}
+  \caption{Aufgenommene Werte des Laser Sync Runs. Markiert ist das gesucht Maximum um die optimale Latenz zu ermitteln.}
+  \label{fig:lazordelay}
+\end{figure}
+
+Da von außen nicht ersichtlich ist, welche Streifen von dem Laser im Laser Run getroffen wurden.
+Daher werden die Intensitäten aller Kanäle geplottet.
+Der relevante Bereich ist in Abbildung \ref{fig:lazorchannel} darstellt.
+Die einzelnen Messpunkte wurden farblich dargestellt.
+Aus dieser Darstellung ist allerdings noch nicht ersichtlich bei welcher Verschiebung des Lasers welcher Kanal angesprochen wurde.
+Für die weitere Betrachtungen sind nur die Kanäle 68 bis 70 relevant, da diese tatsächlich getroffen wurden.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/lazorchannel.pdf}
+  \caption{Darstellung der aufgenommen Intensitäten der relevanten Kanälen in ADC Counts. Direkt getroffen wurden nur die Kanäle 68 bis 70. Nicht ersichtlich ist in dieser Darstellung bei welcher Verschiebung des Lasers welcher Kanal angesprochen wurde.}
+  \label{fig:lazorchannel}
+\end{figure}
+
+Der pitch der Streifen kann über die maximale Intensität der drei Kanälen bestimmt werden.
+Dafür wird die Distanz zwischen den benachbarten Maxima berechnet.
+Die Werte sind in Tabelle \ref{tab:maxima} zu finden.
+Der Durchschnitt dieser Abstände berechnet sich zu $\SI{160 \pm 110}{\micro\metre}$.
+
+Die Unsicherheit dieses Abstands ist unerwartet hoch.
+Der Grund dafür ist in der Struktur der Verteilung der Intensitäten zu finden, welche in den Abbildungen \ref{fig:lazorausdehnung_68} bis \ref{fig:lazorausdehnung_70} zu sehen sind.
+Dort ist zu sehen, dass der Laser so gut fokussiert wurde, dass er von den Streifen total reflektiert wird.
+Dies wird an den Stellen ersichtlich, wo zwei Maxima sehr nahe beieinander stehen.
+Dazwischen erreicht die Intensität ein Minimum, dort tritt die Totalreflexion auf.
+Ein Vergleich der Maxima der Intensitätsverteilung vergleicht also eine der beiden Maxima dieser Peaks kurz vor der Totalreflexion.
+Sinnvoller wäre es also die Distanz dieser Minima zwischen den beiden Peaks zu betrachten.
+Dies wird für die Kanäle 68 und 69 durchgeführt, da der entsprechende Bereich für den Kanal 70 nicht mehr aufgenommen wurde.
+Für Kanal 68 ist das Minimum bei $\SI{280}{\micro\metre}$ und für Kanal 69 bei $\SI{120}{\micro\metre}$ zu finden.
+Der pitch zwischen diesen Streifen beträgt somit circa $\SI{160}{\micro\metre}$, was sich mit dem oben bestimmten Wert deckt.
+Allerdings konnte für diesen keine Unsicherheit bestimmt werden.
+Er bestädigt somit lediglich, dass die oben bestimmte Unsicherheit kleiner sein sollte und der Abstand nahe $\SI{160}{\micro\metre}$ liegen sollte.
+
+\begin{table}
+  \centering
+  \caption{Die betrachteten Kanäle mit ihren Maxima un den entsprechenden Verschiebungen.}
+  \label{tab:maxima}
+  \begin{tabular}{S[table-format=2.0] S[table-format=2.0] S[table-format=3.1]}
+    \toprule
+    {Kanal} & {$d \mathbin{/} \si{\micro\metre}$} & {Intensität / ADC} \\
+    \midrule
+    68 & 340 & 162.4 \\
+    69 & 70  & 163.8 \\
+    70 & 20  & 164.0 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/lazorausdehnung_68.pdf}
+  \caption{Verteilung der Intensitäten des Kanals 68. Eingezeichnet ist der Gauss-Fit des ersten Maximums. Das zweite Maximum ist andeutungsweise erkennbar, allerdings konnte hier kein Fit durchgeführt werden.}
+  \label{fig:lazorausdehnung_68}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/lazorausdehnung_69.pdf}
+  \caption{Verteilung der Intensitäten des Kanals 69. Eingezeichnet sind die Gauss-Fits der Maxima.}
+  \label{fig:lazorausdehnung_69}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{plots/lazorausdehnung_70.pdf}
+  \caption{Verteilung der Intensitäten des Kanals 70. Das erste Maximum ist nur andeutungsweise erkennbar, daher wurde kein Gauss-Fit durchgeführt.}
+  \label{fig:lazorausdehnung_70}
+\end{figure}
+
+Die Ausdehnung des Lasers lässt sich aus den Abmessungen der Peaks in Abbildung \ref{fig:lazorausdehnung_68} bis \ref{fig:lazorausdehnung_70} ermitteln.
+Dort sind die Peaks durch den Fit einer Gauss-Funktion angenähert.
+Die Standardabweichung, bzw. die Breite dieser Verteilung, gibt dann die Laserausdehnung an.
+Zu sehen ist allerdings, dass lediglich der erste Peak von Kanal 68 und die zwei Peaks von Kanal 69 geeignet sind.
+Die Ergebnisse dieser Fits sind in Tabelle \ref{tab:fitz} zusammengefasst.
+Werden die Standardabweichungen $\sigma$ nun gemittelt, ergibt sich für die endgültige Laserausdehnung ein Wert von
+
+\begin{equation*}
+  d_\text{laser} = \SI{18.4 \pm 0.6}{\micro\metre}.
+\end{equation*}
+
+\begin{table}
+  \centering
+  \caption{Parameter der gefitteten Gauss-Verteilungen für die Kanäle 68 und 69. Die Standardabweichung $\sigma$ entspricht der Ausdehnung des Lasers.}
+  \label{tab:fitz}
+  \begin{tabular}{S[table-format=2.0] S[table-format=3.1] @{${}\pm{}$} S[table-format=1.1] S[table-format=3.1] @{${}\pm{}$} S[table-format=1.1]}
+    \toprule
+    {Kanal} & \multicolumn{2}{c}{$\mu \mathbin{/} \si{\micro\metre}$} & \multicolumn{2}{c}{$\sigma \mathbin{/} \si{\micro\metre}$} \\
+    \midrule
+    68 & 222.5 & 1.2 & 18.3 & 1.2 \\
+    69 & 64.6 & 0.8 & 17.7 & 0.8 \\
+    69 & 179.3 & 1.2 & 19.3 & 1.2 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

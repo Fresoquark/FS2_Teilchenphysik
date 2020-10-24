@@ -1,0 +1,9 @@
+\section{Durchführung}
+\label{sec:durch}
+First we implemented our data selection to only include events which have a minimum of $\SI{80}{\percent}$CL.
+We also only took events into consideration which had a angular distance to the source position of $\theta^2 \leq \num{0.025}$.
+Afterwards we plotted the theta-squared plot and calculated the detector significance.
+Then, we calculated the migration matrix of the random-forest-regressor with the estimated and true gamma energies in an energy range from $\SI{500}{\giga\electronvolt}$ to $\SI{15}{\tera\electronvolt}$.
+
+Afterwards we unfolded the measurement of the crab nebula withe naive SVD and the poisson-likelihood method.
+Last but not least we calculated the flux for the unfolded data and lastly compared our data withe the HERA and MAGIC measurements.
