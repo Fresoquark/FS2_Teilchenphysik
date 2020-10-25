@@ -2,14 +2,14 @@
 \label{sec:auswertung}
 
 \subsection{Theta-squared plot and detector significance}
-After applying the event selection descriped in the implementation, the on- and off-events are 
-displayed to find a cut-off value. 
+After applying the event selection descriped in the implementation, the on- and off-events are
+displayed to find a cut-off value.
 The theta-squared plot for the selected data as well as the cut-off is shown in Figure \ref{fig:onoff}.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{plots/On_Off2.pdf}
-  \caption{theta-squared plot for on-region and off-region data.}
+  \caption{Theta-squared plot for on-region and off-region data.}
   \label{fig:onoff}
 \end{figure}
 
@@ -19,13 +19,13 @@ The detector-significance for the given parameters in Figure \ref{fig:onoff} res
 \begin{equation}
   S = 26.2759\,.
 \end{equation}
-Futher evaluation is needed to determine weather this value is adequate.
+Further evaluation is needed to determine weather this value is adequate.
 
 \subsection{Migration matrix and unfolding}
-To calculate the migration matrix, the estimated values \texttt{gamma\_energy\_prediction} of the \texttt{gamma\_test\_dl3\.hdf5} 
+To calculate the migration matrix, the estimated values \texttt{gamma\_energy\_prediction} of the \texttt{gamma\_test\_dl3\.hdf5}
 sample and the true-values \texttt{corsika\_event\_header\_total\_energy} are used.
 The inverse problem is better conditioned if the binning is made with regards to the measured parameter, not in the unfolded.
-Therefore the bins range from $\SI{500}{\giga\electronvolt}$ to $\SI{15}{\tera\electronvolt}$ in a logarithmic scale. 
+Therefore the bins range from $\SI{500}{\giga\electronvolt}$ to $\SI{15}{\tera\electronvolt}$ on a logarithmic scale.
 An extra bin at $\SI{50}{\tera\electronvolt}$ is established to catch events wth a higher energy than the upper threshold.
 This was done for both the estimated and the true values. The normed migration matrix is shown in Figure \ref{fig:matrix}.
 
@@ -37,8 +37,8 @@ It can be seen, that the correlation is quite close to one.
   \label{fig:matrix}
 \end{figure}
 
-In Figure \ref{fig:Edist} the energy distributions for both the on-region and the off-region are displayed. 
-It can be seen, that very few events are more energetic than $\SI{10}{\tera\electronvolt}$ so the 
+In Figure \ref{fig:Edist} the energy distributions for both the on-region and the off-region are displayed.
+It can be seen, that very few events are more energetic than $\SI{10}{\tera\electronvolt}$ so the
 "overflow bin" at $\SI{50}{\tera\electronvolt}$ is not that relevant but not negligable either.
 
 \begin{figure}[H]
@@ -49,9 +49,9 @@ It can be seen, that very few events are more energetic than $\SI{10}{\tera\elec
 \end{figure}
 
 \subsubsection{Naive SVD unfolding}
-Following equation \eqref{eqn:svd}, the histograms for the background $\symbf{b}$ is taken from the off-region events 
+Following equation \eqref{eqn:svd}, the histograms for the background $\symbf{b}$ is taken from the off-region events
 and the histogram for the estimated gamma-energies is yielded from the on-regions.
-With \texttt{scipy} and \texttt{uncertainties} the speudoinverse matrix was calculated and the unfolded energies calculated as shown in figure \ref{fig:svdUnfold}.
+With \texttt{scipy} and \texttt{uncertainties} the pseudoinverse matrix was calculated and the unfolded energies calculated as shown in figure \ref{fig:svdUnfold}.
 
 \begin{figure}[H]
   \centering
@@ -63,12 +63,12 @@ With \texttt{scipy} and \texttt{uncertainties} the speudoinverse matrix was calc
 This unfolding method leads to an estimator for $\hat{\symbf{f}}$ of:
 
 \begin{align}
-\hat{\symbf{f}} &= 
+\hat{\symbf{f}} &=
 \begin{pmatrix}
      210.21 \pm 60.88 \\
      235.61 \pm 36.74 \\
      102.47 \pm 24.21 \\
-     63.46 \pm 16.53 \\ 
+     63.46 \pm 16.53 \\
      16.90 \pm 9.94 \\
 \end{pmatrix}
 \end{align}
@@ -76,12 +76,12 @@ This unfolding method leads to an estimator for $\hat{\symbf{f}}$ of:
 
 \subsubsection{Poisson-likelihood unfolding}
 The poisson-likelihood unfolding was calculated using methods from \texttt{scipy}.
-The minimization was done using the \texttt{L\-BFGS\-B} minimization 
+The minimization was done using the \texttt{L\-BFGS\-B} minimization
 function from \texttt{scipy\.optimize}.
 
-In Figure \ref{fig:vgl} the poisson-likelihood unfolding 
-is shown in blue and the naive SVD in red. 
-They clearly show very similar results, therefore the flux 
+In Figure \ref{fig:vgl} the poisson-likelihood unfolding
+is shown in blue and the naive SVD in red.
+They clearly show very similar results, therefore the flux
 can be calculated with unfolded data by any of these methods.
 
 \begin{figure}[H]
@@ -96,15 +96,15 @@ can be calculated with unfolded data by any of these methods.
 \end{subfigure}
 \end{figure}
 
-The poisson-likelihood method results in an esimator $\hat{\symbf{f}}$ of 
+The poisson-likelihood method results in an esimator $\hat{\symbf{f}}$ of
 
 \begin{align}
-\hat{\symbf{f}} &= 
+\hat{\symbf{f}} &=
 \begin{pmatrix}
      188.75 \pm 40.98 \\
      241.08 \pm 15.70 \\
      99.47 \pm 17.74 \\
-     67.21 \pm 13.92 \\ 
+     67.21 \pm 13.92 \\
      13.37 \pm 6.24 \\
 \end{pmatrix}
 \end{align}
@@ -113,12 +113,12 @@ The poisson-likelihood method results in an esimator $\hat{\symbf{f}}$ of
 
 The flux is calculated with
 \begin{equation}
-  \phi_i = \frac{\hat{f}_i}{A_{eff,i} \Delta\symup{E}_i t_{obs}}
+  \phi_i = \frac{\hat{f}_i}{A_{\text{eff}, i} \Delta\symup{E}_i t_\text{obs}}
   \label{eqn:flux}
 \end{equation}
-where $\Delta\symup{E}_i$ is the width of the energy bin, $t_{obs}$ is the duration of observation, $A_{eff,i}$ is calculated from
+where $\Delta\symup{E}_i$ is the width of the energy bin, $t_\text{obs}$ is the duration of observation, $A_{\text{eff}, i}$ is calculated from
 \begin{equation}
-  A_{eff,i} = \frac{N_{selec, i}}{N_{sim, i}} \cdot A\,.
+  A_{\text{eff}, i} = \frac{N_{\text{selec}, i}}{N_{\text{sim}, i}} \cdot A\,.
 \end{equation}
 The effective detector area is multiplied by $0.7$ since only $\SI{70}{\percent}$ of the data is taken.
 
@@ -138,7 +138,22 @@ The fitting function used for the HEGRA and MAGIC data is defined as
 \begin{equation}
   f(x, a, b, c, d) = a \left(\frac{x}{b}\right)^{\left(-c + d\cdot \ln\left(\frac{x}{b}\right)\right)}
 \end{equation}
-The parameters for both measurements are shown in table (to be made). The plot showing the comparison is shown in figure \ref{fig:fluxComp}.
+The parameters for both measurements are shown in table \ref{tab:vgl}. The plot showing the comparison is shown in figure \ref{fig:fluxComp}.
+
+\begin{table}
+  \centering
+  \caption{Fitted values for the flux of the HEGRA and MAGIC experiment. => Refs!!!!}
+  \label{tab:vgl}
+  \sisetup{table-format=1.2}
+  \begin{tabular}{l S @{${}\pm{}$} S S[table-format=1.0] S @{${}\pm{}$} S S @{${}\pm{}$} S}
+    \toprule
+    {Experiment} & \multicolumn{2}{c}{$a \mathbin{/} \si[per-mode=fraction]{\per\tera\electronvolt\per\centi\metre\squared} \times 10^{-11}$} & {$b \mathbin{/} \si{\tera\electronvolt}$} &  \multicolumn{2}{c}{$c$} &  \multicolumn{2}{c}{$d$} \\
+    \midrule
+    MAGIC & 3.23 & 0.03 & 1 & 2.47 & 0.01 & -0.24 & 0.01 \\
+    HEGRA & 2.83 & 0.6 & 1 & 2.62 & 0.05 & 0 & 0 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 Our analysis is compatible with the one of HEGRA and MAGIC for energies larger than $\SI{1}{\tera\electronvolt}$. The first value is slightly higher than in the other measurements but the scale is quite small, so is the error. Even for high energies our results are comparable to the ones from HEGRA. The flux calulated by MAGIC branches off of the HEGRA measurement but is still in agreement with our results.
 
