@@ -1,11 +1,11 @@
 \section{Implementation}
 \label{sec:durch}
-First a data selection is implemented 
+First a data selection is implemented
 including only events which have a probabilty of at least $\SI{80}{\percent}$ to
 originate from a gamma-ray.
-Only the events with an angular distance to the positionof the source of $\theta^2 \leq \num{0.025}$ are taken into consideration.
+Only the events with an angular distance to the position of the source of $\theta^2 \leq \num{0.025}$ are taken into consideration.
 Afterwards, a theta-squared plot is made and the detector significance is calculated.
-Then, the migration matrix of the random-forest-regressor with the estimated and true gamma energies in an 
+Then, the migration matrix of the random-forest-regressor with the estimated and true gamma energies in an
 energy range from $\SI{500}{\giga\electronvolt}$ to $\SI{15}{\tera\electronvolt}$ is created. \par
 
 Then, the unfolding for the crab nebula measurement with the naive SVD and the poisson-likelihood method is done.
