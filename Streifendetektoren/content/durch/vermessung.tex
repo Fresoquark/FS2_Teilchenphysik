@@ -1,18 +1,19 @@
 \subsection{Vermessung des Streifensensors mittels Laser}
 \label{sec:laserdurch}
 
-Die Detektoreinheit sollte übe das optische Kabel mit der Kontrolleinheit verbunden sein.
+Die Detektoreinheit sollte über das optische Kabel mit der Kontrolleinheit verbunden sein.
 Dabei ist darauf zu achten, dass der Schieber der Detektoreinheit in der L Stellung steht, damit der Laser den Streifendetektor erreichen kann.
 Im Programm wird die Option Laser Sync ausgewählt um die optimale Verzögerung zwischen Lasersignal und Chipauslese zu ermitteln.
 Das Programm zeigt dann einen Plot der gemessenen ADC Counts in Abhängigkeit der Zeit an.
 Die optimale Verzögerung stellt das Maximum dieser Kurve dar.
+Dieser Verzögerungswert von $\SI{110}{\nano\second}$ wird für die weiteren Messungen eingestellt.
 
 Nun wird die eigentliche Struktur des Streifensensors durch den Laser untersucht.
 Dafür wird das Programm in den Laser Run Modus versetzt.
 Über den Reiter Event Display kann das gemessene Signal der einzelnen Streifen angezeigt werden.
 Über die horizontalen Schrauben wird nun ein Maximum gesucht.
 Über die vertikalen Schrauben wird der Laser nun fokussiert.
-Dies macht sich durch einen duetlicheren Peak bemerkbar.
+Dies macht sich durch einen deutlicheren Peak bemerkbar.
 Der Laser wird jetzt in $\SI{10}{\micro\metre}$ Schritten über den Sensor gefahren und jeweils 1000 Events aufgenommen.
 Die entsprechende Ansprechung der einzelnen Kanäle wird dann gespeichert.
 Dies wird für 35 Messpunkte wiederholt.

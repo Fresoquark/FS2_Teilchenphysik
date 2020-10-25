@@ -32,7 +32,7 @@ Die zugehörige Depletionsspannung wird auf einen Bereich von $U_{dep} = 60$ bis
 Dies soll später verifiziert werden.
 Oberhalb des Detektors befindet sich eine verschiebbare Plattform, die das Lasersystem und ein Carbonplättchen trägt.
 Das Carbonplättchen ist undurchlässig für Licht, aber durchlässig für ionisierende Strahlen, was es optimal für Messungen mit radioaktiven Quellen macht.
-Das Lasersystem kann über Millimeterschrauben mit einer Präzision von $$\SI{10}{\micro\metre}$$ kalibriert werden.
+Das Lasersystem kann über Millimeterschrauben mit einer Präzision von $\SI{10}{\micro\metre}$ kalibriert werden.
 Die horizontale Millimeterschraube verschiebt den Laser in horizontaler Richtung und ermöglicht die Positioniereung des Lasers über verschiedenen Streifen.
 Zur Fokussierung kann die vertikale Schraube verwendet werden.
 Erzeugt wird der Laser dabei nicht innerhalb des Lasersystems auf der Detektoreinheit, sondern in der Kontrolleinheit und muss deswegen mittels eines Glasfaserkabels zunächst mit der Einheit verbunden werden.
@@ -105,6 +105,8 @@ mit der Depletionsspannung $U_{dep}$.
   \caption{}
 \end{figure}
 
+\newpage
+
 \subsection{Störsignale}
 
 Der Sensor und die Ausleseelektronik wie der BEETLE Chip erzeugen Störsignale, die die Messung negativ beeinflussen.
@@ -119,7 +121,7 @@ Der so tatsächlich gemessene ADC Count für ein Signal $k$ des Streifens $i$ be
 \end{equation}
 
 Dabei bezeichnet $\mathup{P}(i)$ das Pedestal des Streifens.
-Das Pedestal ist der Mittelwert der ADC COunts eines Streifens ohne ein externes Signal $\mathup{Signal}(i,k)$.
+Das Pedestal ist der Mittelwert der ADC Counts eines Streifens ohne ein externes Signal $\mathup{Signal}(i,k)$.
 Dieses Pedestal berechnet sich nach $N$ Messungen ohne Quelle zu
 
 \begin{equation}
@@ -135,7 +137,7 @@ Eine globale, alle Streifen betreffende Störung wird Common Mode Shift $\mathup
   \mathup{D}(k) = \frac{1}{128} \sum^{128}_{i=1} (\mathup{ADC}(i,k) - \mathup{P}(i)).
 \end{equation}
 
-Schlussendlich bestimmt sich die Noise jedes einzelnen STreifens durch den Root-Mean-Square der ADC Counts nachdem das Pedestal und der Common Mode Shift abgeszogen wurden.
+Schlussendlich bestimmt sich die Noise jedes einzelnen Streifens durch den Root-Mean-Square der ADC Counts nachdem das Pedestal und der Common Mode Shift abgeszogen wurden.
 Dies erfolgt nach der Gleichung
 
 \begin{equation}
@@ -152,7 +154,7 @@ Das Signal muss also ein Vielfaches (hier 5) des Rauschens betragen damit es wei
 Durch charge sharing und cross talk kann es zu der Bildung von Clustern kommen.
 Cluster meint in diesem Fall, dass benachbarte Streifen das gleiche Signal sehen.
 Charge Sharing bezeichnet den Vorgang, dass ein Teilchen am Rande eines Streifens herfliegt und seine Ladung auch im benachbarten Streifen deponiert.
-Crosstalk hingegen meint, dass während der Auslesung das Signal des einen Streifens eine Signal in der Auslesekette des anderen Streifens induziert.
+Crosstalk hingegen meint, dass während der Auslesung das Signal des einen Streifens ein Signal in der Auslesekette des anderen Streifens induziert.
 Und natürlich treten auch Teilchenspuren auf, die nicht nur durch einen Streifen fliegen, sondern durch mehrere da sie nicht senkrecht zur Oberfläche verlaufen.
 
 

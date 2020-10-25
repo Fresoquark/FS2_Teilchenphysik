@@ -19,7 +19,7 @@ Die einzelnen Messpunkte sind farblich dargestellt.
 Aus dieser Darstellung ist allerdings noch nicht ersichtlich bei welcher Verschiebung des Lasers welcher Kanal angesprochen wird.
 Für die weitere Betrachtungen sind nur die Kanäle 68 bis 70 relevant, da diese tatsächlich getroffen werden.
 
-\begin{figure}[H]
+\begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth]{plots/lazorchannel.pdf}
   \caption{Darstellung der aufgenommen Intensitäten der relevanten Kanälen in ADC Counts. Direkt getroffen werden nur die Kanäle 68 bis 70. Nicht ersichtlich ist in dieser Darstellung bei welcher Verschiebung des Lasers welcher Kanal angesprochen wird.}
@@ -44,7 +44,7 @@ Der pitch zwischen diesen Streifen beträgt somit circa $\SI{160}{\micro\metre}$
 Allerdings konnte für diesen keine Unsicherheit bestimmt werden.
 Er bestädigt somit lediglich, dass die oben bestimmte Unsicherheit kleiner sein sollte und der Abstand nahe $\SI{160}{\micro\metre}$ liegen sollte.
 
-\begin{table}[H]
+\begin{table}
   \centering
   \caption{Die betrachteten Kanäle mit ihren Maxima un den entsprechenden Verschiebungen.}
   \label{tab:maxima}
@@ -59,21 +59,21 @@ Er bestädigt somit lediglich, dass die oben bestimmte Unsicherheit kleiner sein
   \end{tabular}
 \end{table}
 
-\begin{figure}[H]
+\begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth]{plots/lazorausdehnung_68.pdf}
   \caption{Verteilung der Intensitäten des Kanals 68. Eingezeichnet ist der Gauss-Fit des ersten Maximums. Das zweite Maximum ist andeutungsweise erkennbar, allerdings konnte hier kein Fit durchgeführt werden.}
   \label{fig:lazorausdehnung_68}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth]{plots/lazorausdehnung_69.pdf}
   \caption{Verteilung der Intensitäten des Kanals 69. Eingezeichnet sind die Gauss-Fits der Maxima.}
   \label{fig:lazorausdehnung_69}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
   \centering
   \includegraphics[width=0.7\textwidth]{plots/lazorausdehnung_70.pdf}
   \caption{Verteilung der Intensitäten des Kanals 70. Das erste Maximum ist nur andeutungsweise erkennbar, daher wurde kein Gauss-Fit durchgeführt.}
@@ -85,13 +85,9 @@ Dort sind die Peaks durch den Fit einer Gauss-Funktion angenähert.
 Die Standardabweichung, bzw. die Breite dieser Verteilung, gibt dann die Laserausdehnung an.
 Zu sehen ist allerdings, dass lediglich der erste Peak von Kanal 68 und die zwei Peaks von Kanal 69 geeignet sind.
 Die Ergebnisse dieser Fits sind in Tabelle \ref{tab:fitz} zusammengefasst.
-Werden die Standardabweichungen $\sigma$ nun gemittelt, ergibt sich für die endgültige Laserausdehnung ein Wert von
+Werden die Standardabweichungen $\sigma$ nun gemittelt, ergibt sich für die endgültige Laserausdehnung ein Wert von $d_\text{laser} = \SI{18.4 \pm 0.6}{\micro\metre}$.
 
-\begin{equation*}
-  d_\text{laser} = \SI{18.4 \pm 0.6}{\micro\metre}.
-\end{equation*}
-
-\begin{table}[H]
+\begin{table}
   \centering
   \caption{Parameter der gefitteten Gauss-Verteilungen für die Kanäle 68 und 69. Die Standardabweichung $\sigma$ entspricht der Ausdehnung des Lasers.}
   \label{tab:fitz}

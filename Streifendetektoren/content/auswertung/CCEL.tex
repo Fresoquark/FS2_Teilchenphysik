@@ -1,50 +1,51 @@
 \subsection{Bestimmung der Charge Collection Efficiency}
 \label{sec:CCE}
-In diesem Versuchsteil wird die Effizienz der Ladungssammlung, oder auch 
-Charge Collection Efficiency, zunächst mit einem Laser und dann mit 
-einer Quelle bestimmt. Im Anschluss daran werden die beiden Messungen 
+In diesem Versuchsteil wird die Effizienz der Ladungssammlung, oder auch
+Charge Collection Efficiency, zunächst mit einem Laser und dann mit
+einer Quelle bestimmt. Im Anschluss daran werden die beiden Messungen
 verglichen.
 
 \subsubsection{Mittels eines Lasers}
 \label{sec:CCEL}
 
-In diesem Teil wird die Charge Collection Efficiency bei einer 
-Lasermessung bestimmt. Gemessen werden jeweils 1000 Events 
-bei Spannungen von $\SI{0}{}$ bis $\SI{200}{\volt}$ in 
-$\SI{10}{\volt}$ Schritten. Das Auswertungsskript liefert für jede 
-Spannung eine Datei, in der in jeder Zeile das Signal je 
-Kanal gespeichert ist. Für die Datenpunkte in Abbildung 
-\ref{fig:CCEL} wird für jede Spannungsdatei über die Signale in 
-den Kanälen gemittelt und diese Mittelwerte dann pro Spannung 
+In diesem Teil wird die Charge Collection Efficiency bei einer
+Lasermessung bestimmt. Gemessen werden jeweils 1000 Events
+bei Spannungen von $\SI{0}{}$ bis $\SI{200}{\volt}$ in
+$\SI{10}{\volt}$ Schritten. Das Auswertungsskript liefert für jede
+Spannung eine Datei, in der in jeder Zeile das Signal je
+Kanal gespeichert ist. Für die Datenpunkte in Abbildung
+\ref{fig:CCEL} wird für jede Spannungsdatei über die Signale in
+den Kanälen gemittelt und diese Mittelwerte dann pro Spannung
 aufgetragen. Zur Berechnung des Fits wird Gleichung
-\eqref{eqn:Eindringtiefe} verwendet. Dabei ist zu beachten, dass 
-die Dicke der Depletionszone $d_C$ unterhalb der Depletionsspannung 
-eine nicht konstante Funktion ist. Bei Werten oberhalb und ab der 
-Depletionsspannung entspricht die Dicke der Depletionszone natürlicherweise 
-der Sensordicke. Dies muss beim Parametrisieren der Funktion 
-beachtet werden. Die Daten und die dazu passende Fitfunktion ist in 
+\eqref{eqn:Eindringtiefe} verwendet. Dabei ist zu beachten, dass
+die Dicke der Depletionszone $d_C$ unterhalb der Depletionsspannung
+eine nicht konstante Funktion ist. Bei Werten oberhalb und ab der
+Depletionsspannung entspricht die Dicke der Depletionszone natürlicherweise
+der Sensordicke. Dies muss beim Parametrisieren der Funktion
+beachtet werden. Die Daten und die dazu passende Fitfunktion ist in
 Abbildung \ref{fig:CCEL} dargestellt.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{plots/CCEL.pdf}
-  \caption{Bestimmung der Charge Collection Efficiency mit Hilfe eines 
-  Lasers. Die Ausgleichsfunktion wird mit Hilfe von Gleichung 
-  \eqref{eqn:Eindringtiefe} berechnet. Ab einer Spannung von $\SI{70}{\volt}$ geht 
-  diese in eine konstante Funktion über, auf Grund der Stufenfunktion des 
+  \caption{Bestimmung der Charge Collection Efficiency mit Hilfe eines
+  Lasers. Die Ausgleichsfunktion wird mit Hilfe von Gleichung
+  \eqref{eqn:Eindringtiefe} berechnet. Ab einer Spannung von $\SI{70}{\volt}$ geht
+  diese in eine konstante Funktion über, auf Grund der Stufenfunktion des
   Parameters $d_C$.}
-  \label{fig:kalibfunktion}
+  %\label{fig:kalibfunktion}
+  \label{fig:CCEL}
 \end{figure}
 
-Verglichen mit der Kennlinie aus Abbilung \ref{fig:kennlinie}, lässt sich 
-feststellen, dass die Depletionszone später beginnnt. Die Depletionsspannung 
-in diesem Versuchsteil wird daher auf $U_{dep} = \SI{75}{\volt}$ angepasst. Dies 
-sind $\SI{5}{\volt}$ mehr als die in \ref{sec:kennlinie} bestimmte 
-Depletionsspannung. \par 
+Verglichen mit der Kennlinie aus Abbilung \ref{fig:kennlinie}, lässt sich
+feststellen, dass die Depletionszone später beginnnt. Die Depletionsspannung
+in diesem Versuchsteil wird daher auf $U_{dep} = \SI{75}{\volt}$ angepasst. Dies
+sind $\SI{5}{\volt}$ mehr als die in \ref{sec:kennlinie} bestimmte
+Depletionsspannung. \par
 
-Der Parameter $a$ aus Gleichung \eqref{eqn:Eindringtiefe} wird als freier 
-Fitparameter eingeführt, um die Eindringtiefe des Lasers herauszufinden. 
-Dieser entspricht nach durchführung der Parameterbestimmung mit Hilfe 
+Der Parameter $a$ aus Gleichung \eqref{eqn:Eindringtiefe} wird als freier
+Fitparameter eingeführt, um die Eindringtiefe des Lasers herauszufinden.
+Dieser entspricht nach durchführung der Parameterbestimmung mit Hilfe
 von \texttt{scipy.optimize.curve$\_$fit} einem Wert von:
 
 \begin{align*}

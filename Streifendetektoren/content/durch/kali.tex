@@ -1,14 +1,15 @@
 \subsection{Kalibrationsmessung}
 
 Um den Detektor für die Vermessung mittels Laser und der Quelle vorzubereiten müssen einige Kalibrationsmessungen durchgeführt werden.
-Zunächst wird eine Delay Messung im Calibration durch das Programm initialisiert.
+Zunächst wird eine Delay Messung im Calibration Run durch das Programm initialisiert.
 Die Delaymessung wird dabei mit einer Ladung $\mathup{e}^- = 260000$ und einer Anzahl an Pulsen von 256 durchgeführt.
 Daraus wird die optimale Verzögerung der Datenaufnahme bestimmt und in das Kalibrationsfenster eingetragen.
 Die optimale Verzögerung stellt dabei das Maximum der so entstandenen Kurve dar.
 
 Anschließend werden für fünf Kanäle Kalibrationskurven aufgenommen.
+Als Kanäle wurden dabei der Kanal 10, 20, 30 und 40 gewählt.
 Die Depletionsspannung sollte dabei über der Depletionsspannung liegen und wird auf $\SI{80}{\volt}$ gestellt.
-Für einen Kanal wird weiterhin eine Kalibrationskurve mit einer Depletionsspannung von $\SI{0}{\volt}$ aufgenommen.
+Für den Kanal 40 wird weiterhin eine Kalibrationskurve mit einer Depletionsspannung von $\SI{0}{\volt}$ aufgenommen.
 Die Messwerte sollen dann geplotted und der Mittelwert bestimmt werden.
 Mittels eines polynomialen Fits vierten Grades soll die Abhängigkeit der injizierten Ladung von den gemessenen ADC Werten bestimmt werden.
 Anschließend soll ein qualitativer Vergleich der Verteilungen unter- und oberhalb der Depletionsspannung durchgeführt werden.
