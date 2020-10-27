@@ -94,11 +94,33 @@ gilt dann:
     \hat{J} = \frac{2}{l \left(l - 1 \right)} \sum\limits_{i = 1}^{l}\sum\limits_{j = i+1}^{l} J\left(F_i, F_j \right) \, .
 \end{equation*}
 Qualitativ bedeutet das, dass die Attributsauswahl $l$-mal auf $l$ Teilmengen des Datensatzes durchgeführt wird. Der Index 
-selber 
+selber dient dazu, die Ähnlichkeit der verschiedenen Selektionen zu beurteilen. Ist der Index nahe eins, ist die 
+Attributsauswahl stabil gegenüber statistischen Schankungen.
 
 \subsection{Kreuzvalidierung}
 
-Kreuzvalidierung wird benötigt, um einen Fehler auf die Qualitätsparameter angeben zu 
-können.
+Kreuzvalidierung wird benötigt, um einen Fehler auf die Qualitätsparameter der Reinheit und der Efiizienz angeben zu 
+können. Diese Fehler entstehen dann durch statistische Schwankungen im Trainingsdatensatz. Dieser wird in $n$ Teile 
+aufgeteilt und der Lerner dann auf $n-1$ Teile trainiert. Das dadurch erstellte Modell wird zur Klassifizierung des
+übrigen Teils des Trainingsdatensatzes getestet. Diese Methode wird $n$ mal wiederholt, sodass jeder Teil der $n$ 
+Teile des Trainingsdatensatz einmal als Testdatensatz verwendet wird. Somit werden im Endeffekt $n$ Werte für die 
+Effizienz und Reinheit ermittelt, von denen dann der Mittelwert und die Standardabweichung berechnet werden können.
 
 \subsection{ROC-Kurven}
+
+In einer ROC-Kurve wird die relative Häufigkeit der \textit{true positives} an der 
+die relative Häufigkeit der 
+\textit{false positives} aufgetragen. Eine Grade, die zwischen den Punkten 
+$\left(0,0 \right)$ und $\left(1,1 \right)$ verläuft, stellt ein Modell 
+des puren Zufalls da, da für jeden möglichen Wert auf dem Modell immer gleich viele 
+richtig und falsch positive Fälle vorhanden sind. Es ist somit wünschenswert, dass 
+sich die getesten Modelle immer oberhalb dieser Kurve und möglichst nah am linken 
+äußeren Rand befinden. Denn dort ist die \textit{true positives} Rate, also 
+die relative Häufigkeit der korrekt als richtig eingeordneten Ereignisse maximal 
+und die \textit{false positives} Rate, also die falsch eingeordneten Ereignisse 
+der Kategorie "positiv" maximal. \par
+Als ROC AUC wird die \textit{Area unter the curve} bezeichnet, also die Fläche 
+unterhalb der ROC-Kurve. Im Fall der Graden zwischen den Punkten $\left(0,0 \right)$ und $\left(1,1 \right)$
+wäre der ROC-AUC-Score $0.5$. Modelle, die nah an $0.5$ liegen, sind somit 
+schlecht konditioniert und spiegeln den reinen Zufall wieder, wohingegen 
+Modelle mit einem ROC-AUC-Score nahe der $1$ ein gutes Modell widerspiegeln.
