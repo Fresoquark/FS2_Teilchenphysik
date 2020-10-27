@@ -10,13 +10,8 @@ Vorab wurden mittels der \texttt{SelectKBest} Methode die 20 besten Attribute er
 Diese Attribute sind der beigef\"ugten pdf des verwendeten jupyter Notebooks zu entnehmen.
 Aus diesen Attributen wurden Test- und Trainingsdatens\"atze extrahiert, mit welchen die obigen Klassifizierer nun getestet werden.
 
-Zuerst wurde der \texttt{RandomForestClassifier} verwendet. Dieser basiert auf den bin\"aren Entscheidungsb\"aumen.
-Bei einem Entscheidungsbaum wird an jedem Knoten ein Schnitt in einer Variable durchgeführt und die daraus entstandenen Teilmengen werden in den beiden Ästen des Knotens wiederum durch Schnitte unterteilt, bis entweder eine bestimmte Tiefe
-des Baumes erreicht ist oder die Blätter nur Ereignisse einer Klasse enthalten. Um die Effekte des Übertrainierens zu minimieren, wird über ein Ensemble unterschiedlicher
-Entscheidungsbäume gemittelt.
-Die Bäume werden dabei jeweils auf unterschiedlichen Teilmengen des Trainingsadtensatzes trainiert.
-Die Attribute des Baumes an denen der beste Schnitt gesucht wird, werden zufällig ausgescucht.
-Daf\"ur wurde ein Wald mit 100 B\"aumen gew\"ahlt. Alle anderen Parameter wurde mit default initialisiert.
+Zuerst wurde der \texttt{RandomForestClassifier} verwendet. 
+Dafür wurde ein Wald mit 100 B\"aumen gew\"ahlt. Alle anderen Parameter wurde mit default initialisiert.
 Mit der Vorhersage des Klassifizierers wurden die Effizienz\footnote{wir haben den "accuracy score" von sklearn verwendet da es keinen anderen gab} und die Reinheit("precision") bestimmt.
 Au\ss erdem wurde der Jaccard Score f\"ur unsere obige Attributsauswahl berechnet. Die Entsprechende ROC-Kurve ist Abbildung \ref{fig:roc_curves} zu entnehmen.
 Die Ergebnisse stehen in Tabelle \ref{tab:results}.
